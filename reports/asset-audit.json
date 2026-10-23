@@ -1,0 +1,425 @@
+{
+  "kind": "ACTUAL_BYTE_AND_REFERENCE_AUDIT",
+  "phase": "ASSET_AUDIT_AND_STANDALONE_PREVIEW",
+  "source_composites": 3,
+  "derived_section_references": 8,
+  "selected_source_reference": 1,
+  "runtime_assets_ready": 0,
+  "real_animation_loops_ready": 0,
+  "custom_voice": "NOT_PRODUCED",
+  "live_integration": "BLOCKED_NO_AUTHORIZED_INTERFACE_CONNECTED",
+  "alpha_receipt_correction": "The receipt says RGB, but 11 generated PNGs decode as RGBA. Their nonuniform alpha is not a clean silhouette matte; printed backgrounds, labels and panel content remain. Having an alpha channel does not make these runtime sprites.",
+  "assets": [
+    {
+      "file": "generated/V3_ALTERNATE_CONCEPT_A.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "19408768611d5ebfae1cd242a56ab487aa2b6fe1c62148a2a243e6cbcb66e813",
+      "bytes": 3223437,
+      "alpha_min": 1,
+      "alpha_max": 253,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true
+    },
+    {
+      "file": "generated/V3_ALTERNATE_CONCEPT_B.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "e17e63a867137283dd36d4d44687da9799864ff00dcff1523330a4235a4c4a9b",
+      "bytes": 3297720,
+      "alpha_min": 6,
+      "alpha_max": 251,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true
+    },
+    {
+      "file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "0ec37dd65f47851dfd96592d4cfa32d2bd54b154bdeb8d778526239b29a8588d",
+      "bytes": 3362821,
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 696,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0004425048828125,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true
+    },
+    {
+      "file": "generated/sheets/01_identity_turnaround.png",
+      "width": 481,
+      "height": 517,
+      "mode": "RGBA",
+      "sha256": "15dbab4ed0b5b87e248e754d4b7e2c73c5185628bb9e42f03afbcaa8cf498370",
+      "bytes": 527868,
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 422,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0016969804203846757,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        0,
+        0,
+        481,
+        517
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/02_fullbody_master.png",
+      "width": 302,
+      "height": 517,
+      "mode": "RGBA",
+      "sha256": "93c70eb659c1874fc831b47b2b034af37916a9a4c6f0fd8b3c5444d78fb561d7",
+      "bytes": 321431,
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 1,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 6.404754890030358e-06,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        483,
+        0,
+        785,
+        517
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/03_expressions.png",
+      "width": 368,
+      "height": 517,
+      "mode": "RGBA",
+      "sha256": "cd091576f464a2510187b6574871665fec72f71e04a659ee7839f057333a6b7e",
+      "bytes": 443211,
+      "alpha_min": 2,
+      "alpha_max": 252,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        787,
+        0,
+        1155,
+        517
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/04_work_states.png",
+      "width": 379,
+      "height": 517,
+      "mode": "RGBA",
+      "sha256": "3d258f933e2c1a3d2a635d9ea9324c72bd4581930066cd28ecf81088c2feccd3",
+      "bytes": 445841,
+      "alpha_min": 1,
+      "alpha_max": 252,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        1157,
+        0,
+        1536,
+        517
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/05_pointer_interactions.png",
+      "width": 462,
+      "height": 503,
+      "mode": "RGBA",
+      "sha256": "e13eb681d9f657831a1a706f138c6c28ab9269648b2601afe5248b2523ef07b6",
+      "bytes": 510349,
+      "alpha_min": 0,
+      "alpha_max": 252,
+      "transparent_pixels": 269,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0011575568235607998,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        0,
+        521,
+        462,
+        1024
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/06_motion_keyframes.png",
+      "width": 357,
+      "height": 503,
+      "mode": "RGBA",
+      "sha256": "58317db76411d430838f548c77828bc276ba8f0fee4429938937969b5eb4632d",
+      "bytes": 390732,
+      "alpha_min": 2,
+      "alpha_max": 252,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        464,
+        521,
+        821,
+        1024
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/07_face_motion_reference.png",
+      "width": 363,
+      "height": 503,
+      "mode": "RGBA",
+      "sha256": "80fc6c37c2413a2b4b9ae0b3b0ab4814c897e79adcabc67346c01a446a8cb429",
+      "bytes": 340100,
+      "alpha_min": 1,
+      "alpha_max": 252,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        823,
+        521,
+        1186,
+        1024
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "generated/sheets/08_desktop_ui_brand.png",
+      "width": 348,
+      "height": 503,
+      "mode": "RGBA",
+      "sha256": "d2f06165886e99e43fbc08b67007117ad152c4cdcdf2d1b19941ac43227e5019",
+      "bytes": 309459,
+      "alpha_min": 1,
+      "alpha_max": 252,
+      "transparent_pixels": 0,
+      "opaque_pixels": 0,
+      "nonopaque_fraction": 1.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false,
+      "catalog_hash_matches": true,
+      "source": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect_xyxy": [
+        1188,
+        521,
+        1536,
+        1024
+      ],
+      "pixels_equal_source_crop": true
+    },
+    {
+      "file": "reference/V3_SELECTED_REFERENCE.png",
+      "width": 1536,
+      "height": 512,
+      "mode": "RGB",
+      "sha256": "c5284a2294dc054d70a1aea0ab496d96b09f161b50e82e3e22c056b4b28fd590",
+      "bytes": 1345420,
+      "alpha_min": 255,
+      "alpha_max": 255,
+      "transparent_pixels": 0,
+      "opaque_pixels": 786432,
+      "nonopaque_fraction": 0.0,
+      "transparent_fraction": 0.0,
+      "classification": "DISPLAY_REFERENCE_ONLY",
+      "runtime_ready": false,
+      "silhouette_alpha_approved": false
+    }
+  ],
+  "handoff_manifest_checks": [
+    {
+      "file": "ACCEPTANCE.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "ART_BIBLE.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "CODEX_TASK.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "GENERATED_ASSET_RECEIPT.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "IMAGE_PROMPTS.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "README.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "SOURCES.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/V3_ALTERNATE_CONCEPT_A.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/V3_ALTERNATE_CONCEPT_B.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/01_identity_turnaround.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/02_fullbody_master.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/03_expressions.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/04_work_states.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/05_pointer_interactions.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/06_motion_keyframes.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/07_face_motion_reference.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "generated/sheets/08_desktop_ui_brand.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "reference/V3_SELECTED_REFERENCE.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "specs/animation_states.json",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "specs/asset_catalog.json",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "specs/companion_event.schema.json",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "specs/demo_events.jsonl",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "tools/audit_assets.py",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "voice/VOICE_DIRECTION.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "voice/voice_lines.json",
+      "exists": true,
+      "matches": true
+    }
+  ]
+}

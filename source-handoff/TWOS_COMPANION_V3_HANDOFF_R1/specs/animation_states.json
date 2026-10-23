@@ -1,0 +1,180 @@
+{
+  "kind": "proposed_design_contract",
+  "character": "nyra_v3",
+  "default_style": "elegant",
+  "palette_locked": true,
+  "states": [
+    {
+      "id": "idle",
+      "priority": 10,
+      "art_reference": "01",
+      "duration": "循环",
+      "voice_id": "VO_IDLE"
+    },
+    {
+      "id": "listening",
+      "priority": 30,
+      "art_reference": "W01",
+      "duration": "1.0–1.6s",
+      "voice_id": "VO_RECEIVED"
+    },
+    {
+      "id": "planning",
+      "priority": 40,
+      "art_reference": "W02",
+      "duration": "循环",
+      "voice_id": "VO_PLANNING"
+    },
+    {
+      "id": "queued",
+      "priority": 35,
+      "art_reference": "W01",
+      "duration": "循环",
+      "voice_id": "VO_QUEUED"
+    },
+    {
+      "id": "executing",
+      "priority": 45,
+      "art_reference": "W03",
+      "duration": "循环",
+      "voice_id": "VO_RUNNING"
+    },
+    {
+      "id": "reviewing",
+      "priority": 55,
+      "art_reference": "W04",
+      "duration": "循环",
+      "voice_id": "VO_REVIEWING"
+    },
+    {
+      "id": "awaiting_approval",
+      "priority": 85,
+      "art_reference": "W05",
+      "duration": "循环",
+      "voice_id": "VO_APPROVAL"
+    },
+    {
+      "id": "partial",
+      "priority": 75,
+      "art_reference": "W06",
+      "duration": "停留",
+      "voice_id": "VO_PARTIAL"
+    },
+    {
+      "id": "failed",
+      "priority": 90,
+      "art_reference": "W07",
+      "duration": "1次提醒后停留",
+      "voice_id": "VO_FAILED"
+    },
+    {
+      "id": "verified_success",
+      "priority": 60,
+      "art_reference": "W08",
+      "duration": "1.8–2.6s一次",
+      "voice_id": "VO_VERIFIED"
+    },
+    {
+      "id": "paused",
+      "priority": 50,
+      "art_reference": "P08",
+      "duration": "静止/低帧率",
+      "voice_id": "VO_PAUSED"
+    },
+    {
+      "id": "disconnected",
+      "priority": 80,
+      "art_reference": "W07",
+      "duration": "静止",
+      "voice_id": "VO_DISCONNECTED"
+    },
+    {
+      "id": "hover",
+      "priority": 15,
+      "art_reference": "P02/P03/P04",
+      "duration": "0.2–1.2s",
+      "voice_id": "NONE"
+    },
+    {
+      "id": "click",
+      "priority": 20,
+      "art_reference": "P05",
+      "duration": "0.6–1s",
+      "voice_id": "VO_CLICK"
+    },
+    {
+      "id": "drag",
+      "priority": 95,
+      "art_reference": "P06",
+      "duration": "拖动期间",
+      "voice_id": "NONE"
+    },
+    {
+      "id": "land",
+      "priority": 90,
+      "art_reference": "P07",
+      "duration": "0.4–0.8s",
+      "voice_id": "NONE"
+    },
+    {
+      "id": "sleep",
+      "priority": 5,
+      "art_reference": "P08",
+      "duration": "低帧率",
+      "voice_id": "NONE"
+    },
+    {
+      "id": "hidden",
+      "priority": 100,
+      "art_reference": "none",
+      "duration": "0fps",
+      "voice_id": "NONE"
+    }
+  ],
+  "transition": {
+    "default_ms": 220,
+    "range_ms": [
+      160,
+      360
+    ],
+    "critical_alert_preempts_pointer_play": true,
+    "return_to_authoritative_task_state_after_interaction": true
+  },
+  "truth_rules": [
+    "channel completed alone NEVER means verified_success",
+    "business partial/blocked never celebrate as fully done",
+    "owner acceptance is independent of verification",
+    "simulator events always visibly labelled SIMULATION",
+    "disconnected never invent task progress",
+    "no fabricated percentage without numerical source"
+  ],
+  "event_rules": {
+    "dedupe_by": "event_id",
+    "ordering": "per-source session_id and per-task monotonic sequence",
+    "terminal_regression": "reject older sequence; new attempt requires new execution_id",
+    "speech_cooldown_seconds": 15,
+    "same_status_speech_cooldown_seconds": 60,
+    "pointer_speech_cooldown_seconds": 60
+  },
+  "default_settings": {
+    "voice_enabled": false,
+    "interaction": "elegant",
+    "max_height_points": 360,
+    "initial_height_points": 280,
+    "click_through": false,
+    "reduced_motion": false,
+    "display_task_titles": false,
+    "autostart": false
+  },
+  "targets_not_measurements": {
+    "idle_cpu_percent_one_core_max": 2,
+    "active_cpu_percent_one_core_max": 8,
+    "rss_mb_max": 180,
+    "active_fps": 24,
+    "idle_fps": 12,
+    "sleep_fps": 2,
+    "hidden_fps": 0,
+    "particle_count_max": 10,
+    "cursor_poll_hz_max": 15
+  }
+}

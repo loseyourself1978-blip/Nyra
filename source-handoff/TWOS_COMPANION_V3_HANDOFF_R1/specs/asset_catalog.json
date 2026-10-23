@@ -1,0 +1,207 @@
+{
+  "status": "ACTUAL_DESIGN_BOARDS_AVAILABLE_RUNTIME_ASSETS_REQUIRE_AUTHORING",
+  "reference": "reference/V3_SELECTED_REFERENCE.png",
+  "character_id": "nyra_v3",
+  "design_sheets": [
+    {
+      "id": "01_identity_turnaround",
+      "title": "四视图造型母版",
+      "layout": "4列1行，正面、三分之四、右侧面、背面；同尺度同地线，完整身形；右下角只放小色块和角色名，不加长段文字。",
+      "file": "generated/sheets/01_identity_turnaround.png",
+      "sha256": "15dbab4ed0b5b87e248e754d4b7e2c73c5185628bb9e42f03afbcaa8cf498370",
+      "actual_width": 481,
+      "actual_height": 517,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        0,
+        0,
+        481,
+        517
+      ]
+    },
+    {
+      "id": "02_fullbody_master",
+      "title": "独立全身主立绘",
+      "layout": "单个人物，透明背景，完整头脚和尾巴，无道具遮挡；优雅三分之四站姿、一只手自然伸向用户，脸清晰。此图不加文字、边框、徽标或地面。",
+      "file": "generated/sheets/02_fullbody_master.png",
+      "sha256": "93c70eb659c1874fc831b47b2b034af37916a9a4c6f0fd8b3c5444d78fb561d7",
+      "actual_width": 302,
+      "actual_height": 517,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        483,
+        0,
+        785,
+        517
+      ]
+    },
+    {
+      "id": "03_expressions",
+      "title": "12表情",
+      "layout": "4列3行成年半身/头肩近景：neutral、soft-smile、wink、curious、thinking、focused、approval-wait、concerned、partial、proud、bashful、sleepy。同尺度同发型，单元分离，仅小编号E01–E12。",
+      "file": "generated/sheets/03_expressions.png",
+      "sha256": "cd091576f464a2510187b6574871665fec72f71e04a659ee7839f057333a6b7e",
+      "actual_width": 368,
+      "actual_height": 517,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        787,
+        0,
+        1155,
+        517
+      ]
+    },
+    {
+      "id": "04_work_states",
+      "title": "8工作状态全身姿态",
+      "layout": "4列2行：指令接收、规划、执行键盘、独立复核、等待批准、PARTIAL提示、错误关切、真正验证通过。成年同款服装，头脚完整、道具留在单元内；小编号W01–W08。",
+      "file": "generated/sheets/04_work_states.png",
+      "sha256": "3d258f933e2c1a3d2a635d9ea9324c72bd4581930066cd28ecf81088c2feccd3",
+      "actual_width": 379,
+      "actual_height": 517,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        1157,
+        0,
+        1536,
+        517
+      ]
+    },
+    {
+      "id": "05_pointer_interactions",
+      "title": "8鼠标和日常互动姿态",
+      "layout": "4列2行：欢迎、向左看、向右看、抬眼、点击后轻摆手、拖动时轻倾、落下恢复、坐姿睡眠。不要情色姿态、不要裙底视角；小编号P01–P08。",
+      "file": "generated/sheets/05_pointer_interactions.png",
+      "sha256": "e13eb681d9f657831a1a706f138c6c28ab9269648b2601afe5248b2523ef07b6",
+      "actual_width": 462,
+      "actual_height": 503,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        0,
+        521,
+        462,
+        1024
+      ]
+    },
+    {
+      "id": "06_motion_keyframes",
+      "title": "待机和步行动画关键姿态",
+      "layout": "6列2行；上排I01–I06为同一正面站姿微呼吸/眨眼/耳动的连续关键姿态；下排M01–M06为同方向侧向短步移动关键姿态。相机、尺度、脚底基线一致，均成年身形；是关键帧参考，不宣称天然无缝动画。",
+      "file": "generated/sheets/06_motion_keyframes.png",
+      "sha256": "58317db76411d430838f548c77828bc276ba8f0fee4429938937969b5eb4632d",
+      "actual_width": 357,
+      "actual_height": 503,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        464,
+        521,
+        821,
+        1024
+      ]
+    },
+    {
+      "id": "07_face_motion_reference",
+      "title": "五官与口型动作参考",
+      "layout": "主头肩正面参考，旁边独立展示视线左/中/右、眼睛开/半闭/闭、口型rest/M/A/E/I/O/U及猫耳/尾尖三姿态；轻柔自然，不张嘴夸张。所有五官同一角色，非PSD分层宣称。",
+      "file": "generated/sheets/07_face_motion_reference.png",
+      "sha256": "80fc6c37c2413a2b4b9ae0b3b0ab4814c897e79adcabc67346c01a446a8cb429",
+      "actual_width": 363,
+      "actual_height": 503,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        823,
+        521,
+        1186,
+        1024
+      ]
+    },
+    {
+      "id": "08_desktop_ui_brand",
+      "title": "头像与桌面使用外观",
+      "layout": "成人主形象头像、托盘简化紫晶猫耳符号、文字气泡、浅色/深色桌面落位。显示小角色靠边、不遮挡任务按钮；仅短英文标签IDLE / RUNNING / NEEDS YOU / PARTIAL / VERIFIED，不写虚构任务日志。",
+      "file": "generated/sheets/08_desktop_ui_brand.png",
+      "sha256": "d2f06165886e99e43fbc08b67007117ad152c4cdcdf2d1b19941ac43227e5019",
+      "actual_width": 348,
+      "actual_height": 503,
+      "alpha_verified": false,
+      "status": "GENERATED_COMPOSITE_CROP_REFERENCE_NOT_RUNTIME",
+      "source_file": "generated/V3_PRIMARY_COMPOSITE.png",
+      "crop_rect": [
+        1188,
+        521,
+        1536,
+        1024
+      ]
+    }
+  ],
+  "runtime_assets": {
+    "minimum_work_poses": 8,
+    "minimum_pointer_poses": 8,
+    "minimum_expressions": 12,
+    "minimum_real_motion_loops": 4,
+    "required_loops": [
+      "idle_blink",
+      "working_hands",
+      "gaze_or_head_follow",
+      "verified_success"
+    ],
+    "rigging_status": "NOT_SUPPLIED",
+    "custom_voice_status": "NOT_PRODUCED"
+  },
+  "crop_rules": [
+    "inspect actual grid rather than assuming equal pixels",
+    "never crop labels/hair/feet/tail into adjacent cell",
+    "preserve source; record rect and transform",
+    "alpha channel must contain fully transparent background; checkerboard pixels fail",
+    "do not synthesize assets from a missing opaque ID",
+    "only enter status READY after actual file validation"
+  ],
+  "generation_receipt": {
+    "actual_full_composites": 3,
+    "derived_section_images": 8,
+    "independent_high_resolution_sheets": false,
+    "true_transparent_runtime_sprites_supplied": false,
+    "rigging_supplied": false,
+    "audio_supplied": false,
+    "source_files": [
+      {
+        "file": "generated/V3_PRIMARY_COMPOSITE.png",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "sha256": "0ec37dd65f47851dfd96592d4cfa32d2bd54b154bdeb8d778526239b29a8588d",
+        "role": "PRIMARY_REFERENCE"
+      },
+      {
+        "file": "generated/V3_ALTERNATE_CONCEPT_A.png",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "sha256": "19408768611d5ebfae1cd242a56ab487aa2b6fe1c62148a2a243e6cbcb66e813",
+        "role": "ALTERNATE_NOT_IDENTITY_AUTHORITY"
+      },
+      {
+        "file": "generated/V3_ALTERNATE_CONCEPT_B.png",
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "sha256": "e17e63a867137283dd36d4d44687da9799864ff00dcff1523330a4235a4c4a9b",
+        "role": "ALTERNATE_NOT_IDENTITY_AUTHORITY"
+      }
+    ]
+  }
+}
