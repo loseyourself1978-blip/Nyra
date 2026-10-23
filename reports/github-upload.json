@@ -1,12 +1,13 @@
 {
-  "project_title": "夜璃 · Nyra",
   "repository": "loseyourself1978-blip/Nyra",
   "url": "https://github.com/loseyourself1978-blip/Nyra",
   "is_private": true,
-  "repository_created_and_privacy_verified": true,
-  "content_upload": "PENDING_FIRST_PUSH",
+  "content_upload": "VERIFIED",
+  "verified_source_commit": "cfbd2656fb8d84d705ccd49ad03bdfbe547cad13",
+  "exact_blob_and_mode_matches": 67,
+  "remote_tree_truncated": false,
+  "verified_at_utc": "2026-10-23T15:25:31.343473+00:00",
   "public_release": false,
   "tag_created": false,
-  "authorization": "User explicitly requested a new private GitHub repository and all Nyra code/materials upload.",
-  "verified_at_utc": "2026-10-23T15:20:22.461917+00:00"
+  "receipt_scope": "This records the source commit verified before the separate receipt/package follow-up commit. Rerun verify_remote.py for the latest main."
 }
