@@ -1,0 +1,21 @@
+{
+  "status": "PASS_SCOPED_RELEASE_CHECKS",
+  "checks": [
+    "12 supplied image hashes unchanged",
+    "26 supplied manifest checks recorded successful",
+    "3 unchanged reference outfits, 1 true P0 runtime outfit, 1 static office outfit match packaged bytes",
+    "20 real P0 PNGs and 23-slot frame plan match exact application resources",
+    "exact application signature verifies",
+    "native window and runtime sequence checks: PASS: 7 core checks (geometry, aspect ratio, truth labels, manifest containment)\nPASS: runtime sequence containment, 20 unique / 23 slots, once-only success, idle loop",
+    "universal binary contains arm64 and x86_64"
+  ],
+  "executable_sha256": "5896dea308bb3715091f51ab80bd0c47ee99f2a8fc78631be20edd5d38452cf6",
+  "not_claimed": [
+    "full animated pet",
+    "silhouette alpha hit testing",
+    "Live TWOS integration",
+    "custom voice",
+    "Owner Acceptance",
+    "Intel runtime validation"
+  ]
+}

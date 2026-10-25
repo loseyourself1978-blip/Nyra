@@ -26,9 +26,25 @@ def main():
         if p.is_file():
             (resources / 'assets').mkdir(exist_ok=True)
             shutil.copy2(p, resources / 'assets' / p.name)
+    runtime = resources / 'runtime'
+    runtime.mkdir(exist_ok=True)
+    plan = json.loads((ROOT / 'production-r3/specs/standalone_r3.json').read_text())
+    ids = {i for s in plan['sequences'].values() for i in s['asset_ids']}
+    packaged_frames = runtime / 'default'
+    packaged_frames.mkdir(exist_ok=True)
+    for old in packaged_frames.glob('*.png'):
+        if old.stem not in ids:
+            old.unlink()  # disposable bundled copy only; preserve original artwork
+    for asset_id in ids:
+        if not asset_id.replace('_', '').isalnum():
+            raise ValueError('Invalid frame ID')
+        shutil.copy2(ROOT / 'production-r2/runtime/default' / f'{asset_id}.png', packaged_frames / f'{asset_id}.png')
+    shutil.copy2(ROOT / 'production-r3/specs/standalone_r3.json', runtime / 'standalone_r3.json')
+    shutil.copy2(ROOT / 'production-r2/specs/standalone_p0.json', runtime / 'standalone_p0.json')
+    shutil.copytree(ROOT / 'audio', resources / 'audio', dirs_exist_ok=True)
     info = dict(CFBundleName='夜璃 · Nyra', CFBundleDisplayName='夜璃 · Nyra',
                 CFBundleIdentifier='local.nyra.companion.preview', CFBundleExecutable='NyraPreview',
-                CFBundlePackageType='APPL', CFBundleShortVersionString='0.1.0', CFBundleVersion='1',
+                CFBundlePackageType='APPL', CFBundleShortVersionString='0.3.0', CFBundleVersion='3',
                 LSMinimumSystemVersion='13.0', LSUIElement=True, NSHighResolutionCapable=True,
                 NSPrincipalClass='NSApplication', CFBundleDevelopmentRegion='zh_CN',
                 LSMultipleInstancesProhibited=True)
@@ -37,7 +53,7 @@ def main():
     archs = ['arm64', 'x86_64']
     for arch in archs:
         run(['xcrun', 'swiftc', '-swift-version', '5', '-O', '-target', arch+'-apple-macos13.0',
-             '-module-cache-path', BUILD / 'module-cache', '-framework', 'AppKit',
+             '-module-cache-path', BUILD / 'module-cache', '-framework', 'AppKit', '-framework', 'AVFoundation',
              *sources, '-o', BUILD / ('NyraPreview-'+arch)])
     run(['lipo', '-create', *(BUILD / ('NyraPreview-'+a) for a in archs),
          '-output', contents / 'MacOS/NyraPreview'])

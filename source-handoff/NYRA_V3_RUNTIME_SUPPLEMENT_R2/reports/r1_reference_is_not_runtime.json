@@ -1,0 +1,27 @@
+{
+  "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/references/V3_PRIMARY_COMPOSITE.png",
+  "exists": true,
+  "errors": [
+    "NATIVE_CANVAS_MISMATCH",
+    "NONTRANSPARENT_CORNER",
+    "CANVAS_EDGE_NOT_CLEAR",
+    "INSUFFICIENT_REAL_CLEAR_BACKGROUND",
+    "NO_ADEQUATE_OPAQUE_CHARACTER_CORE"
+  ],
+  "width": 1536,
+  "height": 1024,
+  "mode": "RGBA",
+  "sha256": "0ec37dd65f47851dfd96592d4cfa32d2bd54b154bdeb8d778526239b29a8588d",
+  "alpha_min": 0,
+  "alpha_max": 252,
+  "transparent_fraction": 0.0004425048828125,
+  "opaque_fraction": 0.0,
+  "semtransparent_fraction": 0.9995574951171875,
+  "alpha_bbox": [
+    0,
+    0,
+    1536,
+    1024
+  ],
+  "structural_pass": false
+}

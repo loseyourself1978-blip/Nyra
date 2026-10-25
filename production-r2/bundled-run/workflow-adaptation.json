@@ -1,0 +1,9 @@
+{
+  "authority": "User R2: native individual PNGs, fixed canvas/anchor; prompts explicitly include work tablet and review blank card",
+  "per_frame_generation": "Existing actual image_gen outputs and provenance; generated strips not claimed",
+  "generated_job_graph": "prepare_pet_run planning only; no duplicate image jobs dispatched",
+  "look_registration": "Bypass CLI auto-registration; call bundled composition functions on existing fixed-transform cells",
+  "preserved_checks": "All bundled frame, atlas, chroma, continuity, semantics and quality gates remain required",
+  "library": "No direct Library-folder upload capability exposed; local artifacts retained; no cloud Library save claimed",
+  "owner_acceptance": false
+}

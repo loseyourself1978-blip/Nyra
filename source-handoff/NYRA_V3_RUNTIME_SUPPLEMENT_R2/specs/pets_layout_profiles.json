@@ -1,0 +1,318 @@
+{
+  "schema": "nyra.atlas-profile.v1",
+  "profiles": {
+    "pets_v2_attachment_provisional": {
+      "status": "USER_ATTACHMENT_LAYOUT_LOCAL_TARGET_CONFIRMATION_REQUIRED",
+      "canvas": [
+        1536,
+        2288
+      ],
+      "columns": 8,
+      "rows": 11,
+      "cell": [
+        192,
+        208
+      ],
+      "required_slots": 73,
+      "transparent_empty_slots": 15,
+      "max_bytes": 20971520,
+      "sprite_version": 2,
+      "source": "R1_MINIMUM_ASSETS.md lines58-75",
+      "mapping_confirmed": false,
+      "gaze_mapping": "CANONICAL_ART_UP_CLOCKWISE_NOT_YET_CLIENT_CONFIRMED",
+      "row_definitions": [
+        {
+          "row": 0,
+          "state": "idle",
+          "asset_ids": [
+            "nyra_neutral",
+            "nyra_idle_01",
+            "nyra_idle_02",
+            "nyra_idle_03",
+            "nyra_idle_04",
+            "nyra_idle_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 1,
+          "state": "running-right",
+          "asset_ids": [
+            "nyra_run_right_00",
+            "nyra_run_right_01",
+            "nyra_run_right_02",
+            "nyra_run_right_03",
+            "nyra_run_right_04",
+            "nyra_run_right_05",
+            "nyra_run_right_06",
+            "nyra_run_right_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 2,
+          "state": "running-left",
+          "asset_ids": [
+            "nyra_run_left_00",
+            "nyra_run_left_01",
+            "nyra_run_left_02",
+            "nyra_run_left_03",
+            "nyra_run_left_04",
+            "nyra_run_left_05",
+            "nyra_run_left_06",
+            "nyra_run_left_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 3,
+          "state": "waving",
+          "asset_ids": [
+            "nyra_waving_00",
+            "nyra_waving_01",
+            "nyra_waving_02",
+            "nyra_waving_03"
+          ],
+          "required_frames": 4
+        },
+        {
+          "row": 4,
+          "state": "jumping",
+          "asset_ids": [
+            "nyra_jumping_00",
+            "nyra_jumping_01",
+            "nyra_jumping_02",
+            "nyra_jumping_03",
+            "nyra_jumping_04"
+          ],
+          "required_frames": 5
+        },
+        {
+          "row": 5,
+          "state": "failed",
+          "asset_ids": [
+            "nyra_failed_00",
+            "nyra_failed_01",
+            "nyra_failed_02",
+            "nyra_failed_03",
+            "nyra_failed_04",
+            "nyra_failed_05",
+            "nyra_failed_06",
+            "nyra_failed_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 6,
+          "state": "waiting",
+          "asset_ids": [
+            "nyra_waiting_00",
+            "nyra_waiting_01",
+            "nyra_waiting_02",
+            "nyra_waiting_03",
+            "nyra_waiting_04",
+            "nyra_waiting_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 7,
+          "state": "running",
+          "asset_ids": [
+            "nyra_working_00",
+            "nyra_working_01",
+            "nyra_working_02",
+            "nyra_working_03",
+            "nyra_working_04",
+            "nyra_working_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 8,
+          "state": "review",
+          "asset_ids": [
+            "nyra_review_00",
+            "nyra_review_01",
+            "nyra_review_02",
+            "nyra_review_03",
+            "nyra_review_04",
+            "nyra_review_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 9,
+          "state": "gaze_cw_0_7",
+          "asset_ids": [
+            "nyra_gaze_up",
+            "nyra_gaze_cw_01",
+            "nyra_gaze_cw_02",
+            "nyra_gaze_cw_03",
+            "nyra_gaze_right",
+            "nyra_gaze_cw_05",
+            "nyra_gaze_cw_06",
+            "nyra_gaze_cw_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 10,
+          "state": "gaze_cw_8_15",
+          "asset_ids": [
+            "nyra_gaze_down",
+            "nyra_gaze_cw_09",
+            "nyra_gaze_cw_10",
+            "nyra_gaze_cw_11",
+            "nyra_gaze_left",
+            "nyra_gaze_cw_13",
+            "nyra_gaze_cw_14",
+            "nyra_gaze_cw_15"
+          ],
+          "required_frames": 8
+        }
+      ]
+    },
+    "web_9row_candidate_unconfirmed": {
+      "status": "OFFICIAL_WEB_SIZE_CONFIRMED_ROW_MAPPING_UNCONFIRMED",
+      "canvas": [
+        1536,
+        1872
+      ],
+      "columns": 8,
+      "rows": 9,
+      "cell": [
+        192,
+        208
+      ],
+      "required_slots": 57,
+      "transparent_empty_slots": 15,
+      "max_bytes": 20971520,
+      "sprite_version": null,
+      "source": "https://learn.chatgpt.com/docs/pets (2026-10-23); size only official. Row mapping borrowed from attachment and MUST be independently checked.",
+      "mapping_confirmed": false,
+      "row_definitions": [
+        {
+          "row": 0,
+          "state": "idle",
+          "asset_ids": [
+            "nyra_neutral",
+            "nyra_idle_01",
+            "nyra_idle_02",
+            "nyra_idle_03",
+            "nyra_idle_04",
+            "nyra_idle_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 1,
+          "state": "running-right",
+          "asset_ids": [
+            "nyra_run_right_00",
+            "nyra_run_right_01",
+            "nyra_run_right_02",
+            "nyra_run_right_03",
+            "nyra_run_right_04",
+            "nyra_run_right_05",
+            "nyra_run_right_06",
+            "nyra_run_right_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 2,
+          "state": "running-left",
+          "asset_ids": [
+            "nyra_run_left_00",
+            "nyra_run_left_01",
+            "nyra_run_left_02",
+            "nyra_run_left_03",
+            "nyra_run_left_04",
+            "nyra_run_left_05",
+            "nyra_run_left_06",
+            "nyra_run_left_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 3,
+          "state": "waving",
+          "asset_ids": [
+            "nyra_waving_00",
+            "nyra_waving_01",
+            "nyra_waving_02",
+            "nyra_waving_03"
+          ],
+          "required_frames": 4
+        },
+        {
+          "row": 4,
+          "state": "jumping",
+          "asset_ids": [
+            "nyra_jumping_00",
+            "nyra_jumping_01",
+            "nyra_jumping_02",
+            "nyra_jumping_03",
+            "nyra_jumping_04"
+          ],
+          "required_frames": 5
+        },
+        {
+          "row": 5,
+          "state": "failed",
+          "asset_ids": [
+            "nyra_failed_00",
+            "nyra_failed_01",
+            "nyra_failed_02",
+            "nyra_failed_03",
+            "nyra_failed_04",
+            "nyra_failed_05",
+            "nyra_failed_06",
+            "nyra_failed_07"
+          ],
+          "required_frames": 8
+        },
+        {
+          "row": 6,
+          "state": "waiting",
+          "asset_ids": [
+            "nyra_waiting_00",
+            "nyra_waiting_01",
+            "nyra_waiting_02",
+            "nyra_waiting_03",
+            "nyra_waiting_04",
+            "nyra_waiting_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 7,
+          "state": "running",
+          "asset_ids": [
+            "nyra_working_00",
+            "nyra_working_01",
+            "nyra_working_02",
+            "nyra_working_03",
+            "nyra_working_04",
+            "nyra_working_05"
+          ],
+          "required_frames": 6
+        },
+        {
+          "row": 8,
+          "state": "review",
+          "asset_ids": [
+            "nyra_review_00",
+            "nyra_review_01",
+            "nyra_review_02",
+            "nyra_review_03",
+            "nyra_review_04",
+            "nyra_review_05"
+          ],
+          "required_frames": 6
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nyra_gait_contact_b_composite_v1",
+  "prompt": "Use case: compositing. Create one complete transparent animation frame of adult Nyra at native 1024x1536.\nImage1 is the EDIT TARGET: lock its face, hair, cat ears, anatomical LEFT amethyst ornament, opaque lined black purple dress, proportions, torso position, lighting and drawing style.\nImage2 is a NEW GENERATED LEG LAYER. Use its EXACT near/far leg topology: the LEFT-going bent leg is in the FOREGROUND and overlaps the RIGHT-going straight leg, which is BEHIND. Repaint these new legs under the dress of image1 at the proper original hip height y820. Preserve the target's original low heel ankle boot designs. Both feet point right, rightgoing forward sole at y1444. Fully opaque dark tights.\nAlso exchange arm swing for the opposing gait phase: camera-side arm swings FORWARD toward the chest, with its small fist around x840 y530; the farther arm swings BACK near waist. Natural elbows and hands. Hair/skirt/tail lag gently left; keep their original size and location.\nImage3 is canonical identity reference only. Do not stand the character upright or change costume. Preserve the original head location near x720 y230 and wholebody framing of image1. Whole character, all ears hands boots tailtip intact. Genuine alpha=0 outside; no haze, ground, shadows, text, numbers, effects or guides. Single frame only.\nThe essential change is the leg overlap: the leg going toward the left/rear is the FRONTMOST visible thigh, and the forward rightgoing leg passes BEHIND it. Follow image2 for that overlap, not image1.",
+  "refs": [
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_run_right_00.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/sources/layered-gait/nyra_gait_contact_b_legs_v1.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_neutral.png"
+  ],
+  "state": "GENERATED_CANDIDATE",
+  "started_at": "2026-10-24T13:01:39.247Z",
+  "source_original": "/Users/hj/.codex/generated_images/01a16835-fe86-7e53-a811-909f55b4e66a/exec-95e158f5-e923-4a44-9e36-1ce1aac834ce.png",
+  "saved_at": "2026-10-24T13:02:18.344Z"
+}

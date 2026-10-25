@@ -1,0 +1,90 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "鼻尖和下巴分别偏右、偏左。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "两侧鼻部轮廓分别朝左、朝右。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "面部亮区和鼻尖分别朝右、左展开。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "鼻尖分别在额发中轴的右侧、左侧。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "鼻梁至下巴分别偏左、偏右。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "低头的鼻尖分别在中轴右下、左下。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A主要低头，横向偏移不足；B鼻尖仍偏左。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A下巴接近领口；B下巴抬高，颈部展开。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A眼线受刘海遮压；B鼻尖与下巴上扬。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A鼻尖抬起；B额发遮眼，下巴靠领口。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A主要水平右转，上下倾角不足；B低头清楚。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A鼻尖较高，下颌离领口；B鼻尖下压。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A眼线低头顶占比增加；B鼻尖上扬。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "up",
+      "reason": "A左转清楚但上下倾角弱；B下巴和鼻尖抬起。"
+    }
+  ],
+  "review_method": "Randomized A/B axes; expected mapping hidden during this pass; existing reviewer had earlier character exposure",
+  "fresh_isolated_three_reviewer_majority": false
+}

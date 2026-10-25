@@ -1,0 +1,138 @@
+{
+  "phase": "r2-working",
+  "utc_start": "2026-10-24T01:50:41.002961+00:00",
+  "elapsed_seconds": 120.01530595800432,
+  "architecture": "arm64",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "cpu_percent_one_core": 3.2079241637289075,
+  "max_rss_mib": 136.484375,
+  "method": "ps cumulative user+system CPU time delta / monotonic wall time; RSS in KiB; 5s interval",
+  "animation_playback": true,
+  "samples": [
+    {
+      "monotonic": 47512.336304708,
+      "cpu_seconds": 6.5,
+      "rss_kib": 120752
+    },
+    {
+      "monotonic": 47517.351274833,
+      "cpu_seconds": 6.61,
+      "rss_kib": 120304
+    },
+    {
+      "monotonic": 47522.360960791,
+      "cpu_seconds": 6.72,
+      "rss_kib": 119536
+    },
+    {
+      "monotonic": 47527.372480333,
+      "cpu_seconds": 6.86,
+      "rss_kib": 119776
+    },
+    {
+      "monotonic": 47532.389860333,
+      "cpu_seconds": 6.97,
+      "rss_kib": 118992
+    },
+    {
+      "monotonic": 47537.398551166,
+      "cpu_seconds": 7.13,
+      "rss_kib": 119296
+    },
+    {
+      "monotonic": 47542.408495375,
+      "cpu_seconds": 7.26,
+      "rss_kib": 119328
+    },
+    {
+      "monotonic": 47547.417459833,
+      "cpu_seconds": 7.44,
+      "rss_kib": 119280
+    },
+    {
+      "monotonic": 47552.428727666,
+      "cpu_seconds": 7.76,
+      "rss_kib": 119984
+    },
+    {
+      "monotonic": 47557.442632458,
+      "cpu_seconds": 8.15,
+      "rss_kib": 120240
+    },
+    {
+      "monotonic": 47562.448151125,
+      "cpu_seconds": 8.26,
+      "rss_kib": 119344
+    },
+    {
+      "monotonic": 47567.457685208,
+      "cpu_seconds": 8.42,
+      "rss_kib": 119648
+    },
+    {
+      "monotonic": 47572.468520333,
+      "cpu_seconds": 8.85,
+      "rss_kib": 120352
+    },
+    {
+      "monotonic": 47577.474354125,
+      "cpu_seconds": 8.99,
+      "rss_kib": 119664
+    },
+    {
+      "monotonic": 47582.481921541,
+      "cpu_seconds": 9.08,
+      "rss_kib": 119552
+    },
+    {
+      "monotonic": 47587.491770875,
+      "cpu_seconds": 9.35,
+      "rss_kib": 139136
+    },
+    {
+      "monotonic": 47592.504202416,
+      "cpu_seconds": 9.55,
+      "rss_kib": 139424
+    },
+    {
+      "monotonic": 47597.523329958,
+      "cpu_seconds": 9.88,
+      "rss_kib": 139760
+    },
+    {
+      "monotonic": 47602.534128083,
+      "cpu_seconds": 9.95,
+      "rss_kib": 136720
+    },
+    {
+      "monotonic": 47607.549821,
+      "cpu_seconds": 10.03,
+      "rss_kib": 136496
+    },
+    {
+      "monotonic": 47612.567336625,
+      "cpu_seconds": 10.1,
+      "rss_kib": 134848
+    },
+    {
+      "monotonic": 47617.587659666,
+      "cpu_seconds": 10.17,
+      "rss_kib": 129648
+    },
+    {
+      "monotonic": 47622.601008791,
+      "cpu_seconds": 10.24,
+      "rss_kib": 129712
+    },
+    {
+      "monotonic": 47627.614279541,
+      "cpu_seconds": 10.3,
+      "rss_kib": 129584
+    },
+    {
+      "monotonic": 47632.351610666,
+      "cpu_seconds": 10.35,
+      "rss_kib": 122784
+    }
+  ]
+}

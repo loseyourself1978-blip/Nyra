@@ -1,0 +1,12 @@
+{
+  "id": "nyra_run_left_02_candidate",
+  "prompt": "One native1024x1536 genuinely transparent RGBA animation frame of the exact adult Nyra. Image1 is LEFT-running edit target; image2 is canonical identity. Lock target head at x310y235, same face, camera facing SCREEN LEFT, ears near y90, pelvisx430y810, proportions/style/upper-left light. Keep amethyst flower on visible anatomical LEFT temple at screen-right side of face, waist bow on anatomical left hip at right edge; DO NOT MIRROR. Long hair, opaque lined blackpurple dress and tail trail RIGHT. Dark tights, same black ankle boots with SHORT LOW block heels. Complete ears hands feet tailtips. Ground y1444. No background, text, halo, effects or shadows.\nCreate phase02 TOE-OFF / FAR-KNEE PASSING. Use image1's opposite-contact limb identity but change joints substantially:\nThe NEAR foreground leg is stretched BACK toward screen RIGHT; from hipx450y820 to kneex535y1090 then ankle x665y1370, toe x610y1444. Its toe pushes off the ground at the REAR, with heel lifted modestly. This near thigh must cross IN FRONT of the other thigh.\nThe FAR leg is the free swing leg, lifted FORWARD toward screen LEFT: knee x260y1040 and boot around x320y1240; this raised far leg is behind near thigh at hip intersection. Both boot toes point LEFT. The raised knee appears on the LEFT of the pelvis and the planted toe on the RIGHT. No two planted feet.\nNear arm bends forward across chest toward x245y520; far arm trails toward right, fistx570y640. Keep exact original camera, head size/location, hips and low boot heels. Do not repeat a planted foot under or left of the body; the ground contact is the REAR toe at screen-right.",
+  "refs": [
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/sources/layered-gait/nyra_run_left_04_candidate.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_neutral.png"
+  ],
+  "state": "GENERATED_CANDIDATE",
+  "started_at": "2026-10-24T13:16:35.274Z",
+  "source_original": "/Users/hj/.codex/generated_images/01a16835-fe86-7e53-a811-909f55b4e66a/exec-a457620a-9bc6-4e95-bd6f-9de66da9b0bb.png",
+  "saved_at": "2026-10-24T13:17:14.235Z"
+}

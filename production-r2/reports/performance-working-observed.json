@@ -1,0 +1,496 @@
+{
+  "phase": "r2-working-observed",
+  "utc_start": "2026-10-24T03:31:25.855316+00:00",
+  "elapsed_seconds": 120.01364279200061,
+  "architecture": "arm64",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "cpu_percent_one_core": 1.8914516276572022,
+  "max_rss_mib": 70.96875,
+  "method": "ps cumulative user+system CPU time delta / monotonic wall time; RSS in KiB; 5s interval",
+  "animation_playback": true,
+  "samples": [
+    {
+      "monotonic": 53557.188801791,
+      "cpu_seconds": 57.28,
+      "rss_kib": 72672,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1842
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53557.096807875
+      }
+    },
+    {
+      "monotonic": 53562.2013125,
+      "cpu_seconds": 57.37,
+      "rss_kib": 71776,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1860
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53561.09783391667
+      }
+    },
+    {
+      "monotonic": 53567.36650625,
+      "cpu_seconds": 57.49,
+      "rss_kib": 65456,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1884
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53566.397352125
+      }
+    },
+    {
+      "monotonic": 53572.377896333,
+      "cpu_seconds": 57.59,
+      "rss_kib": 64912,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1908
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53571.69520016667
+      }
+    },
+    {
+      "monotonic": 53577.388161,
+      "cpu_seconds": 57.68,
+      "rss_kib": 64816,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1932
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53577.005759375
+      }
+    },
+    {
+      "monotonic": 53582.400433958,
+      "cpu_seconds": 57.77,
+      "rss_kib": 64320,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1956
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53582.31880366667
+      }
+    },
+    {
+      "monotonic": 53587.418006458,
+      "cpu_seconds": 57.86,
+      "rss_kib": 64320,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1974
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53586.3078245
+      }
+    },
+    {
+      "monotonic": 53592.444185,
+      "cpu_seconds": 57.97,
+      "rss_kib": 65936,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 1998
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53591.615756750005
+      }
+    },
+    {
+      "monotonic": 53597.455703208,
+      "cpu_seconds": 58.06,
+      "rss_kib": 66064,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2022
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53596.927265625
+      }
+    },
+    {
+      "monotonic": 53602.462791791,
+      "cpu_seconds": 58.15,
+      "rss_kib": 66048,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2046
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53602.23086916667
+      }
+    },
+    {
+      "monotonic": 53607.479688916,
+      "cpu_seconds": 58.23,
+      "rss_kib": 65984,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2064
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53606.21622058334
+      }
+    },
+    {
+      "monotonic": 53612.495432041,
+      "cpu_seconds": 58.32,
+      "rss_kib": 66016,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2088
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53611.51888991667
+      }
+    },
+    {
+      "monotonic": 53617.506367583,
+      "cpu_seconds": 58.41,
+      "rss_kib": 66048,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2112
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53616.82817666667
+      }
+    },
+    {
+      "monotonic": 53622.520630416,
+      "cpu_seconds": 58.5,
+      "rss_kib": 66048,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2136
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53622.132035500006
+      }
+    },
+    {
+      "monotonic": 53627.538418958,
+      "cpu_seconds": 58.59,
+      "rss_kib": 66064,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2160
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53627.43613654167
+      }
+    },
+    {
+      "monotonic": 53632.548535375,
+      "cpu_seconds": 58.68,
+      "rss_kib": 66064,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2178
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53631.422660833334
+      }
+    },
+    {
+      "monotonic": 53637.55437775,
+      "cpu_seconds": 58.77,
+      "rss_kib": 66048,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2202
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53636.72962883334
+      }
+    },
+    {
+      "monotonic": 53642.563470708,
+      "cpu_seconds": 58.85,
+      "rss_kib": 65632,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2226
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53642.027016125
+      }
+    },
+    {
+      "monotonic": 53647.5829075,
+      "cpu_seconds": 58.94,
+      "rss_kib": 64128,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2250
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53647.32737320834
+      }
+    },
+    {
+      "monotonic": 53652.595068,
+      "cpu_seconds": 59.04,
+      "rss_kib": 64368,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2268
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53651.327053125
+      }
+    },
+    {
+      "monotonic": 53657.606311458,
+      "cpu_seconds": 59.13,
+      "rss_kib": 64400,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2292
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53656.6238495
+      }
+    },
+    {
+      "monotonic": 53662.62706575,
+      "cpu_seconds": 59.22,
+      "rss_kib": 64400,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2316
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53661.92161916667
+      }
+    },
+    {
+      "monotonic": 53667.64022225,
+      "cpu_seconds": 59.31,
+      "rss_kib": 64352,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2340
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53667.222765375
+      }
+    },
+    {
+      "monotonic": 53672.655782708,
+      "cpu_seconds": 59.45,
+      "rss_kib": 64400,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2364
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53672.52330604167
+      }
+    },
+    {
+      "monotonic": 53677.202444583,
+      "cpu_seconds": 59.55,
+      "rss_kib": 63648,
+      "playback": {
+        "animation": "working",
+        "displayed_frames": {
+          "idle": 6665,
+          "working": 2382
+        },
+        "event": "frame_progress",
+        "panel_visible": true,
+        "pid": 87528,
+        "reduce_motion": false,
+        "stage_visible": false,
+        "timer_scheduled": true,
+        "uptime": 53676.50398933334
+      }
+    }
+  ],
+  "observed_animations": [
+    "working"
+  ],
+  "displayed_frame_deltas": {
+    "working": 540,
+    "idle": 0
+  },
+  "playback_evidence_pass": true
+}

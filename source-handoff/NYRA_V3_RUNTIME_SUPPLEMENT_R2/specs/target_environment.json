@@ -1,0 +1,13 @@
+{
+  "target": "desktop_pets",
+  "app_version": null,
+  "installed_skill_name": null,
+  "skill_version_or_hash": null,
+  "selected_profile": null,
+  "profile_sha256": null,
+  "row_mapping_confirmed": false,
+  "gaze_order_confirmed": false,
+  "supported_install_method": null,
+  "actual_preflight": "NOT_RUN",
+  "authority": "TO_BE_READ_FROM_ACTUAL_TARGET_NO_GUESSING"
+}

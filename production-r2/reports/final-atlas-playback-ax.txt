@@ -1,0 +1,4 @@
+Browser tab: 1, Title: "Nyra · 最终图集审片", URL: "http://127.0.0.1:8769/preview/atlas_review.html".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~		40 text 已暂停 · 全部 73 槽 · 帧 72/73 · 切换 1166 · 完整循环 15 · 原图1536×2288
+The focused UI element is 26 button 暂停, ID: pause

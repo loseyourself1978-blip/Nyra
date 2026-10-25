@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nyra · 最终图集审片</title>
+<style>body{margin:24px;background:#1d1826;color:#eee;font:16px system-ui}main{max-width:900px;margin:auto}h1{font-size:24px}button,select{font:inherit;padding:8px;margin:4px;background:#372b49;color:#fff;border:1px solid #8f6baa;border-radius:7px}canvas{display:block;width:384px;height:416px;max-width:90vw;background-color:#bbb;background-image:conic-gradient(#ddd 25%,transparent 0 50%,#ddd 0 75%,transparent 0);background-size:24px 24px;border-radius:12px}p{line-height:1.6}.tag{color:#cfa4f9}a{color:#cfb2fa}</style>
+<main><h1>夜璃 · Nyra｜v2 图集审片</h1><p class="tag">SIMULATION · 本地预览 · TWOS NOT_CONNECTED</p><p>直接播放 1536×2288 最终 WebP 的真实格子；此页播放不等于 Pets 创建或宿主验收。左右跑保留中段节奏提示。</p>
+<canvas id="stage" width="192" height="208" aria-label="最终图集动画"></canvas><p id="status">正在载入最终图集…</p>
+<label>动作 <select id="state"></select></label><button id="play">播放</button><button id="pause">暂停</button><button id="next">下一帧</button>
+<label>背景 <select id="bg"><option value="checker">棋盘格</option><option value="#fff">白色</option><option value="#000">黑色</option><option value="#654375">紫色</option></select></label>
+<p><a href="../bundled-run/previews/all-states.gif">全部动作 GIF</a> · <a href="../bundled-run/previews/all-states.mp4">MP4</a> · <a href="animation_review.html">原生 PNG 审片</a></p></main>
+<script>
+const rows=[['idle',6],['running-right',8],['running-left',8],['waving',4],['jumping',5],['failed',8],['waiting',6],['running',6],['review',6],['gaze_0_7',8],['gaze_8_15',8]];
+const sequences=rows.map(([name,n],r)=>({name,slots:Array.from({length:n},(_,i)=>[r,i])}));
+sequences.push({name:'gaze_full_16',slots:[...sequences[9].slots,...sequences[10].slots]},{name:'idle → jump → idle',slots:[...sequences[0].slots,...sequences[4].slots,...sequences[0].slots]});
+sequences.push({name:'全部 73 槽',slots:sequences.slice(0,11).flatMap(s=>s.slots)});
+const selector=document.querySelector('#state'),status=document.querySelector('#status'),canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');
+sequences.forEach((s,i)=>selector.add(new Option(s.name,i)));const image=new Image();let seq=0,frame=0,timer=null,advances=0,cycles=0,loaded=false;
+function draw(){if(!loaded)return;const [r,c]=sequences[seq].slots[frame];ctx.clearRect(0,0,192,208);ctx.drawImage(image,c*192,r*208,192,208,0,0,192,208);status.textContent=`${timer?'播放中':'已暂停'} · ${sequences[seq].name} · 帧 ${frame+1}/${sequences[seq].slots.length} · 切换 ${advances} · 完整循环 ${cycles} · 原图1536×2288`;}
+function stop(){clearInterval(timer);timer=null;draw();}function step(){frame=(frame+1)%sequences[seq].slots.length;advances++;if(frame===0)cycles++;draw();}
+image.onload=()=>{loaded=true;draw();};image.onerror=()=>status.textContent='图集读取失败；未播放';image.src='../bundled-run/final/spritesheet-extended.webp';
+selector.onchange=()=>{stop();seq=+selector.value;frame=advances=cycles=0;draw();};document.querySelector('#play').onclick=()=>{if(loaded&&!timer){timer=setInterval(step,seq>=9?200:150);draw();}};document.querySelector('#pause').onclick=stop;document.querySelector('#next').onclick=()=>{stop();step();};
+document.querySelector('#bg').onchange=e=>{canvas.style.backgroundImage=e.target.value==='checker'?'':'none';canvas.style.backgroundColor=e.target.value==='checker'?'#bbb':e.target.value;};document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});window.addEventListener('pagehide',stop);
+</script></html>

@@ -1,0 +1,44 @@
+{
+  "reviewed_at": "2026-10-24T01:45:13.904965+00:00",
+  "reviewed_by": "primary visual review; not Owner Acceptance",
+  "sequences": {
+    "idle": "实际循环；睁眼/半闭/闭眼及肩、发尾、尾尖局部变化。腰部小饰纹存在轻微重绘差异，不改变角色身份。",
+    "working": "实际循环；手持无字板，指尖/手腕动作、目光和眨眼可见。",
+    "gaze_head": "实际单次5槽；头和双眼一起看向左/右/上/下；不是16向完整宿主循环。上视局部修复过程有完整来源记录。",
+    "verified_success": "实际6槽单次；轻点头、举手、摆手、放手，末帧返回共享中立；观察到1完整序列后停止。"
+  },
+  "observed_playback": {
+    "idle": {
+      "complete_cycles_at_least": 28,
+      "frame_advances": 168
+    },
+    "working": {
+      "complete_cycles_at_least": 114,
+      "frame_advances": 685
+    },
+    "gaze_head": {
+      "complete_cycles": 1,
+      "frame_advances": 5,
+      "ended_at": "nyra_neutral"
+    },
+    "verified_success": {
+      "complete_cycles": 1,
+      "frame_advances": 6,
+      "ended_at": "nyra_neutral"
+    }
+  },
+  "evidence": [
+    "p0-contact.png",
+    "p0-three-backgrounds.png",
+    "idle-browser-playback.png",
+    "working-browser-playback.png",
+    "gaze-browser-playback.png",
+    "success-browser-playback.png"
+  ],
+  "limitations": [
+    "No live TWOS events",
+    "No Owner Acceptance",
+    "16-direction Pets not yet produced",
+    "Small costume ornament redraw differences"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "asset_id": "nyra_failed_01",
+  "source": "sources/nyra_failed_01.png",
+  "source_sha256": "1ab1b1534060cf62bef5b30704f9f67078fbffffc087f334b4569efabe5136c6",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_failed_01.png",
+  "output_sha256": "5b003c6c25999ae3a488f3a259dc82c72790f803ffb49e184647081c3fe02fcb",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "single shared premultiplied affine; bicubic downscale",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": false,
+  "art_invented_by_processing": false
+}

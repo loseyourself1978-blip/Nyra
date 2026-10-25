@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
   "character": "夜璃 · Nyra",
-  "mode": "STATIC_PREVIEW",
-  "defaultOutfit": "v3-master",
+  "mode": "R3_INTERACTIVE_COMPANION",
+  "defaultOutfit": "runtime-default",
   "outfits": [
+    {
+      "id": "runtime-default",
+      "name": "黑紫 V3 · 动画",
+      "file": "runtime-default.png",
+      "note": "77 张真实默认服装画稿 / 84 槽 / 12 组动作 · 本地演示",
+      "width": 1024,
+      "height": 1536,
+      "runtimeReady": true,
+      "anchor": [
+        512,
+        1444
+      ],
+      "classification": "GENERATED_P0_RUNTIME",
+      "sha256": "7780d8d9319a6578ba492e37dd122d7bfe2f559adfac5d053c62d73fa26ecd69"
+    },
+    {
+      "id": "runtime-office",
+      "name": "职场 · 静态换装",
+      "file": "runtime-office.png",
+      "note": "STATIC_OUTFIT_ONLY · 真实全身透明画稿 · 此服装尚无动作",
+      "width": 1024,
+      "height": 1536,
+      "runtimeReady": false,
+      "anchor": [
+        512,
+        1444
+      ],
+      "classification": "STATIC_OUTFIT_ONLY",
+      "sha256": "e12414521cba25dc01077aeea97ed935d79035d80d6b23e4e0a516740b6d94d4"
+    },
     {
       "id": "v3-master",
       "name": "黑紫 V3 · 主造型",
@@ -92,5 +122,5 @@
       "transparent_fraction": 0.0
     }
   ],
-  "wardrobeStatus": "REFERENCE_SWITCHING_ONLY_RUNTIME_OUTFITS_MISSING"
+  "wardrobeStatus": "DEFAULT_12_SEQUENCES; OFFICE_STATIC_OUTFIT_ONLY; R1_REFERENCES_SEPARATE"
 }

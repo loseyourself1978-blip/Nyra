@@ -1,0 +1,19 @@
+{
+  "status": "ATLAS_COMPILED_NOT_INSTALLED",
+  "profile": "pets_v2_attachment_provisional",
+  "profile_sha256": "95135cb5867079d17a2c258bdf9584a2f30b4739fce0dc61760a18e684956e02",
+  "path": "exports/nyra-v2-reviewed-raw.png",
+  "sha256": "42e2d593a634aab56fa1fc1a17dad63193279194abab0b7518590c784abbe43b",
+  "bytes": 1850496,
+  "canvas": [
+    1536,
+    2288
+  ],
+  "required_slots": 73,
+  "transparent_empty_slots": 15,
+  "pets_preflight": "NOT_RUN",
+  "pets_created": false,
+  "pet_selected": false,
+  "custom_voice": false,
+  "twos_connected": false
+}

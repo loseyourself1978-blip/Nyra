@@ -1,0 +1,37 @@
+{
+  "asset_id": "nyra_success_04",
+  "source": "sources/nyra_success_04.png",
+  "source_sha256": "62d312d940e36f592bccb3f408ed06e5f7b7d3a3e5e3ce65f508904f53a1bb70",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_success_04.png",
+  "output_sha256": "9c4e1429eb0cf9647582dd3275cb74244d55713610921dbf8ca2a54b65b3d9e9",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "single shared premultiplied affine; bicubic downscale",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "art_invented_by_processing": false
+}

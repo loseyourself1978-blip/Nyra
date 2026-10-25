@@ -1,0 +1,20 @@
+test_bad_layout (test_asset_tools.AssetToolsTests.test_bad_layout) ... ok
+test_cells_are_fixed_uniform_transform (test_asset_tools.AssetToolsTests.test_cells_are_fixed_uniform_transform) ... ok
+test_edge_content_rejected (test_asset_tools.AssetToolsTests.test_edge_content_rejected) ... ok
+test_empty_rejected (test_asset_tools.AssetToolsTests.test_empty_rejected) ... ok
+test_fake_translucent_poster_rejected (test_asset_tools.AssetToolsTests.test_fake_translucent_poster_rejected) ... ok
+test_file_decode_error_is_reported (test_asset_tools.AssetToolsTests.test_file_decode_error_is_reported) ... ok
+test_missing_assets_are_blocked (test_asset_tools.AssetToolsTests.test_missing_assets_are_blocked) ... ok
+test_no_installable_placeholder_generated (test_asset_tools.AssetToolsTests.test_no_installable_placeholder_generated) ... ok
+test_opaque_background_rejected (test_asset_tools.AssetToolsTests.test_opaque_background_rejected) ... ok
+test_shared_neutral_frame_is_declared (test_asset_tools.AssetToolsTests.test_shared_neutral_frame_is_declared) ... ok
+test_source_profiles_counts (test_asset_tools.AssetToolsTests.test_source_profiles_counts) ... ok
+test_true_alpha_structural_only (test_asset_tools.AssetToolsTests.test_true_alpha_structural_only) ... ok
+test_unsafe_relative_path (test_asset_tools.AssetToolsTests.test_unsafe_relative_path) ... ok
+test_unsafe_symlink (test_asset_tools.AssetToolsTests.test_unsafe_symlink) ... ok
+test_wrong_size_rejected (test_asset_tools.AssetToolsTests.test_wrong_size_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.413s
+
+OK

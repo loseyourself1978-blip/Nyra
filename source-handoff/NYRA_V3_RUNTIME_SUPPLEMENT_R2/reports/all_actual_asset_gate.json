@@ -1,0 +1,792 @@
+{
+  "status": "BLOCKED",
+  "generated_by": "nyra_assets.py",
+  "art_generation_performed": false,
+  "required_unique_assets": 78,
+  "present_assets": 0,
+  "require_visual": false,
+  "errors": [
+    "nyra_neutral: MISSING_FILE",
+    "nyra_idle_01: MISSING_FILE",
+    "nyra_idle_02: MISSING_FILE",
+    "nyra_idle_03: MISSING_FILE",
+    "nyra_idle_04: MISSING_FILE",
+    "nyra_idle_05: MISSING_FILE",
+    "nyra_working_00: MISSING_FILE",
+    "nyra_working_01: MISSING_FILE",
+    "nyra_working_02: MISSING_FILE",
+    "nyra_working_03: MISSING_FILE",
+    "nyra_working_04: MISSING_FILE",
+    "nyra_working_05: MISSING_FILE",
+    "nyra_gaze_up: MISSING_FILE",
+    "nyra_gaze_right: MISSING_FILE",
+    "nyra_gaze_down: MISSING_FILE",
+    "nyra_gaze_left: MISSING_FILE",
+    "nyra_success_01: MISSING_FILE",
+    "nyra_success_02: MISSING_FILE",
+    "nyra_success_03: MISSING_FILE",
+    "nyra_success_04: MISSING_FILE",
+    "nyra_run_right_00: MISSING_FILE",
+    "nyra_run_right_01: MISSING_FILE",
+    "nyra_run_right_02: MISSING_FILE",
+    "nyra_run_right_03: MISSING_FILE",
+    "nyra_run_right_04: MISSING_FILE",
+    "nyra_run_right_05: MISSING_FILE",
+    "nyra_run_right_06: MISSING_FILE",
+    "nyra_run_right_07: MISSING_FILE",
+    "nyra_run_left_00: MISSING_FILE",
+    "nyra_run_left_01: MISSING_FILE",
+    "nyra_run_left_02: MISSING_FILE",
+    "nyra_run_left_03: MISSING_FILE",
+    "nyra_run_left_04: MISSING_FILE",
+    "nyra_run_left_05: MISSING_FILE",
+    "nyra_run_left_06: MISSING_FILE",
+    "nyra_run_left_07: MISSING_FILE",
+    "nyra_waving_00: MISSING_FILE",
+    "nyra_waving_01: MISSING_FILE",
+    "nyra_waving_02: MISSING_FILE",
+    "nyra_waving_03: MISSING_FILE",
+    "nyra_jumping_00: MISSING_FILE",
+    "nyra_jumping_01: MISSING_FILE",
+    "nyra_jumping_02: MISSING_FILE",
+    "nyra_jumping_03: MISSING_FILE",
+    "nyra_jumping_04: MISSING_FILE",
+    "nyra_failed_00: MISSING_FILE",
+    "nyra_failed_01: MISSING_FILE",
+    "nyra_failed_02: MISSING_FILE",
+    "nyra_failed_03: MISSING_FILE",
+    "nyra_failed_04: MISSING_FILE",
+    "nyra_failed_05: MISSING_FILE",
+    "nyra_failed_06: MISSING_FILE",
+    "nyra_failed_07: MISSING_FILE",
+    "nyra_waiting_00: MISSING_FILE",
+    "nyra_waiting_01: MISSING_FILE",
+    "nyra_waiting_02: MISSING_FILE",
+    "nyra_waiting_03: MISSING_FILE",
+    "nyra_waiting_04: MISSING_FILE",
+    "nyra_waiting_05: MISSING_FILE",
+    "nyra_review_00: MISSING_FILE",
+    "nyra_review_01: MISSING_FILE",
+    "nyra_review_02: MISSING_FILE",
+    "nyra_review_03: MISSING_FILE",
+    "nyra_review_04: MISSING_FILE",
+    "nyra_review_05: MISSING_FILE",
+    "nyra_gaze_cw_01: MISSING_FILE",
+    "nyra_gaze_cw_02: MISSING_FILE",
+    "nyra_gaze_cw_03: MISSING_FILE",
+    "nyra_gaze_cw_05: MISSING_FILE",
+    "nyra_gaze_cw_06: MISSING_FILE",
+    "nyra_gaze_cw_07: MISSING_FILE",
+    "nyra_gaze_cw_09: MISSING_FILE",
+    "nyra_gaze_cw_10: MISSING_FILE",
+    "nyra_gaze_cw_11: MISSING_FILE",
+    "nyra_gaze_cw_13: MISSING_FILE",
+    "nyra_gaze_cw_14: MISSING_FILE",
+    "nyra_gaze_cw_15: MISSING_FILE",
+    "nyra_office_neutral: MISSING_FILE"
+  ],
+  "assets": [
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_neutral.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_neutral",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_idle_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_idle_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_idle_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_idle_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_idle_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_idle_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_idle_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_idle_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_idle_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_idle_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_working_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_working_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_up.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_up",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_right.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_right",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_down.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_down",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_left.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_left",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_success_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_success_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_success_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_success_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_success_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_success_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_success_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_success_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_06.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_06",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_right_07.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_right_07",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_06.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_06",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_run_left_07.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_run_left_07",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waving_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waving_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waving_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waving_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waving_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waving_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waving_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waving_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_jumping_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_jumping_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_jumping_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_jumping_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_jumping_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_jumping_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_jumping_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_jumping_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_jumping_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_jumping_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_06.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_06",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_failed_07.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_failed_07",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_waiting_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_waiting_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_00.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_00",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_04.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_04",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_review_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_review_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_01.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_01",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_02.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_02",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_03.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_03",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_05.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_05",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_06.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_06",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_07.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_07",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_09.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_09",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_10.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_10",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_11.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_11",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_13.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_13",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_14.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_14",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/default/nyra_gaze_cw_15.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_gaze_cw_15",
+      "structural_pass": false
+    },
+    {
+      "file": "/mnt/data/NYRA_V3_RUNTIME_SUPPLEMENT_R2/runtime/office/nyra_office_neutral.png",
+      "exists": false,
+      "errors": [
+        "MISSING_FILE"
+      ],
+      "asset_id": "nyra_office_neutral",
+      "structural_pass": false
+    }
+  ]
+}

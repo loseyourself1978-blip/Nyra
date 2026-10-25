@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-24T07:29:13.001236+00:00",
+  "free_bytes": 8232960000,
+  "user_reported_lowest_free_mb": 200,
+  "crash_cause": "LOW_DISK_PLAUSIBLE_NOT_PROVEN",
+  "source_files_removed": false,
+  "next_generation_minimum_free_bytes": 2147483648
+}

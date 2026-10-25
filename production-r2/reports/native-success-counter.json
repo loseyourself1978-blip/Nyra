@@ -1,0 +1,15 @@
+{
+  "animation": "idle",
+  "displayed_frames": {
+    "idle": 15390,
+    "verified_success": 6,
+    "working": 8127
+  },
+  "event": "frame_progress",
+  "panel_visible": false,
+  "pid": 87528,
+  "reduce_motion": false,
+  "stage_visible": true,
+  "timer_scheduled": true,
+  "uptime": 60271.996415333335
+}

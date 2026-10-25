@@ -1,0 +1,58 @@
+{
+  "app_version": "26.1016.61520",
+  "app_build": "21421",
+  "bundle_id": "com.openai.codex",
+  "skill": "/Users/hj/.codex/skills/hatch-pet/SKILL.md",
+  "skill_sha256": "ccfabd5d761faa721586f8793dd93bdd735e2a2c07099a5d593a7e31286e58f3",
+  "contract_sha256": "8f9c271e0a8269e57cd27cedeff1317975ea5f772f2549572aeefa580d9d58d3",
+  "desktop_sprite_version": 2,
+  "canvas": [
+    1536,
+    2288
+  ],
+  "cell": [
+    192,
+    208
+  ],
+  "rows": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "required_slots": 73,
+  "empty_slots": 15,
+  "directions_clockwise_from_up": [
+    0,
+    22.5,
+    45,
+    67.5,
+    90,
+    112.5,
+    135,
+    157.5,
+    180,
+    202.5,
+    225,
+    247.5,
+    270,
+    292.5,
+    315,
+    337.5
+  ],
+  "preflight_tool": "mcp__codex_apps__pets_validate_pet_spritesheet",
+  "actual_preflight": "NOT_RUN_NO_ATLAS",
+  "install_method": "local pet.json + spritesheet.webp, spriteVersionNumber 2, per installed hatch-pet contract",
+  "cloud_vs_desktop": "Cloud MCP pet record and local desktop installation are distinct; verify separately",
+  "sources": [
+    "https://learn.chatgpt.com/docs/pets",
+    "https://learn.chatgpt.com/docs/app/commands"
+  ]
+}

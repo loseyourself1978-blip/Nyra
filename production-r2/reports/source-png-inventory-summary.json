@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-24T13:57:36.125112+00:00",
+  "png_files": 126,
+  "unique_png_hashes": 113,
+  "runtime_png_files": 78,
+  "unique_runtime_hashes": 78,
+  "note": "Source inventory includes failed drafts, layers, intermediate versions and duplicate archival copies. Only runtime entries count toward runtime art."
+}

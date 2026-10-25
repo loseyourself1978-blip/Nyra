@@ -1,0 +1,12 @@
+{
+  "id": "nyra_run_left_03_candidate",
+  "prompt": "One native1024x1536 genuinely transparent RGBA animation frame of the exact adult Nyra. Image1 is LEFT-running edit target; image2 is canonical identity. Lock target head at x310y235, same face, camera facing SCREEN LEFT, ears near y90, pelvisx430y810, proportions/style/upper-left light. Keep amethyst flower on visible anatomical LEFT temple at screen-right side of face, waist bow on anatomical left hip at right edge; DO NOT MIRROR. Long hair, opaque lined blackpurple dress and tail trail RIGHT. Dark tights, same black ankle boots with SHORT LOW block heels. Complete ears hands feet tailtips. Ground y1444. No background, text, halo, effects or shadows.\nDraw flight03 just BEFORE image1 contact. Keep the foreground leg folded BACK to the right, knee aroundx330y1010 and bootx580y1170, its shin visibly crossing in FRONT of the farther leg. The FAR leg swings down FORWARD left, kneex290y1050, ankle x200y1290, boottoe x110y1380. BOTH FEET are airborne above groundy1444. The foreground foot stays high/back; only far left boot approaches landing. Near arm forward across torso fistx220y470, far arm behind with fistx600y625. Lift body only18px, never resize. Hairs and skirt gently rise with the actual airborne pose. Keep flower and waistbow anatomical left, correct leftwards face.",
+  "refs": [
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/sources/layered-gait/nyra_run_left_04_candidate.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_neutral.png"
+  ],
+  "state": "GENERATED_CANDIDATE",
+  "started_at": "2026-10-24T13:19:43.277Z",
+  "source_original": "/Users/hj/.codex/generated_images/01a16835-fe86-7e53-a811-909f55b4e66a/exec-3b156a6b-7bb2-48cc-b869-210f04bc3ac4.png",
+  "saved_at": "2026-10-24T13:20:22.548Z"
+}

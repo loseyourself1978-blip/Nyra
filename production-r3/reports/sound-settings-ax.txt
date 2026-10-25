@@ -1,0 +1,31 @@
+Window: "夜璃 · Nyra｜交互桌宠", App: 夜璃 · Nyra.
+0 系统对话框 夜璃 · Nyra｜交互桌宠, Secondary Actions: Raise
+	1 text 夜璃 · 黑紫 V3 拖动移动 · 滚轮缩放 · + 展开
+	2 按钮 Description: 拖拽缩放夜璃, Help: 拖拽缩放 · 滚轮与触控板也可缩放
+	3 按钮 一键换装 · 黑紫 / 职场
+	4 按钮 全屏幕展示
+	5 按钮 声音 · 试听 / 静音 / 音量
+	6 按钮 选择动作
+	7 按钮 缩小夜璃
+	8 按钮 放大夜璃
+	9 按钮 隐藏夜璃 · 菜单栏可恢复
+	10 按钮 退出夜璃
+	11 按钮 Description: 收起夜璃控制环, Help: 展开夜璃控制环
+	12 弹出窗口 Secondary Actions: Cancel
+		13 文本 夜璃的声音 / Voice
+		14 语音语言
+			15 单选按钮 Description: 跟随系统, Value: 0
+			16 单选按钮 Description: 中文, Value: 0
+			17 单选按钮 Description: English, Value: 1
+		18 文本 系统合成语音 · Samantha · EN
+仅手动试听；AI 定制语音暂缓。
+		19 复选框 静音 / Mute, Value: 1
+		20 文本 音量
+		21 滑块 (settable, float) Description: 声音音量, Value: 0.3
+			22 值指示器 (settable, float) 0.3
+		23 按钮 试听系统语音
+		24 按钮 停止
+		25 按钮 导入音频…
+		26 按钮 恢复系统声线
+27 menu bar
+	28 夜璃 · Nyra

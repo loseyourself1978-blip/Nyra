@@ -1,0 +1,22 @@
+{
+  "json_files_decoded": 12,
+  "unique_prompts": 78,
+  "default_required_unique_assets": 77,
+  "office_static_required": 1,
+  "p0_required_unique_assets": 20,
+  "p0_slots": 23,
+  "new_runtime_png_count": 0,
+  "source_zip_manifest_checks": "65/65 PASS",
+  "source_zip_crc": "PASS",
+  "tool_selftests": "15 PASS; synthetic infrastructure only",
+  "node_js_syntax": "PASS",
+  "browser_ui_live_test": "NOT_RUN",
+  "actual_p0_and_all_art_gate": "BLOCKED_MISSING_ART",
+  "actual_pets_compilation": "NOT_RUN",
+  "pet_install_or_selection": "NOT_RUN",
+  "new_audio_count": 0,
+  "original_r1_reference_inspect_exit": 2,
+  "all_asset_audit_exit": 2,
+  "original_assets_are_not_reclassified": true,
+  "network_model_tasks_started": 0
+}

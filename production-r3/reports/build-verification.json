@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SCOPED_RELEASE_CHECKS",
+  "checks": [
+    "12 supplied image hashes unchanged",
+    "26 supplied manifest checks recorded successful",
+    "3 unchanged reference outfits, 1 true P0 runtime outfit, 1 static office outfit match packaged bytes",
+    "20 real P0 PNGs and 23-slot frame plan match exact application resources",
+    "All 77 default native art frames / 84 slots / 12 sequences match packaged resources",
+    "Two original procedural chimes match packaged audio hashes",
+    "exact application signature verifies",
+    "native window and runtime sequence checks: PASS: 7 core checks (geometry, aspect ratio, truth labels, manifest containment)\nPASS: runtime sequence containment, 20 unique / 23 slots, once-only success, idle loop\nPASS: language routing, asymmetric alpha hit testing, transparent corners, accessible hub and resize grip",
+    "universal binary contains arm64 and x86_64"
+  ],
+  "executable_sha256": "4b7b5586af86529044fe708b9e7fc6c251f67ebac712bbe61c51630a90d9627d",
+  "not_claimed": [
+    "animated office wardrobe",
+    "pixel-perfect silhouette hit testing (64x96 sampled alpha is tested)",
+    "Live TWOS integration",
+    "custom AI voice (deferred by user)",
+    "Owner Acceptance",
+    "Intel runtime validation"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "nyra_run_right_06_candidate",
+  "prompt": "Native 1024x1536 RGBA animation frame. Genuinely transparent exterior, fully opaque adult figure and lined clothes. The exact same adult Nyra, same face long dark wavy hair cat ears anatomical LEFT purple-gold ornament, black-purple lined dress, dark tights and LOW block heel ankle boots. Same three-quarter right-facing camera, proportions, colors, light, head size and torso registration as the right-run reference. Head center around 720,230, pelvis650,810, ground y1444. Preserve intact ears hands boots skirt hair and tailtip. No text, background, halo, smoke, streaks, shadow, symbols, guides. Image1 is current run phase, image2 is adjacent phase, image3 is canonical identity only. Frame is one real newly drawn pose, not a duplicated frame.\nDraw phase06: the camera-near leg now swings FORWARD as a raised knee. Its foreground thigh runs from hip x610y820 to knee x810y1030, shin folds back slightly, boot below knee around x750y1240 and off the ground. The far leg pushes off BEHIND, thigh/knee partly hidden, shin extends toward rear-left ankle x430y1360 and toe x480y1444. This rear leg's toe is the only ground contact. Near arm passes backward toward the waist, elbow at x500y550 and fistx610y650, farther arm swings forward fistx905y510. Exact face/head/torso registration of image1, do not inflate or rotate the head. Real leg forward swing and opposed arms; no geometry warping of the whole figure.",
+  "refs": [
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/sources/layered-gait/nyra_run_right_05_candidate.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_run_right_00.png",
+    "/Users/hj/Documents/Codex/2026-10-23/pets-plugin-work-pets-openai-curated/outputs/Nyra/production-r2/runtime/default/nyra_neutral.png"
+  ],
+  "state": "GENERATED_CANDIDATE",
+  "started_at": "2026-10-24T13:05:47.848Z",
+  "source_original": "/Users/hj/.codex/generated_images/01a16835-fe86-7e53-a811-909f55b4e66a/exec-27d86b20-e366-45d7-8ed1-13f8bcfcbfe8.png",
+  "saved_at": "2026-10-24T13:06:27.017Z"
+}

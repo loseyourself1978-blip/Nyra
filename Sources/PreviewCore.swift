@@ -9,6 +9,9 @@ struct Outfit: Decodable {
     let width: Int
     let height: Int
     let runtimeReady: Bool
+    var isStaticOutfit: Bool { id == "runtime-office" }
+    var isTransparentArt: Bool { runtimeReady || isStaticOutfit }
+    var stateLabel: String { runtimeReady ? "P0 ANIMATION · SIMULATION" : isStaticOutfit ? "STATIC_OUTFIT_ONLY" : "STATIC_REFERENCE" }
 }
 
 struct Wardrobe: Decodable {
@@ -28,8 +31,7 @@ struct Wardrobe: Decodable {
             // References stay references. No arbitrary paths or remote URLs.
             guard outfit.width > 0, outfit.height > 0,
                   !outfit.file.contains("/"), !outfit.file.contains("\\"),
-                  !outfit.file.hasPrefix("."), outfit.file.lowercased().hasSuffix(".png"),
-                  !outfit.runtimeReady else { throw PreviewError.invalidManifest }
+                  !outfit.file.hasPrefix("."), outfit.file.lowercased().hasSuffix(".png") else { throw PreviewError.invalidManifest }
         }
         return self
     }

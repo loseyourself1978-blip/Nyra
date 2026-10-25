@@ -1,0 +1,43 @@
+{
+  "asset_id": "nyra_run_right_04",
+  "source": "sources/nyra_run_right_04.png",
+  "source_sha256": "e7c7884f7f5c01f4aaf01872d2f0bcd3929837ce8ea7e8a59a73f7e42b077d0e",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_run_right_04.png",
+  "output_sha256": "8f8a5cb369c689e35c74eeb97218bed354c423e5612be73b3e65a24b33f7b830",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "already registered imagegen repair: no geometric transform",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": true,
+  "applied_transform": {
+    "scale": 1.0,
+    "translate_x": 0.0,
+    "translate_y": 0.0
+  },
+  "art_invented_by_processing": false
+}

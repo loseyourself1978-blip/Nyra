@@ -1,0 +1,37 @@
+{
+  "asset_id": "nyra_gaze_up",
+  "source": "sources/nyra_gaze_up.png",
+  "source_sha256": "e8766edae08018fcd32ef466427ca293e4b3a9841e0a35dafb96dd6c16f282dc",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_gaze_up.png",
+  "output_sha256": "2ad1c7d03912cea6d189821ce6f5b3e8c5381a91e7e571cf098ea33ff2d1af7f",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "single shared premultiplied affine; bicubic downscale",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "art_invented_by_processing": false
+}

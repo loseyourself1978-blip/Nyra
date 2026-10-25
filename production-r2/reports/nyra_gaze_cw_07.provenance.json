@@ -1,0 +1,43 @@
+{
+  "asset_id": "nyra_gaze_cw_07",
+  "source": "sources/nyra_gaze_cw_07.png",
+  "source_sha256": "10d7dfd01bc2eb09782d499c5c12e58840960d5faa8123e2f622878075fd226b",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_gaze_cw_07.png",
+  "output_sha256": "5ae76761ddfcc42452c9dd20f451ab283a79d84c730fdef452ce8733c4555fde",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "already registered imagegen repair: no geometric transform",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": true,
+  "applied_transform": {
+    "scale": 1.0,
+    "translate_x": 0.0,
+    "translate_y": 0.0
+  },
+  "art_invented_by_processing": false
+}

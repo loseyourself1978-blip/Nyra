@@ -1,0 +1,43 @@
+{
+  "asset_id": "nyra_run_left_00",
+  "source": "sources/nyra_run_left_00.png",
+  "source_sha256": "a5139be3a6841ff62df3436f6b207e30fa69ff835f8c24ed083f02b61c668f28",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_run_left_00.png",
+  "output_sha256": "3924d4b5626c400afba26a6218cb91d80f3ff39346cec62df5407e7ab6b6803f",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "already registered imagegen repair: no geometric transform",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": true,
+  "applied_transform": {
+    "scale": 1.0,
+    "translate_x": 0.0,
+    "translate_y": 0.0
+  },
+  "art_invented_by_processing": false
+}

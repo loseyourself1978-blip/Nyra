@@ -1,0 +1,25 @@
+{
+  "request": "R3 hover controls, resize, fullscreen, outfit and sound; upload and make GitHub public",
+  "prior_gap": "Pets atlas has no custom UI or audio extension fields in the installed connector. R2 standalone controls were separate and not discoverable from the host pet.",
+  "target": "Existing independent AppKit application; same bundle identifier. No Codex or TWOS app modifications.",
+  "implemented_pending_ui_validation": [
+    "Transparent desktop window with sampled alpha click-through",
+    "Hover + hub, eight circular controls and drag scale grip",
+    "Wheel and trackpad scaling, position persistence",
+    "Fullscreen stage and Escape/return-to-desktop",
+    "One-click default/office outfit switch; office STATIC_OUTFIT_ONLY",
+    "12 real-art sequences / 77 unique native default PNGs / 84 slots",
+    "Two original procedural chimes; volume/mute/stop; no auto speech"
+  ],
+  "voice_scope": "User explicitly deferred AI voice when no credit was available. Optional local system TTS preview and local audio import remain; not an exclusive voice.",
+  "publication_authorized": true,
+  "twos": "NOT_CONNECTED",
+  "office": "STATIC_OUTFIT_ONLY",
+  "codex_host_pet_ui": "UNCHANGED_STANDARD_HOST_CONTROLS",
+  "prior_art_warnings": [
+    "Run-cycle mid-transition rhythm",
+    "Subtle 157.5/247.5 degree gaze"
+  ],
+  "no_art_regeneration": true,
+  "no_purchase": true
+}

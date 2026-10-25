@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-10-24T11:19:02.544581+00:00",
+  "review_mode": "PRIMARY_PLUS_READONLY_AUDITORS",
+  "auditors": 2,
+  "files_written_by_auditors": false,
+  "not_owner_acceptance": true,
+  "gait": {
+    "verdict": "FAIL",
+    "reviewer": "gait_audit",
+    "evidence": [
+      "00 and04 retained same near-leg-forward/far-leg-back contact",
+      "01 to02 show partial support-leg switching",
+      "contactB repairs drifted scale/root/costume or repeated same legs",
+      "Passing-frame constrained repair also failed; rejected source preserved"
+    ],
+    "primary_reconciliation": "Agree; no full running family accepted. Do not generate fillers or install incomplete atlas."
+  },
+  "directions": {
+    "reviewer": "direction_alpha_audit",
+    "verdict": "PASS_WITH_WARNINGS",
+    "per_direction": {
+      "up": "PASS",
+      "cw01": "PASS",
+      "cw02": "PASS",
+      "cw03": "PASS",
+      "right": "PASS",
+      "cw05": "PASS",
+      "cw06": "PASS",
+      "cw07": "WARNING",
+      "down": "PASS",
+      "cw09": "PASS",
+      "cw10": "PASS",
+      "cw11": "WARNING",
+      "left": "PASS",
+      "cw13": "PASS",
+      "cw14": "PASS",
+      "cw15": "PASS"
+    },
+    "warnings": [
+      "cw07 down-right but chin/eyes rise relative to cw06",
+      "cw11 downward component subtle at192x208"
+    ],
+    "not_blind_majority_review": true,
+    "primary_reconciliation": "Cardinals correct; no opposite quadrant; final full-atlas QA still not performed."
+  },
+  "alpha": {
+    "reviewer": "direction_alpha_audit",
+    "scanned_png_count_at_snapshot": 65,
+    "native_size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "all_corners_and_outer_borders_alpha_zero": true,
+    "worst_eroded_core_fraction_below_alpha250": 0.00253,
+    "worst_eroded_core_fraction_below_alpha230": 0.000445,
+    "not_claimed": "Every interior pixel exactly255",
+    "largest_detached_component_pixels": 32,
+    "largest_detached_component_asset": "nyra_waiting_04",
+    "obvious_exterior_artifact_blocker": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "asset_id": "nyra_jumping_02",
+  "source": "sources/nyra_jumping_02.png",
+  "source_sha256": "23428bd6ab63140f28929dd9b4cf2fa88a4a49ca1e9c1c1d2d80db11a473e7f8",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_jumping_02.png",
+  "output_sha256": "73bf9d6bf103b00a597bd4746387576b4dfe6680eaadc18e43db67ab19930985",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "already registered imagegen repair: no geometric transform",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": true,
+  "applied_transform": {
+    "scale": 1.0,
+    "translate_x": 0.0,
+    "translate_y": 0.0
+  },
+  "art_invented_by_processing": false
+}

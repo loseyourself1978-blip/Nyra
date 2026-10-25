@@ -1,0 +1,38 @@
+{
+  "asset_id": "nyra_review_00",
+  "source": "sources/nyra_review_00.png",
+  "source_sha256": "e0e701b4d42d1b2f9440b39407c1cd91c2cf58d6791a73417a1cf047cb9575da",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_review_00.png",
+  "output_sha256": "fe40acec8b2c8b717726d56229fbc8118cb0f088776dd840cca392c644666e4d",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "single shared premultiplied affine; bicubic downscale",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "already_registered": false,
+  "art_invented_by_processing": false
+}

@@ -1,0 +1,37 @@
+{
+  "asset_id": "nyra_working_02",
+  "source": "sources/nyra_working_02.png",
+  "source_sha256": "07b07f96b98d7efc6cb024dc78a218b6798feb54af74e7b98c8a83cc654de7fe",
+  "source_native_size": [
+    1024,
+    1536
+  ],
+  "output": "runtime/default/nyra_working_02.png",
+  "output_sha256": "433a7e081c9bf61f0f07783f1eef5d24052d38e069ae01a1e0012ff9f6dfdca0",
+  "output_size": [
+    1024,
+    1536
+  ],
+  "generator": "built-in image_gen",
+  "source_pixels_upscaled": false,
+  "source_native_resolution_verified": true,
+  "operations": [
+    "alpha <=3 cleared; alpha >=252 restored to255",
+    "single shared premultiplied affine; bicubic downscale",
+    "zero hidden RGB under alpha0; attach sRGB profile"
+  ],
+  "shared_transform": {
+    "scale": 0.8937753721244925,
+    "translate_x": 74.94384303112315,
+    "translate_y": 99.76184032476317,
+    "source_support": [
+      489,
+      1504
+    ],
+    "target_support": [
+      512,
+      1444
+    ]
+  },
+  "art_invented_by_processing": false
+}

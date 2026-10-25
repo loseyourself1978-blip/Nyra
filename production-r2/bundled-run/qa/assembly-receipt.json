@@ -1,0 +1,7 @@
+{
+  "method": "bundled load_base_rows + validate_normalized_look_cells + paste_look_cells + clear_transparent_rgb",
+  "extra_per_frame_scale_or_translation": false,
+  "bundled_module_sha256": "a8684c22e9409f1add388688218c8fa7e267b88b91fcb3edc3280dc87ebf1c3e",
+  "candidate_sha256": "e430b46f9ad25a5dc96103b4ebda71ff1b00daf06b24caa93c48fbf37cf63e81",
+  "visual_acceptance": "PENDING_FINAL_REVIEW"
+}

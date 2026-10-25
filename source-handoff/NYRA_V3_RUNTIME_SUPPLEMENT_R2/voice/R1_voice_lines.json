@@ -1,0 +1,175 @@
+{
+  "status": "SCRIPT_ONLY_NOT_AUDIO",
+  "character": "Nyra",
+  "default_language": "zh-CN",
+  "lines": [
+    {
+      "id": "VO_HELLO",
+      "zh-CN": "晚上好，我是夜璃。我们把今天的想法做成吧。",
+      "en-US": "Hi, I’m Nyra. Let’s bring your ideas to life.",
+      "delivery": "warm",
+      "trigger": "manual_greeting"
+    },
+    {
+      "id": "VO_RECEIVED",
+      "zh-CN": "收到，我先陪你把目标理清楚。",
+      "en-US": "Got it. Let’s make the goal clear first.",
+      "delivery": "gentle",
+      "trigger": "task.received"
+    },
+    {
+      "id": "VO_PLANNING",
+      "zh-CN": "让我看看，怎样安排更合适。",
+      "en-US": "Let’s find the best way forward.",
+      "delivery": "thoughtful",
+      "trigger": "plan.started"
+    },
+    {
+      "id": "VO_PLAN_READY",
+      "zh-CN": "方案准备好了，先一起看一眼。",
+      "en-US": "The plan is ready. Let’s review it first.",
+      "delivery": "warm",
+      "trigger": "plan.ready"
+    },
+    {
+      "id": "VO_APPROVAL",
+      "zh-CN": "这一步需要你的确认，我会等你。",
+      "en-US": "This step needs your approval. I’ll wait.",
+      "delivery": "neutral_warm",
+      "trigger": "approval.required"
+    },
+    {
+      "id": "VO_QUEUED",
+      "zh-CN": "已经排好队，不会打断正在做的事。",
+      "en-US": "It’s queued. The current work will continue.",
+      "delivery": "reassuring",
+      "trigger": "run.queued"
+    },
+    {
+      "id": "VO_RUNNING",
+      "zh-CN": "开始执行了。我在这里陪你。",
+      "en-US": "Execution has started. I’m right here.",
+      "delivery": "calm",
+      "trigger": "run.started"
+    },
+    {
+      "id": "VO_PROGRESS",
+      "zh-CN": "有新进展，详细记录在工作台。",
+      "en-US": "There’s an update in the workbench.",
+      "delivery": "calm",
+      "trigger": "run.progress"
+    },
+    {
+      "id": "VO_REVIEWING",
+      "zh-CN": "我在认真核对，先别急着下结论。",
+      "en-US": "Verification is underway. Let’s wait for the result.",
+      "delivery": "focused",
+      "trigger": "verification.started"
+    },
+    {
+      "id": "VO_EXEC_END",
+      "zh-CN": "执行已经结束，结果还需要核对。",
+      "en-US": "Execution has ended. The result still needs review.",
+      "delivery": "neutral",
+      "trigger": "execution.completed"
+    },
+    {
+      "id": "VO_PARTIAL",
+      "zh-CN": "已经完成一部分，剩下的我们接着处理。",
+      "en-US": "Part of the work is done. Let’s address what remains.",
+      "delivery": "supportive",
+      "trigger": "business.partial"
+    },
+    {
+      "id": "VO_FAILED",
+      "zh-CN": "这一步遇到了问题，我们先看看具体原因。",
+      "en-US": "This step hit a problem. Let’s check the cause.",
+      "delivery": "supportive",
+      "trigger": "business.failed"
+    },
+    {
+      "id": "VO_VERIFIED",
+      "zh-CN": "检查通过，成果准备好了。做得漂亮。",
+      "en-US": "Verification passed. The result is ready. Nicely done.",
+      "delivery": "bright_controlled",
+      "trigger": "verification.passed"
+    },
+    {
+      "id": "VO_ACCEPTED",
+      "zh-CN": "这次交付已被接受，记录已经留下。",
+      "en-US": "This delivery has been accepted and recorded.",
+      "delivery": "bright",
+      "trigger": "owner.accepted"
+    },
+    {
+      "id": "VO_PAUSED",
+      "zh-CN": "已经停下，等你准备好再继续。",
+      "en-US": "It has stopped. Continue when you’re ready.",
+      "delivery": "calm",
+      "trigger": "run.cancelled"
+    },
+    {
+      "id": "VO_DISCONNECTED",
+      "zh-CN": "连接暂时断开，当前进度还不能确认。",
+      "en-US": "The connection is lost. I can’t confirm the current status.",
+      "delivery": "neutral",
+      "trigger": "connection.lost"
+    },
+    {
+      "id": "VO_RECONNECTED",
+      "zh-CN": "连接恢复了，我先核对当前状态。",
+      "en-US": "The connection is back. I’ll check the current state.",
+      "delivery": "calm",
+      "trigger": "connection.restored"
+    },
+    {
+      "id": "VO_CLICK",
+      "zh-CN": "嗯，我在。",
+      "en-US": "Yes? I’m here.",
+      "delivery": "playful_soft",
+      "trigger": "pointer.click"
+    },
+    {
+      "id": "VO_WAVE",
+      "zh-CN": "看到你了。有什么新想法吗？",
+      "en-US": "There you are. Any new ideas?",
+      "delivery": "playful",
+      "trigger": "pointer.greet"
+    },
+    {
+      "id": "VO_IDLE",
+      "zh-CN": "不用着急，我们按自己的节奏来。",
+      "en-US": "No rush. We’ll work at our own pace.",
+      "delivery": "gentle",
+      "trigger": "manual_idle"
+    },
+    {
+      "id": "VO_BREAK",
+      "zh-CN": "休息一下眼睛吧，我会安静待着。",
+      "en-US": "Give your eyes a moment. I’ll stay quiet.",
+      "delivery": "gentle",
+      "trigger": "local_break_opt_in"
+    },
+    {
+      "id": "VO_MUTE",
+      "zh-CN": "好，我安静陪着你。",
+      "en-US": "Of course. I’ll keep you quiet company.",
+      "delivery": "soft",
+      "trigger": "manual_mute"
+    },
+    {
+      "id": "VO_RETURN",
+      "zh-CN": "欢迎回来，先看看上次停在哪里。",
+      "en-US": "Welcome back. Let’s see where we left off.",
+      "delivery": "warm",
+      "trigger": "manual_return"
+    },
+    {
+      "id": "VO_UNKNOWN",
+      "zh-CN": "我还没有收到可靠回执，先不替它下结论。",
+      "en-US": "There’s no reliable receipt yet. Let’s not assume the outcome.",
+      "delivery": "neutral",
+      "trigger": "manual_unknown"
+    }
+  ]
+}
