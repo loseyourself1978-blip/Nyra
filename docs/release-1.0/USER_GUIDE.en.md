@@ -32,3 +32,5 @@ A manual celebration is labelled preview. A website finishing a reply does not v
 Sound controls provide mute, volume and explicit Chinese/English preview using installed system speech or your locally imported audio. Two original short UI chimes are included. No exclusive generated voice is claimed. Hidden Nyra stops frame and hover timers and audio; a connected read-only status check may remain active to keep connection truth current. Quit ends Nyra, not TWOS or any model task. Embedded and standalone production copies share preferences and allow one compatible active instance.
 
 [简体中文](USER_GUIDE.zh-CN.md) · [README](../../README.md)
+
+[Actual screenshots and recording / 真实截图与录像](MEDIA.en.md)

@@ -18,3 +18,5 @@ Currently supports macOS only. A Windows version is in development; no downloada
 [TWOS repository](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra releases](https://github.com/loseyourself1978-blip/Nyra/releases)
 
 Older R1–R4 documents are historical engineering records, not current installation instructions. Real final-candidate screenshots and media will accompany the verified release; static artwork is not evidence of animation playback.
+
+[Actual candidate screenshots and recording / 真实候选截图与录像](docs/release-1.0/MEDIA.en.md)
