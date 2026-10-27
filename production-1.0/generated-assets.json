@@ -1,0 +1,188 @@
+[
+  {
+    "path": "production-1.0/runtime/recline_office/nyra_office_recline_neutral.png",
+    "sha256": "fc9022411292f22de7d31eef31bd21a8b40436755ec81573e655412dee196191",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_gala/nyra_gala_recline_neutral.png",
+    "sha256": "dd57d6fdcee7f293aca4718a8af6939224383f9e0cbba4798debd53ec3a7d2af",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_office/nyra_office_recline_blink.png",
+    "sha256": "944f8fa41b1b0c6027f9a4c28c0134ead6fdf02d3fa03f01c8bae5c385ad5bc9",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_office/nyra_office_recline_work.png",
+    "sha256": "25a8f078c695cad415ca68e1fd73a596316b4d83f18f8365f9556fcfbe2e92bf",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_gala/nyra_gala_recline_blink.png",
+    "sha256": "79bfedadec18d3d51d5b7655b624f4c1cb854bef52c6488614d350abf80cdc43",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_office/nyra_office_recline_gaze.png",
+    "sha256": "966d4a902fa0161b47442b64b7dfd3580d8893cd30827151e973f4a263b3b189",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_office/nyra_office_recline_celebrate.png",
+    "sha256": "f8afa7e105f44529085bd7fcbe82fa9ee6a74d3036e9f713a1ac44fe0613740f",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_gala/nyra_gala_recline_work.png",
+    "sha256": "a9b2a6128498ddfb3b12f3fe7a207310c9d3e42022cdc8f9a37ba328827c9bbc",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "path": "production-1.0/runtime/recline_gala/nyra_gala_recline_gaze.png",
+    "sha256": "816da713c636c95e3772d720d484e730ac1362391021d42c9420d0b86bf524e1",
+    "origin": "OpenAI image generation, Owner-authorized Nyra iteration",
+    "use": "production full-size transparent runtime frame; sequence validation pending"
+  },
+  {
+    "file": "production-1.0/runtime/recline_default/nyra_default_recline_work.png",
+    "sha256": "f9bbdd5d19e535dc4d3e96aae2727dae1114e71c44277d1bc43198511ee22566",
+    "origin": "imagegen edit of Owner-provided Nyra reference; full-size transparent runtime candidate",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_default/nyra_default_recline_gaze.png",
+    "sha256": "3691af0bcae389fc7200ef4ead4712e395e0dc718ec0d3f0a92be46095e84f43",
+    "origin": "imagegen edit of Owner-provided Nyra reference; full-size transparent runtime candidate",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_default/nyra_default_recline_celebrate.png",
+    "sha256": "13a8fbcb41e9ecb87abd517466470a7b365cf4052838276a29ce635c7cbf9c89",
+    "origin": "imagegen edit of Owner-provided Nyra reference; full-size transparent runtime candidate",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala/nyra_gala_recline_celebrate.png",
+    "sha256": "daec4aed562339d4b0802e2784459b17e577e65af67fe4b4bf50882180ae7aa7",
+    "origin": "imagegen edit of Owner-provided Nyra reference; full-size transparent runtime candidate",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_run_left_1.png",
+    "sha256": "5d1b9376050607d0d907feaf32f0695afbf370284cb4e9b9fb74323145804c3d",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_run_left_2.png",
+    "sha256": "790ad7f48d19318a2d9c6063efbc668447444045d9b2f67d3077d58ed500d6d7",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_run_right_1.png",
+    "sha256": "9a585ccc7a377b86063c9f874ff8ac7b4c33a6f9aad9be13dda900c9a7da8fac",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_run_right_2.png",
+    "sha256": "c07f52079b008b7b262fc5c6378668b88b477ea5ffa40459e24fec941cce5b69",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_run_left_1.png",
+    "sha256": "5a25085e09286ec88fdfaa836304fe4f10dc8d2670356f3fa412244087e122a3",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_run_left_2.png",
+    "sha256": "495535c161cb0e86befc9c5d399cb25b3c37b3e491e5d735e76caa46337a5c53",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_run_right_1.png",
+    "sha256": "ac96c0466320d26e0a8aed5c4dbb9b0cb17d691e76b7388c22fc202434712e15",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_run_right_2.png",
+    "sha256": "345b2c148a0c47da7f7517ea89671c274a966c643210508f24011186f939c474",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office/nyra_office_recline_workblink.png",
+    "sha256": "d606cb1ac2cbf5ba68a02d8e609fabd9a8adbd37c630c109625ffbbb9bd494b8",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala/nyra_gala_recline_workblink.png",
+    "sha256": "60b6cac5106ee6ddecc10b989e75c9701468390994b81f95a6055f2b79c9ad6f",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/recline_default/nyra_default_recline_workblink.png",
+    "sha256": "4bafbef66a5c5f86cb881c3f35f290fcdd0c943014cc58fd224873a5885c9a43",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/default/nyra_default_rise.png",
+    "sha256": "adc4613dab732893b4f6a7f173692784212e8a012f097c513675c339c851e24a",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_rise.png",
+    "sha256": "5d3cc3c203c4001ccf923dc75d37e87ec63a69bde5c1d01196cb00ab398268dd",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_rise.png",
+    "sha256": "194baeedbf704e92499fc043e22c2c07b83f57f1322eae635465a91fd6097641",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_crouch.png",
+    "sha256": "17ffdc48ebe93633abe41e1f616bcd2a9a66210b6fe767a644661e46e0c41a52",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office/nyra_office_jump.png",
+    "sha256": "f4b9a03ed9756e8d87657fc9efa74bc588a2027e3bbae6659de76f84a9a250b5",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_crouch.png",
+    "sha256": "e8dd2cbd11ad2e0c2f445875972443939e59971f60ef1fff6a00fc57c1f34a0a",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/gala/nyra_gala_jump.png",
+    "sha256": "635fc310fb6599769e38fe10b527cc677a71356fbd7fd2600aa1ba0ea90c1756",
+    "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
+    "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  }
+]

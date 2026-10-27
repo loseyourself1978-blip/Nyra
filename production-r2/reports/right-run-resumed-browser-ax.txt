@@ -1,5 +1,0 @@
-Browser tab: 1, Title: "Nyra · 本地素材审片", URL: "http://127.0.0.1:8769/preview/animation_review.html".
-The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
-~		69 text 已暂停 · 帧切换 526 · 完整序列 65
-~		70 text pets / running-right · 槽 7/8 · nyra_run_right_06
-The focused UI element is 33 button 暂停, ID: stop

@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 4,
+  "sets": {
+    "default": {
+      "folder": "default",
+      "neutral": "nyra_neutral",
+      "width": 1024,
+      "height": 1536,
+      "bbox": [
+        30,
+        66,
+        989,
+        1419
+      ],
+      "sequences": {
+        "idle": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_neutral",
+            "nyra_idle_01",
+            "nyra_idle_02",
+            "nyra_idle_03",
+            "nyra_idle_04",
+            "nyra_idle_05"
+          ],
+          "durations_ms": [
+            1600,
+            180,
+            90,
+            110,
+            90,
+            220
+          ]
+        },
+        "working": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_working_00",
+            "nyra_working_01",
+            "nyra_working_02",
+            "nyra_working_03",
+            "nyra_working_04",
+            "nyra_working_05"
+          ],
+          "durations_ms": [
+            300,
+            160,
+            140,
+            160,
+            180,
+            300
+          ]
+        },
+        "gaze_head": {
+          "loop": false,
+          "interactive": true,
+          "asset_ids": [
+            "nyra_neutral",
+            "nyra_gaze_left",
+            "nyra_gaze_right",
+            "nyra_gaze_up",
+            "nyra_gaze_down"
+          ],
+          "durations_ms": [
+            200,
+            200,
+            200,
+            200,
+            200
+          ]
+        },
+        "verified_success": {
+          "loop": false,
+          "asset_ids": [
+            "nyra_neutral",
+            "nyra_success_01",
+            "nyra_success_02",
+            "nyra_success_03",
+            "nyra_success_04",
+            "nyra_neutral"
+          ],
+          "durations_ms": [
+            180,
+            320,
+            340,
+            420,
+            420,
+            220
+          ]
+        },
+        "running_right": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_run_right_00",
+            "nyra_run_right_01",
+            "nyra_run_right_02",
+            "nyra_run_right_03",
+            "nyra_run_right_04",
+            "nyra_run_right_05",
+            "nyra_run_right_06",
+            "nyra_run_right_07"
+          ],
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        "running_left": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_run_left_00",
+            "nyra_run_left_01",
+            "nyra_run_left_02",
+            "nyra_run_left_03",
+            "nyra_run_left_04",
+            "nyra_run_left_05",
+            "nyra_run_left_06",
+            "nyra_run_left_07"
+          ],
+          "durations_ms": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        },
+        "waving": {
+          "loop": false,
+          "asset_ids": [
+            "nyra_waving_00",
+            "nyra_waving_01",
+            "nyra_waving_02",
+            "nyra_waving_03"
+          ],
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180
+          ]
+        },
+        "jumping": {
+          "loop": false,
+          "asset_ids": [
+            "nyra_jumping_00",
+            "nyra_jumping_01",
+            "nyra_jumping_02",
+            "nyra_jumping_03",
+            "nyra_jumping_04"
+          ],
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180
+          ]
+        },
+        "failed": {
+          "loop": false,
+          "asset_ids": [
+            "nyra_failed_00",
+            "nyra_failed_01",
+            "nyra_failed_02",
+            "nyra_failed_03",
+            "nyra_failed_04",
+            "nyra_failed_05",
+            "nyra_failed_06",
+            "nyra_failed_07"
+          ],
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ]
+        },
+        "waiting": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_waiting_00",
+            "nyra_waiting_01",
+            "nyra_waiting_02",
+            "nyra_waiting_03",
+            "nyra_waiting_04",
+            "nyra_waiting_05"
+          ],
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ]
+        },
+        "review": {
+          "loop": true,
+          "asset_ids": [
+            "nyra_review_00",
+            "nyra_review_01",
+            "nyra_review_02",
+            "nyra_review_03",
+            "nyra_review_04",
+            "nyra_review_05"
+          ],
+          "durations_ms": [
+            180,
+            180,
+            180,
+            180,
+            180,
+            180
+          ]
+        },
+        "look_around": {
+          "loop": false,
+          "asset_ids": [
+            "nyra_gaze_up",
+            "nyra_gaze_cw_01",
+            "nyra_gaze_cw_02",
+            "nyra_gaze_cw_03",
+            "nyra_gaze_right",
+            "nyra_gaze_cw_05",
+            "nyra_gaze_cw_06",
+            "nyra_gaze_cw_07",
+            "nyra_gaze_down",
+            "nyra_gaze_cw_09",
+            "nyra_gaze_cw_10",
+            "nyra_gaze_cw_11",
+            "nyra_gaze_left",
+            "nyra_gaze_cw_13",
+            "nyra_gaze_cw_14",
+            "nyra_gaze_cw_15"
+          ],
+          "durations_ms": [
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220,
+            220
+          ]
+        },
+        "gaze_left": {
+          "asset_ids": [
+            "nyra_gaze_left"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_right": {
+          "asset_ids": [
+            "nyra_gaze_right"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_00": {
+          "asset_ids": [
+            "nyra_gaze_up"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_01": {
+          "asset_ids": [
+            "nyra_gaze_cw_01"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_02": {
+          "asset_ids": [
+            "nyra_gaze_cw_02"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_03": {
+          "asset_ids": [
+            "nyra_gaze_cw_03"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_04": {
+          "asset_ids": [
+            "nyra_gaze_right"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_05": {
+          "asset_ids": [
+            "nyra_gaze_cw_05"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_06": {
+          "asset_ids": [
+            "nyra_gaze_cw_06"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_07": {
+          "asset_ids": [
+            "nyra_gaze_cw_07"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_08": {
+          "asset_ids": [
+            "nyra_gaze_down"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_09": {
+          "asset_ids": [
+            "nyra_gaze_cw_09"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_10": {
+          "asset_ids": [
+            "nyra_gaze_cw_10"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_11": {
+          "asset_ids": [
+            "nyra_gaze_cw_11"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_12": {
+          "asset_ids": [
+            "nyra_gaze_left"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_13": {
+          "asset_ids": [
+            "nyra_gaze_cw_13"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_14": {
+          "asset_ids": [
+            "nyra_gaze_cw_14"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "gaze_15": {
+          "asset_ids": [
+            "nyra_gaze_cw_15"
+          ],
+          "durations_ms": [
+            1500
+          ],
+          "loop": false
+        },
+        "drag": {
+          "asset_ids": [
+            "nyra_waving_01",
+            "nyra_waving_02",
+            "nyra_waving_03"
+          ],
+          "durations_ms": [
+            220,
+            240,
+            240
+          ],
+          "loop": true
+        },
+        "settle": {
+          "asset_ids": [
+            "nyra_waving_00",
+            "nyra_neutral"
+          ],
+          "durations_ms": [
+            180,
+            300
+          ],
+          "loop": false
+        }
+      },
+      "capabilities": "默认77张画稿 · 12组原动作 + 共享帧鼠标反应"
+    },
+    "office": {
+      "folder": "office",
+      "neutral": "nyra_office_neutral",
+      "width": 1024,
+      "height": 1536,
+      "bbox": [
+        210,
+        87,
+        712,
+        1353
+      ],
+      "sequences": {
+        "idle": {
+          "asset_ids": [
+            "nyra_office_neutral",
+            "nyra_office_blink",
+            "nyra_office_neutral"
+          ],
+          "durations_ms": [
+            3200,
+            130,
+            1800
+          ],
+          "loop": true
+        },
+        "gaze_left": {
+          "asset_ids": [
+            "nyra_office_left"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": false
+        },
+        "gaze_right": {
+          "asset_ids": [
+            "nyra_office_right"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": false
+        },
+        "gaze_head": {
+          "asset_ids": [
+            "nyra_office_left",
+            "nyra_office_neutral"
+          ],
+          "durations_ms": [
+            500,
+            400
+          ],
+          "loop": false
+        },
+        "drag": {
+          "asset_ids": [
+            "nyra_office_drag"
+          ],
+          "durations_ms": [
+            1000
+          ],
+          "loop": true
+        },
+        "settle": {
+          "asset_ids": [
+            "nyra_office_drag",
+            "nyra_office_neutral"
+          ],
+          "durations_ms": [
+            180,
+            420
+          ],
+          "loop": false
+        },
+        "working": {
+          "asset_ids": [
+            "nyra_office_neutral",
+            "nyra_office_working",
+            "nyra_office_neutral"
+          ],
+          "durations_ms": [
+            500,
+            2600,
+            700
+          ],
+          "loop": true
+        },
+        "waiting": {
+          "asset_ids": [
+            "nyra_office_working"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": true
+        }
+      },
+      "capabilities": "PARTIAL_ANIMATION · 眨眼/注视/拖动/思考；缺跑跳/失败/庆祝"
+    },
+    "gala": {
+      "folder": "gala",
+      "neutral": "nyra_gala_neutral",
+      "width": 1024,
+      "height": 1536,
+      "bbox": [
+        130,
+        32,
+        856,
+        1469
+      ],
+      "sequences": {
+        "idle": {
+          "asset_ids": [
+            "nyra_gala_neutral",
+            "nyra_gala_blink",
+            "nyra_gala_neutral"
+          ],
+          "durations_ms": [
+            3200,
+            130,
+            1800
+          ],
+          "loop": true
+        },
+        "gaze_left": {
+          "asset_ids": [
+            "nyra_gala_left"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": false
+        },
+        "gaze_right": {
+          "asset_ids": [
+            "nyra_gala_right"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": false
+        },
+        "gaze_head": {
+          "asset_ids": [
+            "nyra_gala_left",
+            "nyra_gala_neutral"
+          ],
+          "durations_ms": [
+            500,
+            400
+          ],
+          "loop": false
+        },
+        "drag": {
+          "asset_ids": [
+            "nyra_gala_drag"
+          ],
+          "durations_ms": [
+            1000
+          ],
+          "loop": true
+        },
+        "settle": {
+          "asset_ids": [
+            "nyra_gala_drag",
+            "nyra_gala_neutral"
+          ],
+          "durations_ms": [
+            180,
+            420
+          ],
+          "loop": false
+        },
+        "working": {
+          "asset_ids": [
+            "nyra_gala_neutral",
+            "nyra_gala_working",
+            "nyra_gala_neutral"
+          ],
+          "durations_ms": [
+            500,
+            2600,
+            700
+          ],
+          "loop": true
+        },
+        "waiting": {
+          "asset_ids": [
+            "nyra_gala_working"
+          ],
+          "durations_ms": [
+            2000
+          ],
+          "loop": true
+        }
+      },
+      "capabilities": "PARTIAL_ANIMATION · 眨眼/注视/拖动/思考；缺跑跳/失败/庆祝"
+    },
+    "recline": {
+      "folder": "stage",
+      "neutral": "nyra_recline_neutral",
+      "width": 1536,
+      "height": 1024,
+      "bbox": [
+        13,
+        94,
+        1495,
+        810
+      ],
+      "sequences": {
+        "idle": {
+          "asset_ids": [
+            "nyra_recline_neutral",
+            "nyra_recline_blink",
+            "nyra_recline_neutral"
+          ],
+          "durations_ms": [
+            3200,
+            180,
+            2000
+          ],
+          "loop": true
+        },
+        "gaze_head": {
+          "asset_ids": [
+            "nyra_recline_blink",
+            "nyra_recline_neutral"
+          ],
+          "durations_ms": [
+            170,
+            600
+          ],
+          "loop": false
+        },
+        "drag": {
+          "asset_ids": [
+            "nyra_recline_blink"
+          ],
+          "durations_ms": [
+            500
+          ],
+          "loop": true
+        },
+        "settle": {
+          "asset_ids": [
+            "nyra_recline_blink",
+            "nyra_recline_neutral"
+          ],
+          "durations_ms": [
+            150,
+            400
+          ],
+          "loop": false
+        }
+      },
+      "capabilities": "黑紫侧卧2张 · 真实眨眼/发尾尾尖变化；其余动作缺失"
+    }
+  }
+}

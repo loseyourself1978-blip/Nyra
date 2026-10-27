@@ -1,4 +1,0 @@
-{
-  "status": "REJECTED",
-  "reason": "Full-body reference overrode pose guide. Remove leg-pose conditioning by using identity/costume crop."
-}

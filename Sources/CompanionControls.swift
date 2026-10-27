@@ -119,6 +119,8 @@ final class PanelView: NSView {
 }
 
 final class StageWindow: NSWindow {
+    override var canBecomeKey: Bool { true }
+    override var canBecomeMain: Bool { true }
     var onEscape: (() -> Void)?
     override func cancelOperation(_ sender: Any?) { onEscape?() }
 }

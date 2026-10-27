@@ -6,7 +6,7 @@ final class NyraAudio: NSObject {
     let speech = NSSpeechSynthesizer()
     private var player: AVAudioPlayer?
     private var effect: AVAudioPlayer?
-    var isMuted = false { didSet { if isMuted { stop() } } }
+    var isMuted = true { didSet { if isMuted { stop() } } }
     var volume: Float = 0.45 { didSet { speech.volume = volume; player?.volume = volume; effect?.volume = volume*0.5 } }
     var language = "auto"
     var customDirectory: URL?
@@ -105,7 +105,7 @@ final class AudioSettingsController: NSViewController {
         }
         refresh()
     }
-    func refresh() { info.stringValue = audio.sourceLabel + "\n仅手动试听；AI 定制语音暂缓。"; changed?() }
+    func refresh() { info.stringValue = audio.sourceLabel + "\n仅手动试听；使用已安装系统声线或你导入的音频。 / Manual preview: installed system voice or your imported audio."; changed?() }
     @objc func changeLanguage(_ sender: NSSegmentedControl) { audio.stop(); audio.language = ["auto","zh","en"][sender.selectedSegment]; refresh() }
     @objc func changeMute() { audio.isMuted = muted.state == .on; refresh() }
     @objc func changeVolume(_ sender: NSSlider) { audio.volume = sender.floatValue; refresh() }

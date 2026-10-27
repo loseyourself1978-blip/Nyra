@@ -5,13 +5,3 @@ __pycache__/
 .DS_Store
 *.dSYM/
 dist/
-# Account receipts and local machine lifecycle are retained locally, not published.
-production-r2/bundled-run/qa/pet-create-receipt.json
-production-r2/bundled-run/qa/pet-select-receipt.json
-production-r2/bundled-run/qa/pet-list-after.json
-production-r2/bundled-run/qa/owner-desktop-confirmation.json
-production-r2/bundled-run/qa/local-install-receipt.json
-production-r2/reports/pets-readiness-final.json
-production-r2/reports/run-state.json
-production-r2/reports/restarted-host-check.json
-production-r3/reports/github-publication-local.json

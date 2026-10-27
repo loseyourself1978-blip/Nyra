@@ -9,8 +9,8 @@ struct Outfit: Decodable {
     let width: Int
     let height: Int
     let runtimeReady: Bool
-    var isStaticOutfit: Bool { id == "runtime-office" }
-    var isTransparentArt: Bool { runtimeReady || isStaticOutfit }
+    var isStaticOutfit: Bool { id.hasPrefix("runtime-") && !runtimeReady }
+    var isTransparentArt: Bool { id.hasPrefix("runtime-") }
     var stateLabel: String { runtimeReady ? "P0 ANIMATION · SIMULATION" : isStaticOutfit ? "STATIC_OUTFIT_ONLY" : "STATIC_REFERENCE" }
 }
 

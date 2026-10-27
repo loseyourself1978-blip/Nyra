@@ -1,7 +1,0 @@
-{
-  "status": "PASS_SOURCE_PUBLICATION_SCAN",
-  "public_file_count": 1153,
-  "credential_findings": [],
-  "over_100MiB": [],
-  "scope": "Project public files and supplied ZIP text entries; local state and account receipts excluded; not a guarantee against all possible secrets"
-}
