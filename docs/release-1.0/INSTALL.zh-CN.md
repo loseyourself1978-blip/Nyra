@@ -2,7 +2,7 @@
 
 这是独立桌宠。TWOS 已内置固定版本 Nyra，使用 TWOS 时不需要再安装第二个包。
 
-当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。独立二进制的编译下限为 macOS 13.0；工程实测平台是 Apple Silicon。编译了 Intel 架构不等于 Intel 已实测，具体系统和签名结果以最终发行回执为准。
+当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。本包只含 Apple Silicon arm64。编译下限为 macOS 13.0，实际测试系统为 macOS 27.0.1；本版不声称更早系统或 Intel 已验证。见[发行回执](release.json)。
 
 1. 在本仓库对应 Release 下载 **Nyra DMG** 及配套 `SHA256SUMS`。工单 ZIP 和 GitHub 自动生成的源码 ZIP 不是安装包。
 2. 打开 DMG，把 **Nyra** 拖入 **Applications/应用程序**。推出 DMG，从应用程序打开。只处理 macOS 对这个已签名产品的正常首次启动提示；如果提示签名无效或阻止启动，请先看故障排查，不关闭 Gatekeeper、不移除隔离标记。

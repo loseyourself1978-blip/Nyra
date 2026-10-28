@@ -2,7 +2,7 @@
 
 This is the standalone companion. TWOS includes its own pinned Nyra component: TWOS users do not need this second installer.
 
-Currently supports macOS only. A Windows version is in development; no downloadable build is available yet. The standalone binary targets macOS 13.0 or later. Apple Silicon is the engineering test platform; a compiled Intel slice is not proof of Intel testing. Consult the final release receipt for tested systems and signing results.
+Currently supports macOS only. A Windows version is in development; no downloadable build is available yet. This installer contains arm64 code for Apple Silicon. The deployment target is macOS 13.0, but the actual tested platform is macOS 27.0.1; older systems and Intel are not verified by this release. See the [release receipt](release.json).
 
 1. Download the **Nyra** DMG and its matching `SHA256SUMS` from this repository's release. The work-order ZIP and automatic GitHub source ZIP are not installers.
 2. Open the DMG. Drag **Nyra** into **Applications**. Eject the DMG and open the installed app. Approve only the normal macOS launch prompt for this signed product. If macOS reports an invalid signature or blocks the app, stop and consult Troubleshooting; do not disable Gatekeeper or remove quarantine.

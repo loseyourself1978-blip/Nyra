@@ -1,6 +1,6 @@
-# Nyra 1.0.0 release notes
+# Nyra 1.0.0 — release notes
 
-Status: engineering candidate; formal publication and final Owner differential acceptance are not yet recorded. This document must be paired with the final signed release receipt.
+Signing and engineering checks passed: both app and DMG notarizations are Accepted, tickets are stapled and Gatekeeper accepts them. The matching complete suite passed 1726 tests, skipped one retained historical-installer upgrade test and had zero failures, with 38 actual Safari measurements. Isolated signed installation, both bundled/standalone launch orders and network-denied bundled display passed. See the [release receipt](release.json) for exact source, SHA-256 and notarization IDs. Final Owner differential acceptance remains PENDING; earlier business acceptance is preserved.
 
 Changes: event-driven idle/work/wait truth; bounded manual playback; edge/cooldown hover; screen-coordinate directional drag with common-mode frame scheduling; same-outfit reclining and rise/action/lower transitions for Black & purple, Office and Gala; transparent screen-sized stage with reachable controls; shared production preferences and a single-instance guard; a pinned TWOS helper and standalone distribution.
 
