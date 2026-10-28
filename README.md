@@ -20,3 +20,7 @@ Currently supports macOS only. A Windows version is in development; no downloada
 Older R1–R4 documents are historical engineering records, not current installation instructions. Real final-candidate screenshots and media will accompany the verified release; static artwork is not evidence of animation playback.
 
 [Actual candidate screenshots and recording / 真实候选截图与录像](docs/release-1.0/MEDIA.en.md)
+
+![ Actual Nyra 1.0 candidate: office outfit on the transparent stage. ](docs/release-1.0/images/nyra-office-reclining.png)
+
+Actual Nyra 1.0 candidate: office outfit on the transparent stage.

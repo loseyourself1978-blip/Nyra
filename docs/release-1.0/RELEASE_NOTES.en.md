@@ -6,6 +6,6 @@ Changes: event-driven idle/work/wait truth; bounded manual playback; edge/cooldo
 
 The release includes original UI chimes and installed-system/user-imported speech support. It does not include an exclusive generated voice, Windows installer, model access credentials, or an agent with task-execution authority.
 
-Evidence remains separate: native unit/simulation tests, engineering GUI, real transport, Owner product acceptance and public distribution. Old PARTIAL/business receipts are not rewritten. Final supported-system, asset hash, signing, notarization and test details belong in the release receipt. Optional video is not yet recorded; only actual final-candidate captures may be published.
+Evidence remains separate: native unit/simulation tests, engineering GUI, real transport, Owner product acceptance and public distribution. Old PARTIAL/business receipts are not rewritten. Final supported-system, asset hash, signing, notarization and test details belong in the release receipt. A 90-second actual Nyra walkthrough with English and Simplified Chinese subtitles is recorded. Its scope and the separate TWOS installation-video limitation are described in [Media](MEDIA.en.md).
 
 [简体中文](RELEASE_NOTES.zh-CN.md) · [README](../../README.md)
