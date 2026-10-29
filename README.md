@@ -1,12 +1,17 @@
 # Nyra 1.0 · local desktop companion
 
+**R2 candidate documentation — not a release/GUI PASS receipt.** Native and synthetic regression evidence is recorded separately. Actual provider round trips, attachments and final packaged interface checks remain pending until the matching receipt records them.
+
+R2 proposes Nyra 1.0.1 / 101: a distinct clickable hover-stage control, top safe-area toolbar and authenticated both-pane state. The published [v1.0.0](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.0) remains unchanged.
+
+
 [简体中文](README.zh-CN.md)
 
 Nyra is a transparent macOS companion with three outfits, desktop interaction, a transparent character stage and optional read-only TWOS task status. It cannot execute or approve work. TWOS includes a pinned Nyra copy; the standalone app is for people who want the companion separately.
 
 Currently supports macOS only. A Windows version is in development; no downloadable build is available yet.
 
-**Nyra 1.0.0 / build 100** provides an Apple Silicon installer signed with Developer ID, notarized by Apple and checked with Gatekeeper. [Download this version](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.0) · [Signature, hash and validation receipt](docs/release-1.0/release.json). Earlier tags/releases are preserved. Publication does not grant Owner differential acceptance.
+Published Nyra v1.0.0 remains unchanged. New Nyra 1.0.1 / 101 is an R2 engineering candidate, not a published or Owner-accepted update. Use only a matching signed/notarized release receipt.
 
 - [Install](docs/release-1.0/INSTALL.en.md)
 - [Use: hover, drag, actions, outfits, transparent stage and sound](docs/release-1.0/USER_GUIDE.en.md)
@@ -17,10 +22,4 @@ Currently supports macOS only. A Windows version is in development; no downloada
 
 [TWOS repository](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra releases](https://github.com/loseyourself1978-blip/Nyra/releases)
 
-Older R1–R4 documents are historical engineering records, not current installation instructions. Actual candidate screenshots and a subtitled recording accompany this release; static artwork is not evidence of animation playback.
-
-[Actual candidate screenshots and recording / 真实候选截图与录像](docs/release-1.0/MEDIA.en.md)
-
-![ Actual Nyra 1.0 candidate: office outfit on the transparent stage. ](docs/release-1.0/images/nyra-office-reclining.png)
-
-Actual Nyra 1.0 candidate: office outfit on the transparent stage.
+Older R1–R4 documents are historical engineering records, not current installation instructions. Real final-candidate screenshots and media will accompany the verified release; static artwork is not evidence of animation playback.

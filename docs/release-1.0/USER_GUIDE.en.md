@@ -1,5 +1,8 @@
 # Use Nyra 1.0
 
+**R2 candidate documentation — not a release/GUI PASS receipt.** Native and synthetic regression evidence is recorded separately. Actual provider round trips, attachments and final packaged interface checks remain pending until the matching receipt records them.
+
+
 Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.
 
 ## Desktop
@@ -10,7 +13,7 @@ The control ring offers outfit, transparent stage, sound, Actions, smaller/large
 
 ## Three outfits and stage
 
-Black & purple, Office and Gala each have standing and reclining runtime art. In the transparent stage, choose an outfit at the top and **Pose** at the bottom. Reclining supports blink, gaze, work, wait and a celebration preview. Running or jumping uses matching-outfit rise → action → lower frames. No standing image is rotated to impersonate a reclining pose.
+Black & purple, Office and Gala each have standing and reclining runtime art. In the transparent stage, choose an outfit at the top and **Pose** in the top safe toolbar. Reclining supports blink, gaze, work, wait and a celebration preview. Running or jumping uses matching-outfit rise → action → lower frames. No standing image is rotated to impersonate a reclining pose.
 
 The stage is a screen-sized transparent window, not a black macOS fullscreen Space. Blank areas pass pointer input through; the character and control buttons remain interactive. **Desktop**, **Stage/Back**, or Esc while the stage has focus returns to the saved desktop position, size and outfit. Hiding or quitting also restores that desktop configuration. There is no global keyboard listener.
 
@@ -33,15 +36,11 @@ Sound controls provide mute, volume and explicit Chinese/English preview using i
 
 [简体中文](USER_GUIDE.zh-CN.md) · [README](../../README.md)
 
-[Actual screenshots and recording / 真实截图与录像](MEDIA.en.md)
 
+## R2 controls and connection
 
-## Action coverage in this release
+Use the separate lower-right hover Stage arrow with a single click; resize with the ruler grip/wheel. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, three outfits and desktop restoration remain unchanged.
 
-| Outfit | Desktop and directional drag | Transparent reclining stage | Manual preview |
-|---|---|---|---|
-| Black & purple | Idle, hover jump, left/right run | Blink, gaze, work, wait, celebrate | Shared actual playback entry |
-| Office | Same; running uses 2 painted frames | Matching reclining art and rise/lower transition | Shared actual playback entry |
-| Gala | Same; running uses 2 painted frames | Matching reclining art and rise/lower transition | Shared actual playback entry |
+Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
 
-A preview restores the real base state. Partial, failed, cancelled or unverified completion does not automatically celebrate. Audio covers two original chimes, installed system speech and local user imports, muted by default; no exclusive AI voice is included.
+A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
