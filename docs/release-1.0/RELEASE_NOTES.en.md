@@ -1,25 +1,37 @@
-# Nyra 1.0.1 / 101 — R2 release notes
-
-The matching complete main gate passed 1782 tests, skipped 1 retained historical-installer case and had zero failures, including 38 actual Safari measurements. App and DMG are newly notarized bytes; see the [release receipt](release.json) for signatures and hashes. Owner differential acceptance remains PENDING; original failures and PARTIAL receipts are preserved.
-
-**R2 verification scope.** The signed TWOS 1.0.2 / 101.50 candidate completed one explicitly started three-round-trip exchange between real ChatGPT and Claude webpages: six submissions and six matched complete replies, with no manual per-turn send or check. Reopening preserved the completed exchange without replay. TXT, PNG and simple text-layer PDF readability was observed in both directions; native/synthetic boundary checks are recorded separately. The matching complete main regression and new notarization are recorded in the release receipt; the linked GitHub Release records publication. These observations do not grant Owner acceptance.
+# Nyra 1.0.2 / 102 · R3
 
 
-Status: signed, notarized and engineering-validated R2 distribution; final Owner differential acceptance remains separate. Use the matching release receipt and GitHub Release for exact distribution facts.
-
-Changes: event-driven idle/work/wait truth; bounded manual playback; edge/cooldown hover; screen-coordinate directional drag with common-mode frame scheduling; same-outfit reclining and rise/action/lower transitions for Black & purple, Office and Gala; transparent screen-sized stage with reachable controls; shared production preferences and a single-instance guard; a pinned TWOS helper and standalone distribution.
-
-The release includes original UI chimes and installed-system/user-imported speech support. It does not include an exclusive generated voice, Windows installer, model access credentials, or an agent with task-execution authority.
-
-Evidence remains separate: native unit/simulation tests, engineering GUI, real transport, Owner product acceptance and public distribution. Old PARTIAL/business receipts are not rewritten. Final supported-system, asset hash, signing, notarization and test details belong in the release receipt. Optional video is not yet recorded; only actual final-candidate captures may be published.
-
-[简体中文](RELEASE_NOTES.zh-CN.md) · [README](../../README.md)
+R3 candidate: normal-reply handoff, explicit stop and separate Nyra transport/activity/rendering. Final package and release evidence pending. [R3 incremental guide / R3 差量指南](OWNER_REGRESSION_R3.en.md).
 
 
-## R2 controls and connection
+**Candidate scope: TWOS 1.0.3 / 101.51 with Nyra 1.0.2 / 102. Final packaged validation, notarization and publication are pending. This document is not an acceptance receipt.**
 
-Use the separate lower-right hover Stage arrow with a single click; resize with the ruler grip/wheel. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, three outfits and desktop restoration remain unchanged.
+The Owner reported a missing inline action on a normal reply, a new topic paired with an older response, and an inactive companion despite a connected status. That failed Owner retest remains recorded. Earlier engineering passes and accepted business artifacts remain separate; no old debate is replayed.
 
-Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
+## A · Upgrade checks only
 
-A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
+1. After the new candidate is available, normally quit the old app and replace it using the matching DMG. Keep the existing profile and website sign-ins. Do not clear website storage or recreate accepted tasks.
+2. In the chosen two conversations, a complete ordinary reply has **Send to Claude / Send to ChatGPT**, matching the opposite pane. Headings, prose, lists, tables and code are supported. **View selected content** shows this exact reply. If completion is uncertain, the entry stays visible with a reason and **Check reply readiness**; it does not send a partial answer. A stopped latest turn never falls back to an earlier topic. Earlier complete replies retain their own identity when explicitly chosen.
+3. For automatic exchange, select **Use latest complete reply from the left** or enter a new first instruction. Check both conversations, roles and the exact selected files. Choose bounded rounds/time or **Until you stop · no round or time limit**, then click **Start automatic exchange** once. No manual warm-up exchange is required. Unknown delivery, login, verification, service limits or changed targets pause rather than blindly retry.
+4. A website's native Stop on either side stops subsequent automatic dispatch first. Each pane also has **Stop automatic exchange**, and the exchange window has **Stop future exchanges**. Host Stop does not claim to cancel a generation already running at the provider. In-flight delivery stays recorded; a native interrupted reply is not forwarded as a complete reply. **Check delivery** is read-only. Restart preserves stopped state; continuing requires an explicit action.
+5. **Nyra status** separates the exact visible consumer's transport connection, each pane's activity/reason/freshness, and actual animation clip/frame progress. Connected with unknown activity is an observation problem, not a transport disconnect. Either active pane keeps working animation; both fresh and idle are required for idle. Short hover/drag animations return to the true base state. Unverified website replies never trigger success celebration.
+
+**End here after the incremental checks.** Do not repeat travel, LDD, saved files or earlier Open/View/Save/Finder acceptance. The new Owner differential result is separate from implementation and public release.
+
+## B · First use
+
+Use the existing installation and first-task guide. Confirm the intended service and conversation, sign in normally, and select only the instructions/files to share. Website answers do not grant local filesystem, command, approval or Git permissions. Nyra is bundled with TWOS; an additional pet installation is unnecessary.
+
+## C · Continue a saved task
+
+Open the existing conversations and retained receipt. Inspect uncertain delivery before any new submission. Completed or stopped exchange history is not a new start request. A new latest user question cannot be answered by silently substituting an older response from the other pane.
+
+## Diagnosis and evidence boundaries
+
+An isolated real ChatGPT page exposed bilingual speaker headings (`你说：You`, `ChatGPT 说：ChatGPT`) without the older message IDs. The old exact-heading rule grouped multiple rendered replies as one. R3 uses the same canonical composer/message boundary for cards, selection and reconciliation. Hidden compatibility inputs and nested editors no longer create false ambiguity; genuinely independent composers remain unknown with an explanatory card. This live mechanism and synthetic ambiguity case are not a claim that every detail of the Owner's original page was captured.
+
+Native ChatGPT stopped-thinking and Claude interrupted-reply UI are terminal evidence only within the matched turn. Quoted text in an answer is not a stop command. Receipt delivery, completed response, business verification and Owner acceptance remain distinct.
+
+Nyra v3 adds only side state, bounded observation reason and freshness to the authenticated minimal protocol. Consumer instance, last snapshot receipt, last state change, actual clip and advancing frame counter are independently observable. Same-value snapshots refresh liveness without restarting the first animation frame. Signature and exact peer checks remain enforced. No chat, attachment bytes, paths, code, account information or credentials are sent to Nyra.
+
+Currently macOS only. Windows is in development; no downloadable Windows version exists. Existing artwork, outfits, transparent stage, top safe-area controls and sound scope are retained. See the matching release receipt for actual tested platform, final source, signatures and hashes.
