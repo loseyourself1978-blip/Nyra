@@ -1,6 +1,6 @@
 # Privacy and permissions
 
-**R2 candidate documentation — not a release/GUI PASS receipt.** Native and synthetic regression evidence is recorded separately. Actual provider round trips, attachments and final packaged interface checks remain pending until the matching receipt records them.
+**R2 verification scope.** The signed TWOS 1.0.2 / 101.50 candidate completed one explicitly started three-round-trip exchange between real ChatGPT and Claude webpages: six submissions and six matched complete replies, with no manual per-turn send or check. Reopening preserved the completed exchange without replay. TXT, PNG and simple text-layer PDF readability was observed in both directions; native/synthetic boundary checks are recorded separately. The matching complete main regression and new notarization are recorded in the release receipt; the linked GitHub Release records publication. These observations do not grant Owner acceptance.
 
 
 Nyra draws local bundled assets. It needs no browser cookies, model token, cloud account or business document. The read-only TWOS connection accepts only the versioned minimal event contract: producer/session/task IDs, sequence/event ID, timestamp, state, source, simulation marker and optional opaque evidence reference. It must not contain prompts, code, account identity, private paths, trading or medical content.

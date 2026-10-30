@@ -1,17 +1,34 @@
 {
   "product": "Nyra",
-  "version": "1.0.0",
-  "source_commit": "37d8cf8a8d12cf6a6622fe8bcca663fc525659ae",
-  "artifact": "Nyra-1.0.0-arm64.dmg",
-  "bytes": 166053692,
-  "sha256": "883a809e56919fd25041593ae795f8040293aca900fae27361b421c8082c21a2",
-  "app_notarization_id": "2fd698f7-84e0-429a-909e-f163e70aee99",
-  "dmg_notarization_id": "ad45167b-2627-4d7c-8cc1-e856bfe1f69e",
+  "version": "1.0.1",
+  "build": "101",
+  "source_commit": "d49012ff868d28e76463aab557ccf2bc84f413d1",
+  "artifact": "Nyra-1.0.1-build-101-arm64.dmg",
+  "bytes": 166028237,
+  "sha256": "3dd3e96ec12ffa28d52f2d748537dc087299a64724958ec817b0e5ed439e7b82",
+  "app_notarization_id": "d1d386ac-4512-4f4a-b712-dac965d3c968",
+  "dmg_notarization_id": "11e26462-f77e-4574-98ee-171385022168",
   "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
   "gatekeeper": "PASS",
   "architecture": "arm64",
-  "owner_differential_acceptance": "PENDING",
-  "build": "100",
+  "owner_differential_acceptance": "PENDING_NOT_GRANTED_BY_ENGINEERING",
+  "main_gate": {
+    "complete_pass": true,
+    "state": "COMPLETE_GREEN",
+    "counts": {
+      "passed": 1782,
+      "skipped": 1
+    },
+    "collected": 1783,
+    "safari": {
+      "measurements": 38,
+      "visible_start": 38,
+      "visible_finish": 38,
+      "errors": []
+    }
+  },
+  "at": "2026-10-30T16:57:47.238795+08:00",
+  "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
   "status": "SIGNED_NOTARIZED_VALIDATED",
   "notarization_status": "Accepted",
   "stapled": true,
@@ -22,21 +39,43 @@
   },
   "deployment_target": "13.0",
   "other_macos_and_intel": "NOT_TESTED_NOT_SHIPPED_AS_INTEL",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.0",
-  "publication_authorization": "TWOS-NYRA-1_0-JOINT-RELEASE-R1",
-  "captured_at": "2026-10-28T14:55:38.577676+08:00",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.1",
+  "publication_authorization": "TWOS-NYRA-BIDIRECTIONAL-ACTIVITY-AND-STAGE-R2",
+  "captured_at": "2026-10-30T17:12:27.304832+08:00",
   "validation": {
     "full_suite": {
-      "passed": 1726,
+      "passed": 1782,
       "skipped": 1,
-      "failed": 0,
+      "collected": 1783,
       "safari_measurements": 38,
-      "scope": "TWOS matching stable input; Nyra runtime included; one retained historical-package upgrade test skipped"
+      "scope": "One complete stable-input serial macOS/Safari gate; original failed batch retained privately; one explicitly retained historical-package upgrade case skipped"
     },
-    "signed_fresh_install": "PASS_REAL_GUI",
-    "signed_coexistence": "PASS_REAL_GUI_BOTH_LAUNCH_ORDERS",
-    "offline_bundled_display": "PASS_REAL_GUI_WITH_DENY_NETWORK_PROFILE",
-    "quarantine_launch": "PASS_NORMAL_OPEN_WITH_EXPLICIT_QUARANTINE_FIXTURE_NOT_BROWSER_DOWNLOAD",
-    "business_acceptance": "PRESERVED_NOT_REPLAYED"
+    "real_bidirectional": "SIGNED_GUI_BASELINE_THREE_ROUNDTRIPS_SIX_EXACT_REPLIES; NATIVE_CLIENT_INPUTS_BYTE_IDENTICAL_IN_FINAL_PACKAGE",
+    "restart_no_replay": "REAL_GUI_SIGNED_BASELINE_PASS; UNCHANGED_NATIVE_CLIENT_INPUTS_REUSED",
+    "files": "REAL_GUI_TXT_PNG_SIMPLE_TEXT_LAYER_PDF_BOTH_DIRECTIONS; packaged upload-script identities checked",
+    "returned_artifact": "REAL_PROVIDER_DOWNLOAD_THEN_EXACT_BYTES_UPLOAD_AND_READ",
+    "both_pane_animation": "REAL_GUI_OBSERVER_AND_AGGREGATE_INPUTS_UNCHANGED; advancing frames",
+    "stage_controls": "REAL_GUI_FINAL_BUNDLED_AND_STANDALONE; physical hover separately OWNER_CONFIRMED",
+    "safe_area": "BOTTOM_VISIBLE_DOCK_REAL_GUI; other Dock/notch/narrow cases NATIVE_GEOMETRY_FIXTURES_ONLY",
+    "business_acceptance": "PRESERVED_NOT_REPLAYED",
+    "new_video": "NOT_RECORDED; prior R1 recording labelled historical",
+    "gui_input_reuse": {
+      "baseline_twos_source": "0efc6e3924de7ad88282d75da34cd4281f8e7d97",
+      "changed_runtime_input": "twos_runtime/run_lifecycle.py",
+      "change_scope": "Legacy run terminal cancellation/timeout/failure settlement; native workbench and Nyra inputs byte-identical",
+      "regression": "Six deterministic stale-read cases plus matching complete suite; original negative-control failure preserved"
+    },
+    "final_notarized_installer": {
+      "actual_gui_launch": "PASS",
+      "version": "1.0.1",
+      "build": "101",
+      "source_commit": "d49012ff868d28e76463aab557ccf2bc84f413d1",
+      "dmg_sha256": "3dd3e96ec12ffa28d52f2d748537dc087299a64724958ec817b0e5ed439e7b82",
+      "exact_installed_manifest": "PASS",
+      "standalone_stage": "REAL_GUI transparent stage/top controls/Back",
+      "coexist": "One standalone PID throughout hide/show and host restart; independent lifecycle preserved",
+      "restart_scope": "Quarantine translocation changed producer path, so exact peer binding safely returned NOT_CONNECTED. This is not an automatic task-link reconnect PASS. Unchanged bundled baseline restart evidence is separately recorded.",
+      "new_model_turns": 0
+    }
   }
 }

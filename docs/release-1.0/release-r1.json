@@ -1,0 +1,42 @@
+{
+  "product": "Nyra",
+  "version": "1.0.0",
+  "source_commit": "37d8cf8a8d12cf6a6622fe8bcca663fc525659ae",
+  "artifact": "Nyra-1.0.0-arm64.dmg",
+  "bytes": 166053692,
+  "sha256": "883a809e56919fd25041593ae795f8040293aca900fae27361b421c8082c21a2",
+  "app_notarization_id": "2fd698f7-84e0-429a-909e-f163e70aee99",
+  "dmg_notarization_id": "ad45167b-2627-4d7c-8cc1-e856bfe1f69e",
+  "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
+  "gatekeeper": "PASS",
+  "architecture": "arm64",
+  "owner_differential_acceptance": "PENDING",
+  "build": "100",
+  "status": "SIGNED_NOTARIZED_VALIDATED",
+  "notarization_status": "Accepted",
+  "stapled": true,
+  "tested_platform": {
+    "architecture": "arm64",
+    "macos": "27.0.1",
+    "safari": "27.0.1"
+  },
+  "deployment_target": "13.0",
+  "other_macos_and_intel": "NOT_TESTED_NOT_SHIPPED_AS_INTEL",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.0",
+  "publication_authorization": "TWOS-NYRA-1_0-JOINT-RELEASE-R1",
+  "captured_at": "2026-10-28T14:55:38.577676+08:00",
+  "validation": {
+    "full_suite": {
+      "passed": 1726,
+      "skipped": 1,
+      "failed": 0,
+      "safari_measurements": 38,
+      "scope": "TWOS matching stable input; Nyra runtime included; one retained historical-package upgrade test skipped"
+    },
+    "signed_fresh_install": "PASS_REAL_GUI",
+    "signed_coexistence": "PASS_REAL_GUI_BOTH_LAUNCH_ORDERS",
+    "offline_bundled_display": "PASS_REAL_GUI_WITH_DENY_NETWORK_PROFILE",
+    "quarantine_launch": "PASS_NORMAL_OPEN_WITH_EXPLICIT_QUARANTINE_FIXTURE_NOT_BROWSER_DOWNLOAD",
+    "business_acceptance": "PRESERVED_NOT_REPLAYED"
+  }
+}

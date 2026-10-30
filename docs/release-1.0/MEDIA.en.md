@@ -1,4 +1,24 @@
-# Actual candidate media · Nyra 1.0.0
+# Actual R2 interface · Nyra
+
+TWOS 1.0.2 / build 101.50, bundled and standalone Nyra 1.0.1 / build 101. These screenshots were captured from the isolated, Developer ID signed final candidates. No private account, business history or generated UI mockup is shown. Notarization and publication are separate gates in the matching release receipt.
+
+## Stage entry and top toolbar
+
+![Distinct desktop Stage arrow and resize grip](images/r2-nyra-desktop-stage-entry.png)
+
+The lower-right Stage arrow is a button; the ruler grip is a separate resize control. The captured desktop status is **Disconnected / unknown**: it illustrates the neutral disconnected appearance and controls, not a connected task.
+
+![Actual transparent stage with top controls](images/r2-nyra-top-stage.png)
+
+The actual stage shows the top outfit, pose, return, actions, sound, hide and quit controls. PNG alpha is preserved; the image viewer may paint a black or white background. The live stage's blank area remains click-through. Wave advanced actual frames and returned to the real base state. Physical hover-and-click and earlier blank-area click-through have separately identified Owner evidence.
+
+## Recording scope
+
+No new R2 video was recorded. Current R2 controls are documented by the screenshots above and the bilingual operating guide. The earlier R1 recording below demonstrates accepted artwork/outfit capabilities only; its older toolbar and source identity are historical and do not prove R2 automatic exchange or top-toolbar changes.
+
+---
+
+# Historical R1 candidate media · Nyra 1.0.0
 
 These are actual isolated candidate windows, without private accounts or history. They are not generated UI mockups. Screenshots show the controls and artwork; animation and task truth have separate runtime evidence.
 
