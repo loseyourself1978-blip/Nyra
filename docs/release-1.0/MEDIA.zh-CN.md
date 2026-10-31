@@ -1,3 +1,19 @@
+# R3 真实界面
+
+TWOS 1.0.3 / 101.51 与 Nyra 1.0.2 / 102。以下为最终隔离候选的真实窗口，仅含 TEST ONLY 工程对话，不含 Owner 原辩论。
+
+![最终候选完成三个真实往返](images/r3-automatic-three-roundtrips.png)
+
+一次开始产生六次准确提交及完整回复。截图记录界面；正文 hash、停止和重启检查另有回执。
+
+![同一可见 Nyra 的真实工作帧](images/r3-nyra-working.png)
+
+已另行观察认证 consumer 的真实 clip 与帧推进。PNG 保留透明度，查看器可能显示黑底或白底；单张截图本身不证明动画。
+
+本轮未录新 R3 视频，以真实截图和运行观察记录本次补丁。下方旧录像仍属于历史资料。
+
+---
+
 # R2 实际界面 · Nyra
 
 TWOS 1.0.2 / 构建 101.50，内置及独立 Nyra 1.0.1 / 构建 101。以下截图来自隔离的最终 Developer ID 签名候选，不含私人账号、业务历史，也不是生成的界面示意。公证和发布状态以对应发行回执为准。
@@ -46,3 +62,12 @@ PNG 保留透明通道，查看器可能用黑色或白色呈现空白。实际�
 以下是最终签名、公证包内 Nyra 的实际隔离窗口，未含私人资料。最终 TWOS 同时实际读回原工程任务并打开 `status-check.txt`；未为截图新增模型调用。该任务窗口的完整截图仅保留在本机验证证据，因为背景含账户遥测。
 
 ![最终签名 Nyra 控制环](images/nyra-signed-office-controls.png)
+
+
+## 最终源码的普通回复入口和新鲜度
+
+实际公证版 TWOS 1.0.3 / 101.51 原生界面：截图早于最终仅涉及 Python 的兼容修正，最终发行的原生界面输入保持相同。左侧完整标题／段落／列表回复下有 Send to Claude，右侧普通段落回复下有 Send to ChatGPT。这是两条已保存的非敏感工程回复，不把画面中的两段文字冒称同一请求／回答；真实送达关系另以回执哈希证明。没有为了截图发起新模型任务。状态图特意展示生产者变化后，仍存活的消费者旧活动正确标为 Stale；明确重连后的恢复已另行验证。
+
+![Ordinary reply actions / 普通回复入口](images/ordinary-reply-actions-final-03.png)
+
+![Stale observations / 旧活动](images/nyra-stale-state-final-03.png)

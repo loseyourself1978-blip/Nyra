@@ -1,3 +1,19 @@
+# R3 actual interface
+
+TWOS 1.0.3 / 101.51 and Nyra 1.0.2 / 102. These are actual isolated candidate windows with TEST ONLY engineering conversations, not Owner debates.
+
+![Final candidate, three actual round trips](images/r3-automatic-three-roundtrips.png)
+
+One Start produced six matched submissions and complete replies. The screenshot is an interface record; hashes and stop/restart checks are separately recorded.
+
+![Same visible Nyra in a real working frame](images/r3-nyra-working.png)
+
+The authenticated consumer’s actual working clip and frame counter were observed independently. Transparent PNG alpha may appear black or white in a viewer. This single screenshot does not prove animation by itself.
+
+No new R3 video was recorded. The actual screenshots and runtime observations cover this patch; the earlier recording below remains historical.
+
+---
+
 # Actual R2 interface · Nyra
 
 TWOS 1.0.2 / build 101.50, bundled and standalone Nyra 1.0.1 / build 101. These screenshots were captured from the isolated, Developer ID signed final candidates. No private account, business history or generated UI mockup is shown. Notarization and publication are separate gates in the matching release receipt.
@@ -46,3 +62,12 @@ Binary source: TWOS `293e4f9a80194ea7dce1107732cb104f6d60892f`; pinned Nyra `37d
 This is the actual isolated Nyra window from the signed, notarized installer, without private content. The final TWOS package also reopened the existing engineering task and displayed `status-check.txt`; no extra model task was run for media. Its full task-window capture remains local evidence because the background includes account telemetry.
 
 ![Final signed Nyra controls](images/nyra-signed-office-controls.png)
+
+
+## Final-source ordinary reply actions and freshness
+
+Actual notarized TWOS 1.0.3 / 101.51 native UI before the final Python-only compatibility correction; native UI inputs are unchanged in the final distribution. The left complete heading/paragraph/list reply has Send to Claude; the right complete prose reply has Send to ChatGPT. These are two saved, non-sensitive engineering replies, not a claim that the two visible texts are one request/response pair. Delivery correspondence is proved by the separate receipt hashes. No new model turn was started for these screenshots. The status image intentionally shows a live consumer with old observations labelled Stale after the producer changed; explicit reconnection was separately verified.
+
+![Ordinary reply actions / 普通回复入口](images/ordinary-reply-actions-final-03.png)
+
+![Stale observations / 旧活动](images/nyra-stale-state-final-03.png)
