@@ -1,15 +1,12 @@
 # Use Nyra 1.0
 
-Applies to Nyra 1.0.2 / 102. Start with the [R3 incremental guide](OWNER_REGRESSION_R3.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
-
-
-
+Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX_R4.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
 
 Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.
 
 ## Desktop
 
-Enter the visible character to trigger one jump; staying still does not continually retrigger it. Drag the character left or right to move it and play that direction's running frames. Release to settle and return to the real base state. The corner grip, mouse wheel and trackpad adjust size. The menu offers Reset position if the character is offscreen.
+Enter the visible character to trigger one jump; staying still does not continually retrigger it. Drag the character left or right to move it and play that direction's running frames. Release to settle and return to the real base state. The mouse wheel and trackpad adjust size; **+ / Larger / Smaller / Reset size** provides explicit controls. The old ruler grip and its hit region are removed. The menu offers Reset position if the character is offscreen.
 
 The control ring offers outfit, transparent stage, sound, Actions, smaller/larger, hide and quit. Actions are bounded **Manual preview** overrides: they do not change task truth or count as successful work. Unsupported optional actions are disabled for that outfit. After a preview, the current real state resumes. Reduce Motion follows the macOS preference.
 
@@ -39,12 +36,12 @@ Sound controls provide mute, volume and explicit Chinese/English preview using i
 [简体中文](USER_GUIDE.zh-CN.md) · [README](../../README.md)
 
 
-## R2 controls and connection
+## Controls and connection
 
-Use the separate lower-right hover Stage arrow with a single click; resize with the ruler grip/wheel. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, three outfits and desktop restoration remain unchanged.
+Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, three outfits and desktop restoration remain unchanged.
 
 Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
-[Evidence coverage / 验证范围](R2_VERIFICATION.en.md)
+[Evidence coverage / 验证范围](R4_VERIFICATION.en.md)

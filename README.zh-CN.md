@@ -1,8 +1,10 @@
 # 夜璃 Nyra 1.0 · 本机桌面伴侣
 
-**Nyra 1.0.2 / 构建 102** · [下载及核验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.2) · [R3 差量指南](docs/release-1.0/OWNER_REGRESSION_R3.zh-CN.md)。匹配 Release 资产及回执记录 source、SHA-256、Developer ID、Apple 公证和真实验证；发布不代签 Owner 接受。
+R4：每侧完整回复只保留一个发送入口及共享自动发送复选框；任意侧可停止双方后续派发。更多菜单保留附加能力，Nyra 使用明确缩放操作。此前接受保持，新 UI 需单独接受。
 
-本补丁接续未通过的 Owner 复验：普通回复入口、准确首轮绑定、两侧原生及宿主停止，以及 Nyra 连接／活动／播放三维状态。新的 ChatGPT/Claude 工程对话完成三个真实往返，没有重播 Owner 辩论或已接受业务。根因证据及原失败边界见 R3 指南。
+
+**Nyra 1.0.3 / 构建 103** · [下载及核验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3) · [R4 差量指南](docs/release-1.0/SIMPLIFIED_UX_R4.zh-CN.md)。匹配 Release 资产及回执记录 source、SHA-256、Developer ID、Apple 公证和真实验证；发布不代签 Owner 接受。
+
 
 [English](README.md)
 
@@ -10,7 +12,7 @@ Nyra 是 macOS 透明桌面伴侣，提供三套服装、桌面互动、透明�
 
 当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。
 
-使用上方 Nyra v1.0.2 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
+使用上方 Nyra v1.0.3 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
 
 - [安装](docs/release-1.0/INSTALL.zh-CN.md)
 - [操作：悬停、拖动、动作、换装、透明舞台和声音](docs/release-1.0/USER_GUIDE.zh-CN.md)
@@ -21,4 +23,4 @@ Nyra 是 macOS 透明桌面伴侣，提供三套服装、桌面互动、透明�
 
 [TWOS 仓库](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra 发行](https://github.com/loseyourself1978-blip/Nyra/releases)
 
-旧 R1–R4 文档是历史工程记录，不是当前安装说明。本版附真实 R2 界面截图；R1 视频明确标为历史素材，静态图像不证明动画播放。
+早期工程资料仅作历史记录；本轮媒体以匹配回执为准。静态图像不证明动画播放。
