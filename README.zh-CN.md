@@ -1,6 +1,6 @@
 # 夜璃 Nyra 1.0 · 本机桌面伴侣
 
-R4：每侧完整回复只保留一个发送入口及共享自动发送复选框；任意侧可停止双方后续派发。更多菜单保留附加能力，Nyra 使用明确缩放操作。此前接受保持，新 UI 需单独接受。
+Nyra 1.0.3 精简悬停控件：保留展开与真正的人物全屏按钮，放大、缩小、恢复默认大小改为明确的菜单操作。既有动画、服装、透明舞台和可选的 TWOS 只读活动联动保持；新 UI 接受单独记录。
 
 
 **Nyra 1.0.3 / 构建 103** · [下载及核验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3) · [R4 差量指南](docs/release-1.0/SIMPLIFIED_UX_R4.zh-CN.md)。匹配 Release 资产及回执记录 source、SHA-256、Developer ID、Apple 公证和真实验证；发布不代签 Owner 接受。

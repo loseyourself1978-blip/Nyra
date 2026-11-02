@@ -1,6 +1,6 @@
 # Nyra 1.0 · local desktop companion
 
-R4 keeps one Send and one shared auto-send checkbox by the current reply. Stop from either side revokes future sends. More retains secondary capabilities, and Nyra offers explicit sizing. Earlier acceptance is preserved; the new UI is assessed separately.
+Nyra 1.0.3 simplifies the hover controls: Expand and the real character-stage button remain; Larger, Smaller and Reset size are explicit menu actions. Existing animation, outfits, transparent stage and optional read-only TWOS activity are preserved. New UI acceptance is assessed separately.
 
 
 **Nyra 1.0.3 / build 103** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3) · [R4 incremental guide](docs/release-1.0/SIMPLIFIED_UX_R4.en.md). The matching Release assets and receipts identify source, SHA-256, Developer ID, Apple notarization and actual verification. Publication does not grant Owner acceptance.
