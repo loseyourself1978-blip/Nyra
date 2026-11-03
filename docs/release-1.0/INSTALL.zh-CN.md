@@ -1,6 +1,6 @@
 # 安装夜璃 Nyra 1.0
 
-适用于 Nyra 1.0.3 / 103。升级后先看 [R4 差量指南](SIMPLIFIED_UX_R4.zh-CN.md)，完成对应终点即结束；不重新制作已接受任务。
+Nyra 1.0.4 / 104 · [小田动作语音](AUDIO_FOLLOWUP.zh-CN.md)
 
 这是独立桌宠。TWOS 已内置固定版本 Nyra，使用 TWOS 时不需要再安装第二个包。
 

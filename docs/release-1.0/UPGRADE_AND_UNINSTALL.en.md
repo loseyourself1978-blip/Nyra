@@ -1,6 +1,6 @@
 # Upgrade and uninstall
 
-Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX_R4.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
+Nyra 1.0.4 / 104 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
 
 ## Upgrade
 

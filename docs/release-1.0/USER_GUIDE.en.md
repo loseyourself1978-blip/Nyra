@@ -1,6 +1,6 @@
 # Use Nyra 1.0
 
-Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX_R4.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
+Nyra 1.0.4 / 104 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
 
 Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.
 
@@ -31,7 +31,7 @@ A manual celebration is labelled preview. A website finishing a reply does not v
 
 ## Audio and lifecycle
 
-Sound controls provide mute, volume and explicit Chinese/English preview using installed system speech or your locally imported audio. Two original short UI chimes are included. No exclusive generated voice is claimed. Hidden Nyra stops frame and hover timers and audio; a connected read-only status check may remain active to keep connection truth current. Quit ends Nyra, not TWOS or any model task. Embedded and standalone production copies share preferences and allow one compatible active instance.
+Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again. Hiding Nyra stops audio; quitting Nyra does not stop TWOS tasks.
 
 [简体中文](USER_GUIDE.zh-CN.md) · [README](../../README.md)
 

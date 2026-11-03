@@ -2,10 +2,12 @@
 """Build the pinned native companion offline. No installs, downloads or publication."""
 from pathlib import Path
 import argparse,hashlib,json,plistlib,shutil,subprocess
+from voice_assets import validated_voice_files
 ROOT=Path(__file__).resolve().parents[1]
 def run(args):subprocess.run(list(map(str,args)),check=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def build(destination,cache,architectures,signing,engineering):
+    voice_files=validated_voice_files(ROOT)
     destination=Path(destination);cache=Path(cache);assert not destination.exists(),'Use a new output; preserve previous candidates'
     contents=destination/'Contents';resources=contents/'Resources';(contents/'MacOS').mkdir(parents=True);resources.mkdir();cache.mkdir(parents=True,exist_ok=True)
     manifest=json.loads((ROOT/'production-1.0/specs/resources.json').read_text())
@@ -17,6 +19,8 @@ def build(destination,cache,architectures,signing,engineering):
     for outfit in outfits['outfits']:shutil.copy2(ROOT/'assets'/outfit['file'],resources/'assets'/outfit['file'])
     for name in ['open.wav','outfit.wav','provenance.json']:
         (resources/'audio').mkdir(exist_ok=True);shutil.copy2(ROOT/'audio'/name,resources/'audio'/name)
+    for source in voice_files:
+        target=resources/source.relative_to(ROOT);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
     contract=ROOT/'production-r4/contracts/nyra_event_contract.json'
     shutil.copy2(contract,resources/'event-contract.json')
     head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
@@ -25,14 +29,16 @@ def build(destination,cache,architectures,signing,engineering):
     input_paths.update(ROOT/v['source'] for v in manifest['files'].values())
     input_paths.update(ROOT/'assets'/outfit['file'] for outfit in outfits['outfits'])
     input_paths.update(ROOT/'audio'/name for name in ['open.wav','outfit.wav','provenance.json'])
+    input_paths.update(voice_files)
+    input_paths.add(ROOT/'scripts/voice_assets.py')
     input_paths.update([ROOT/'scripts/build_release.py',ROOT/'scripts/prepare_release.py',
         ROOT/'production-1.0/specs/runtime.json',ROOT/'production-1.0/specs/resources.json',
         ROOT/'production-1.0/specs/outfits.json',ROOT/'production-r3/specs/standalone_r3.json',contract])
     inputs={str(p.relative_to(ROOT)):sha(p) for p in sorted(input_paths)}
     snapshot=hashlib.sha256(json.dumps(inputs,sort_keys=True,separators=(',',':')).encode()).hexdigest()
     payload={p.relative_to(resources).as_posix():sha(p) for p in sorted(resources.rglob('*')) if p.is_file()}
-    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.3',build='103',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v3',event_schema_sha256=sha(contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
-    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.3',CFBundleVersion='103',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
+    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.4',build='104',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v3',event_schema_sha256=sha(contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
+    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.4',CFBundleVersion='104',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
     (contents/'Info.plist').write_bytes(plistlib.dumps(info))
     binaries=[]
     for arch in architectures:

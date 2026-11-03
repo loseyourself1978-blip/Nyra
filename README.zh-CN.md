@@ -1,9 +1,8 @@
 # 夜璃 Nyra 1.0 · 本机桌面伴侣
 
-Nyra 1.0.3 精简悬停控件：保留展开与真正的人物全屏按钮，放大、缩小、恢复默认大小改为明确的菜单操作。既有动画、服装、透明舞台和可选的 TWOS 只读活动联动保持；新 UI 接受单独记录。
+夜璃会在合适的动作开始时播放内置的小田中文短句。侧卧时提醒休息，核验成功时说“欧耶！你好棒！”。默认静音；在声音面板中取消静音，打开“跟随动作说话”。点右上角“关闭”、按 Esc 或再点声音图标可收起面板。
 
-
-**Nyra 1.0.3 / 构建 103** · [下载及核验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3) · [R4 差量指南](docs/release-1.0/SIMPLIFIED_UX_R4.zh-CN.md)。匹配 Release 资产及回执记录 source、SHA-256、Developer ID、Apple 公证和真实验证；发布不代签 Owner 接受。
+**Nyra 1.0.4 / build 104** · [下载与校验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4) · [小田动作语音](docs/release-1.0/AUDIO_FOLLOWUP.zh-CN.md)
 
 
 [English](README.md)
@@ -12,7 +11,7 @@ Nyra 是 macOS 透明桌面伴侣，提供三套服装、桌面互动、透明�
 
 当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。
 
-使用上方 Nyra v1.0.3 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
+使用上方 Nyra v1.0.4 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
 
 - [安装](docs/release-1.0/INSTALL.zh-CN.md)
 - [操作：悬停、拖动、动作、换装、透明舞台和声音](docs/release-1.0/USER_GUIDE.zh-CN.md)

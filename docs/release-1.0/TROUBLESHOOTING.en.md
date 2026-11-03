@@ -1,6 +1,6 @@
 # Nyra troubleshooting
 
-Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX_R4.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
+Nyra 1.0.4 / 104 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
 
 - **Not visible:** use the ◈ 夜璃 menu → Show/Hide. If the app is already running, reopen it from Applications. Reset position restores a reachable location. Do not delete preferences as a first remedy.
 - **A different version is running:** quit that Nyra normally from its own menu, then open the desired version. TWOS jobs continue. Do not use killall or launch several copies.
@@ -8,7 +8,7 @@ Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX
 - **Working with no new output:** check TWOS's current task and connection. Nyra follows state, not elapsed time or hidden reasoning. A stale connection must become unknown; retain the minimal error rather than inventing success.
 - **A preview returns to idle:** previews are intentionally bounded. A disabled action has no matching resource for the chosen outfit; supported core actions are listed in the guide.
 - **Stage exit:** use Desktop/Back or focus the stage and press Esc. Controls remain visible. Blank regions are intentionally click-through.
-- **No sound:** mute is the default. Open Sound, choose a language/source, and use an explicit preview. System voices vary by macOS installation; no voice is silently downloaded.
+Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again.
 - **macOS blocks launch:** verify the exact release asset and receipt. Report the displayed error and version. Never disable system security or paste private credentials into a support report.
 
 Send only the product version, relevant visible error and non-sensitive reproduction steps. Do not include model prompts, account data, reports, tokens or endpoint secrets.

@@ -1,6 +1,6 @@
 # Privacy and permissions
 
-Applies to Nyra 1.0.3 / 103. Start with the [R4 incremental guide](SIMPLIFIED_UX_R4.en.md) after upgrading; stop at its end point. Existing accepted tasks do not need to be recreated.
+Nyra 1.0.4 / 104 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
 
 Nyra draws local bundled assets. It needs no browser cookies, model token, cloud account or business document. The read-only TWOS connection accepts only the versioned minimal event contract: producer/session/task IDs, sequence/event ID, timestamp, state, source, simulation marker and optional opaque evidence reference. It must not contain prompts, code, account identity, private paths, trading or medical content.
 

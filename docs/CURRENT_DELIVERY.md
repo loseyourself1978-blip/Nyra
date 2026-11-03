@@ -1,9 +1,7 @@
-# R4 delivery / R4 交付
+# Nyra 1.0.4 / 104 · Tian / 小田
 
-Nyra **1.0.3 / 103**. Standalone and TWOS-bundled copies use the same pinned source and runtime resources.
+[中文指南](release-1.0/AUDIO_FOLLOWUP.zh-CN.md) · [English guide](release-1.0/AUDIO_FOLLOWUP.en.md) · [GitHub Release](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4)
 
-[English incremental guide](release-1.0/SIMPLIFIED_UX_R4.en.md) · [中文差量指南](release-1.0/SIMPLIFIED_UX_R4.zh-CN.md) · [Verification](release-1.0/R4_VERIFICATION.en.md)
+The Owner accepted the previous R4 UI. Audio acceptance is separate. Compare the installer with SHA256SUMS on its matching release.
 
-Build, complete-gate, signing, notarization, download hash and publication status belong to the matching release receipt and GitHub Release. A source change or local candidate is not proof of publication. Original R3 failures and subsequent limited Owner acceptance of Nyra/debate are preserved. R4 new UI acceptance remains separate; no old business task or debate is replayed.
-
-macOS Apple Silicon only. Windows is in development, with no download. Engineering testing uses macOS 27.0.1 / Safari 27.0.1; a 13.0 deployment target is not testing on every older system. Private LDD, trading, clinical and later-phase permissions are unchanged.
+macOS Apple Silicon only. Windows is in development; no Windows download.

@@ -1,4 +1,10 @@
-# Nyra 1.0.3 / 103 — R4
+# Nyra 1.0.4 / 104 — Tian action voice
+
+Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again.
+
+[Tian action voice](AUDIO_FOLLOWUP.en.md)
+
+## Nyra 1.0.3 / 103 — R4
 
 Remove the square drag grip and hidden hit region; keep + and the real Stage button, with Larger / Smaller / Reset size in expanded controls. Animation, three outfits, transparent stage, sound and read-only task truth retain their scope.
 

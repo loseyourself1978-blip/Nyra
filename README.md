@@ -1,9 +1,8 @@
 # Nyra 1.0 · local desktop companion
 
-Nyra 1.0.3 simplifies the hover controls: Expand and the real character-stage button remain; Larger, Smaller and Reset size are explicit menu actions. Existing animation, outfits, transparent stage and optional read-only TWOS activity are preserved. New UI acceptance is assessed separately.
+Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again.
 
-
-**Nyra 1.0.3 / build 103** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3) · [R4 incremental guide](docs/release-1.0/SIMPLIFIED_UX_R4.en.md). The matching Release assets and receipts identify source, SHA-256, Developer ID, Apple notarization and actual verification. Publication does not grant Owner acceptance.
+**Nyra 1.0.4 / build 104** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4) · [Tian action voice](docs/release-1.0/AUDIO_FOLLOWUP.en.md)
 
 [简体中文](README.zh-CN.md)
 
@@ -11,7 +10,7 @@ Nyra is a transparent macOS companion with three outfits, desktop interaction, a
 
 Currently supports macOS only. A Windows version is in development; no downloadable build is available yet.
 
-Use the Nyra v1.0.3 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
+Use the Nyra v1.0.4 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
 
 - [Install](docs/release-1.0/INSTALL.en.md)
 - [Use: hover, drag, actions, outfits, transparent stage and sound](docs/release-1.0/USER_GUIDE.en.md)
