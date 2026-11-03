@@ -1,89 +1,34 @@
 {
   "product": "Nyra",
-  "version": "1.0.3",
-  "build": "103",
-  "source_commit": "18abd9f043b94cc7c384e6f8c1f2504683505384",
-  "artifact": "Nyra-1.0.3-build-103-arm64.dmg",
-  "bytes": 166024754,
-  "sha256": "644d6dfc9eabe6d9d845ca5f89b22978c5846c9778ac77ed1db1c38fd8a771be",
-  "app_notarization_id": "487bc5a7-1264-468e-97b7-a0bdfc1a0137",
-  "dmg_notarization_id": "ff41767b-5375-4bca-8b73-da18411945d6",
+  "version": "1.0.4",
+  "build": "104",
+  "source_commit": "d4ab6540f86c759172ffdc44d735c3fc6728f1cd",
+  "artifact": "Nyra-1.0.4-build-104-arm64.dmg",
+  "bytes": 166747754,
+  "sha256": "0f2f0336f062062f366cb1cefcc6df0eb74844c3e4c5be43b564bc990df91425",
   "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
-  "gatekeeper": "PASS",
   "architecture": "arm64",
-  "owner_differential_acceptance": "NOT_GRANTED_BY_ENGINEERING",
-  "main_gate": {
-    "complete_pass": true,
-    "state": "COMPLETE_GREEN",
-    "counts": {
-      "passed": 1810,
-      "skipped": 1
-    },
-    "collected": 1811,
-    "safari": {
-      "measurements": 38,
-      "visible_start": 38,
-      "visible_finish": 38,
-      "errors": []
-    }
-  },
-  "at": "2026-11-03T02:02:32.798336+08:00",
-  "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
+  "platform": "macOS",
   "status": "SIGNED_NOTARIZED_VALIDATED",
-  "notarization_status": "Accepted",
-  "stapled": true,
-  "tested_platform": {
-    "architecture": "arm64",
-    "macos": "27.0.1",
-    "safari": "27.0.1"
+  "gatekeeper": "PASS",
+  "app_notarization_id": "4c2fd1d3-9ac2-40ee-87ae-0f1cb0f02dbc",
+  "dmg_notarization_id": "24f4add0-8ae7-454d-8d0e-a27411bb5d05",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4",
+  "audio_verification": {
+    "packaging_negative_and_positive_tests": 9,
+    "real_clips_decoded_by_AVAudioPlayer": 8,
+    "standalone_and_embedded_equal": true,
+    "twos_audio_and_version_related_gate": {
+      "passed": 86,
+      "failed": 0,
+      "scope": "Packaged runtime, preserved installations, source distribution, documentation, signature order and Nyra integration."
+    },
+    "standalone_gui": "Tian preview, actual rest-on-recline, manual celebration, Close and Escape observed in isolated candidate.",
+    "embedded_gui": "Tian source selected in the actual bundled helper; WAV playback finished for an action, with no AVSpeech fallback.",
+    "voice_quality": "Owner listening, not an engineering assertion",
+    "prior_R4_UI": "OWNER_CONFIRMED_PASS_PRESERVED",
+    "full_historical_R4_suite": "Not rerun or counted as audio coverage."
   },
-  "deployment_target": "13.0",
-  "other_macos_and_intel": "NOT_TESTED_NOT_SHIPPED_AS_INTEL",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.3",
-  "publication_authorization": "TWOS-NYRA-SIMPLIFIED-HANDOFF-UX-R4",
-  "publication_state": "Check linked GitHub Release for actual publication; receipt identifies verified bytes",
-  "captured_at": "2026-11-03T02:03:15.784685+08:00",
-  "validation": {
-    "full_suite": {
-      "passed": 1810,
-      "skipped": 1,
-      "collected": 1811,
-      "safari_measurements": 38,
-      "scope": "One complete stable-input serial batch; prior focused/failed runs not added. One historical-package case explicitly skipped."
-    },
-    "prior_owner_acceptance": "PRESERVED_SCOPED_NYRA_AND_DEBATE; original failures remain historical",
-    "single_send": "REAL_GUI complete replies show one action; generating/interrupted responses do not become complete sendable replies",
-    "shared_auto": "REAL_GUI one checkbox, mirrored state, five complete ChatGPT/Claude round trips; eleven sent and ten complete before right uncheck; late reply did not send twelve",
-    "manual_reverse": "REAL_GUI Claude to ChatGPT exact selected non-sensitive engineering reply",
-    "stops": "REAL_GUI left native Stop, right native Stop, right uncheck and host Stop; SIMULATED deterministic near-simultaneous toggle and stop/completion races",
-    "adoption": "REAL_GUI checkbox during manual handoff in flight adopts its same receipt; interrupted target not forwarded",
-    "identity": "REAL_GUI stopped/unknown old delivery retained; unrelated explicitly selected new seed succeeds; stable Sent remains after hydration, refresh and restart",
-    "attachment": "REAL_GUI More-menu selected 106-byte engineering text file uploaded and content read; existing accepted multi-format transport retained, not claimed as a new all-format live test",
-    "language": "REAL_GUI top English/Chinese selector, immediate TWOS labels, preserved after normal quit/reopen; provider website language unchanged",
-    "nyra_visibility": "REAL_GUI selected embedded component Show\u2192Hide\u2192Show. Old engineering-helper identity conflict reproduced and now explained without relaxing peer/path validation. SIMULATED conflict and recovery regression.",
-    "narrow_window": "REAL_GUI 1080-point native window; language/Nyra/provider controls visible and no duplicate send entry",
-    "nyra_controls": "REAL_GUI embedded and standalone Larger/Smaller/Reset 280, real Stage button, top menu, Esc desktop restoration; actual idle/working frame counters advance",
-    "restart": "REAL_GUI exact candidate normal quit/reopen keeps Chinese, 105 prior receipt identities, both auto checkboxes off; no automatic model dispatch",
-    "provider_scope": "Live R4 model interactions use dedicated ChatGPT/Claude engineering chats. Existing Codex/DeepSeek paths receive matched regression, not new business executions.",
-    "new_video": "NOT_RECORDED; real R4 screenshots supplied; prior videos remain explicitly historical",
-    "owner_differential_acceptance": "PENDING_NOT_GRANTED_BY_ENGINEERING",
-    "full_20_2_acceptance": "NOT_GRANTED_BY_THIS_PATCH",
-    "gui_input_reuse": {
-      "routing_source": "ec0c66b9d6eedce424d8d2cb424bd5b6e86164d8",
-      "final_twos_runtime_source": "02aa02edaa48eeaf0418a1d1d9d8b77abd53ae3d",
-      "scope": "Later changes limited to live language propagation, visible language control and exact Nyra target/visibility feedback. Routing/provider/reply/stop engine unchanged; changed controls, refresh/restart and 1080-point layout checked on final signed candidate."
-    },
-    "final_notarized_installer": {
-      "actual_gui_launch": "PASS",
-      "version": "1.0.3",
-      "build": "103",
-      "source_commit": "18abd9f043b94cc7c384e6f8c1f2504683505384",
-      "dmg_sha256": "644d6dfc9eabe6d9d845ca5f89b22978c5846c9778ac77ed1db1c38fd8a771be",
-      "exact_installed_manifest": "PASS_137_FILES",
-      "scope": "Read-only mounted exact notarized DMG, dedicated non-production profile, expanded new controls and advancing frames",
-      "frame_count": 72,
-      "owner_app_replaced": false,
-      "new_model_turns": 0
-    }
-  }
+  "owner_audio_acceptance": "PENDING",
+  "voice_manifest_sha256": "975f2b6ac3aa75b4a093ef82af901ee487b23164dab67d4e31fcf4c815602d30"
 }
