@@ -4,9 +4,11 @@ Nyra plays short, bundled Chinese recordings by Tian at action transitions: a re
 
 **Nyra 1.0.4 / build 104** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4) · [Tian action voice](docs/release-1.0/AUDIO_FOLLOWUP.en.md)
 
+Candidate 1.0.5 / 105 is being verified: [incremental changes](docs/release-1.0/AUTOSEND_AND_WARDROBE.en.md). The download above remains published 1.0.4; the candidate is not yet a release.
+
 [简体中文](README.zh-CN.md)
 
-Nyra is a transparent macOS companion with three outfits, desktop interaction, a transparent character stage and optional read-only TWOS task status. It cannot execute or approve work. TWOS includes a pinned Nyra copy; the standalone app is for people who want the companion separately.
+Nyra is a transparent macOS companion with five outfits, desktop interaction, a transparent character stage and optional read-only TWOS task status. It cannot execute or approve work. TWOS includes a pinned Nyra copy; the standalone app is for people who want the companion separately.
 
 Currently supports macOS only. A Windows version is in development; no downloadable build is available yet.
 

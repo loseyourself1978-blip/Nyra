@@ -184,5 +184,245 @@
     "sha256": "635fc310fb6599769e38fe10b527cc677a71356fbd7fd2600aa1ba0ea90c1756",
     "origin": "imagegen edit of Owner-provided Nyra reference; native RGBA",
     "validation": "PENDING_RUNTIME_VISUAL_VALIDATION"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_neutral.png",
+    "sha256": "a824beab71303827b8c45dc7f3804a6922b518c619b9407d7d9da29c87dd0556",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_blink.png",
+    "sha256": "675a119585307c80e05932efe0885c20aabc170e3f3dea6ab28dfced1cee8dd4",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_head.png",
+    "sha256": "5d846a627c5f4290fade763ca022e0617ad702e8d2f094c2ddef1c6b58f0366c",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_left.png",
+    "sha256": "fc9059e5fbafc4711646d445ef4006f71cb3994a1ca13424c06f8f7a6bc144ad",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_right.png",
+    "sha256": "4b6a464c56f7d4e37452155e308eb0c8ee4e59fbaee5268052e978f6313b086f",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_work.png",
+    "sha256": "bcc1a80c305e87bf9016ce01092b7f863bdd2dcb6f86100aacb9e2820da25159",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_workblink.png",
+    "sha256": "632f72d2e23afca870d4f18702f73d4cf64a4f4ea7f72a339aa9734b6002d462",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_crouch.png",
+    "sha256": "09928960b20544a39215798a6be9c1299a926b3b4f03cc693a8eee4f9d6b8188",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_jump.png",
+    "sha256": "4c8ad8d4796fa93460142cc02e3f7deba2cf9fe9800f9073d2d007070eb7e18a",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_rise.png",
+    "sha256": "36ff1a212ddce5b08d93b1c76d8aed343cf75d6e5fe96fd2cf7dc9815140e9a9",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_run_left_1.png",
+    "sha256": "5d17d11b0918c61c41dccbf6d41c3f70f8b985ab73bcd2f5db57ad8169c35c91",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_run_left_2.png",
+    "sha256": "f044b7de9c3a78a8de9fc200e545ab2a4fdf350298d7629a3a9a2efb66f31c0e",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_run_right_1.png",
+    "sha256": "64896cd53eb2cd5b451c6eafe557145eea3726f2ef980542d0064a7d2d8dacd6",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/office_white/nyra_office_white_run_right_2.png",
+    "sha256": "369b98259cad0ec9bc3d8b03692a86e5f6d455200c6db6bbcfb4917ed4fd34f1",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_neutral.png",
+    "sha256": "90de6e06653731a0ebce9bc995dfdb7f758a9de7e037a70f2c2d8958e53ae93c",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_blink.png",
+    "sha256": "99f90437baa731df0740e7dfe325bca0b5c1249b75a7c844851001362031d301",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_work.png",
+    "sha256": "f4fa9d6220db3324d440b925964333a1d4ae230878c18c6dce4ccf1df823fd59",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_workblink.png",
+    "sha256": "ae2cd4e963a77d06ce4dfcbd8e3fc28049a48bfa462df92703eb1dba1f7d8de3",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_gaze.png",
+    "sha256": "65dd874bff3eda8502905432896269061fe65349ff7b34b7161e857a96557415",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_celebrate.png",
+    "sha256": "3bdfa1d63a1c3ff82ac97e3defc13f2e0bdb8ae8bcb1ff28af0aed7baec2b943",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_neutral.png",
+    "sha256": "f4fab3c295c0716ed489ff9b12a0d66879e924d9db71e54c80df28d1eb088ca3",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_blink.png",
+    "sha256": "75d2568bc0d18c5c6d4136f27e04076f9753440d4c0f92b7c913d2658f86b03f",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_head.png",
+    "sha256": "b6a357a71dce7aab91106e0f3c26c7915e975cb12354764f3e8c238c6c5e15dd",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_left.png",
+    "sha256": "f40f0ab6f0690d3836738346d82aa4611257cabc24a03a6aaad6666dc32c7a06",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_right.png",
+    "sha256": "7293c946b8c1ef1f442937af9d519deadbc6f8d8e89db91df12d461a1adce555",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_work.png",
+    "sha256": "372b36659d56212c0aec0f67575ce3ab8637f71abefc02765328994101b11f8b",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_workblink.png",
+    "sha256": "fea384073d7e3474cce167bf8f39e252b1479aec1388aa97f5a57a9a80b717bb",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_crouch.png",
+    "sha256": "c75c41060d8ead913614bc66647f2679517eb0eb3d55fc2ef8a02dd7516fdcbe",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_jump.png",
+    "sha256": "675b3c82bdc6924af4f96b14a44b728dfbf4c82db9526f51a22df90cad461711",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_rise.png",
+    "sha256": "f8f5576b28bad16b781aa548fa65328719e9ac2779e2ef83b39af922c87b2dd4",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_run_left_1.png",
+    "sha256": "7c05836b3e2ce7e1ff69226ff69eb0acf11037549bb19a928159bb9ccd70bdf7",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_run_left_2.png",
+    "sha256": "fbac50173845e264d7b726750d5331eb81aa54175fd7a0c83390c6b350c7dac7",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_run_right_1.png",
+    "sha256": "253b2f90e700df7367b06f7b0ef3cc20fd420fe148ff22fe2b422afe3b65b9b8",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/gala_red/nyra_gala_red_run_right_2.png",
+    "sha256": "438c045e4a7fc5298670bd114303e7836763453d44dda649b9739080e2510667",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_neutral.png",
+    "sha256": "b846ec659298f34a3a48a862b9d17006ad6eb8b06eafcdb2c394d19adc852ded",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_blink.png",
+    "sha256": "fd147ad69a8c4a6fa4250800b960646348c5b4bf8360ec38f7e630b258be85bf",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_work.png",
+    "sha256": "9e40e8226a766904c287487393e09b97c3930e438211ef33b6dd11aa50cccbf3",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_workblink.png",
+    "sha256": "07c7b2eb8857880c564266083ec209f4ca012fb0f1ab59dc415b3e5b18392b8d",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_gaze.png",
+    "sha256": "7acb86cedcde6b1a480fb023b120f8ec6496d20c4d43369bd2cd3dadea56d61b",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
+  },
+  {
+    "file": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_celebrate.png",
+    "sha256": "5c5910ff6fc50c06502df8473a921c72801235dd4166a6ac832ff3a9c823ff4b",
+    "origin": "OpenAI image generation/edit; Owner-authorized white blouse and ruby gown reference variants",
+    "validation": "NATIVE_RGBA_AND_MANIFEST_PASS; PACKAGED_RUNTIME_VISUAL_PENDING"
   }
 ]

@@ -31,14 +31,15 @@ def build(destination,cache,architectures,signing,engineering):
     input_paths.update(ROOT/'audio'/name for name in ['open.wav','outfit.wav','provenance.json'])
     input_paths.update(voice_files)
     input_paths.add(ROOT/'scripts/voice_assets.py')
+    input_paths.add(ROOT/'scripts/extend_wardrobe.py')
     input_paths.update([ROOT/'scripts/build_release.py',ROOT/'scripts/prepare_release.py',
         ROOT/'production-1.0/specs/runtime.json',ROOT/'production-1.0/specs/resources.json',
         ROOT/'production-1.0/specs/outfits.json',ROOT/'production-r3/specs/standalone_r3.json',contract])
     inputs={str(p.relative_to(ROOT)):sha(p) for p in sorted(input_paths)}
     snapshot=hashlib.sha256(json.dumps(inputs,sort_keys=True,separators=(',',':')).encode()).hexdigest()
     payload={p.relative_to(resources).as_posix():sha(p) for p in sorted(resources.rglob('*')) if p.is_file()}
-    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.4',build='104',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v3',event_schema_sha256=sha(contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
-    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.4',CFBundleVersion='104',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
+    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.5',build='105',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v3',event_schema_sha256=sha(contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
+    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.5',CFBundleVersion='105',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
     (contents/'Info.plist').write_bytes(plistlib.dumps(info))
     binaries=[]
     for arch in architectures:

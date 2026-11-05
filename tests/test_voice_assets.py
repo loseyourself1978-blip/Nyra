@@ -34,7 +34,7 @@ class VoiceAssetsTests(unittest.TestCase):
         (self.pack / 'manifest.json').write_text(json.dumps(self.manifest, ensure_ascii=False))
 
     def test_complete_exact_pack(self):
-        self.assertEqual(len(assets.validated_voice_files(self.root, allow_test=True)), 9)
+        self.assertEqual(len(assets.validated_voice_files(self.root, allow_test=True)), len(assets.PHRASES) + 1)
 
     def test_fixture_cannot_ship(self):
         with self.assertRaisesRegex(ValueError, 'cannot be shipped'):

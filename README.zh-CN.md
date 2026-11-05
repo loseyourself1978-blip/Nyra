@@ -5,9 +5,11 @@
 **Nyra 1.0.4 / build 104** · [下载与校验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4) · [小田动作语音](docs/release-1.0/AUDIO_FOLLOWUP.zh-CN.md)
 
 
+正在验证 1.0.5 / 105 候选：[本轮增量](docs/release-1.0/AUTOSEND_AND_WARDROBE.zh-CN.md)。上方下载仍指向已发布的 1.0.4；未把候选写成已发行。
+
 [English](README.md)
 
-Nyra 是 macOS 透明桌面伴侣，提供三套服装、桌面互动、透明角色舞台和可选的 TWOS 只读任务状态。它不能执行或批准工作。TWOS 内置固定版本 Nyra，独立 App 供单独使用桌宠的人安装。
+Nyra 是 macOS 透明桌面伴侣，提供五套服装、桌面互动、透明角色舞台和可选的 TWOS 只读任务状态。它不能执行或批准工作。TWOS 内置固定版本 Nyra，独立 App 供单独使用桌宠的人安装。
 
 当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。
 

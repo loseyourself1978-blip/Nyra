@@ -1,6 +1,6 @@
 # Install Nyra 1.0
 
-Nyra 1.0.4 / 104 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
+Nyra 1.0.5 / 105 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
 
 This is the standalone companion. TWOS includes its own pinned Nyra component: TWOS users do not need this second installer.
 
@@ -21,8 +21,11 @@ Advanced checksum verification: in the download folder, run `shasum -a 256 -c SH
 
 ## Controls and connection
 
-Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, three outfits and desktop restoration remain unchanged.
+Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, five outfits and desktop restoration remain unchanged.
 
 Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
+
+
+[DeepSeek relay, five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)

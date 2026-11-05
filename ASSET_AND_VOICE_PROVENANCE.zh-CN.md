@@ -9,3 +9,10 @@
 八句中文录音来自 TTSMaker 1413 小田（默认音色），仅移除分句间长停顿，保留原音高和语速。播放完全在本机完成。保留两个程序合成的开合／换装提示音；英语可用本机女声，用户自定义录音优先且不进入发行。
 
 [Manifest](audio/tian-1413-zh/manifest.json) · [TTSMaker audio license](https://ttsmaker.com/copyright_and_commercial_license_terms/zh-cn)
+
+
+## 1.0.5 候选补充
+
+中文录音由原八句扩展到十三句，原八个文件哈希保持不变。新增待机、阅读、移动、跳跃、落定；英文对应十三句使用本机女声，当前已用 Samantha 验证原生播放开始／结束回调，不声称是小田英文录音或 Owner 听感接受。
+
+白衬衫、红礼服各新增十四张站姿与六张侧卧透明运行帧；原三套共122个资源不变。左右跑各两帧，不宣传为八帧。工程界面已观察两套姿态和动作；最终内置签名候选及完整门禁以发行回执为准。详见 [英文完整来源记录](ASSET_AND_VOICE_PROVENANCE.md) 与 [中英文增量指南](docs/release-1.0/AUTOSEND_AND_WARDROBE.zh-CN.md)。

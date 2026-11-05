@@ -2318,6 +2318,766 @@
       "alpha_max": 254,
       "zero_alpha_pixels": 821937,
       "alpha_ge_250_pixels": 693858
+    },
+    "office_white/nyra_office_white_neutral.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_neutral.png",
+      "sha256": "a824beab71303827b8c45dc7f3804a6922b518c619b9407d7d9da29c87dd0556",
+      "bytes": 1424177,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        273,
+        114,
+        909,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1236087,
+      "alpha_ge_250_pixels": 290618
+    },
+    "office_white/nyra_office_white_blink.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_blink.png",
+      "sha256": "675a119585307c80e05932efe0885c20aabc170e3f3dea6ab28dfced1cee8dd4",
+      "bytes": 1429128,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        273,
+        114,
+        908,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1230998,
+      "alpha_ge_250_pixels": 293774
+    },
+    "office_white/nyra_office_white_head.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_head.png",
+      "sha256": "5d846a627c5f4290fade763ca022e0617ad702e8d2f094c2ddef1c6b58f0366c",
+      "bytes": 1468483,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        271,
+        103,
+        892,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1222832,
+      "alpha_ge_250_pixels": 294780
+    },
+    "office_white/nyra_office_white_left.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_left.png",
+      "sha256": "fc9059e5fbafc4711646d445ef4006f71cb3994a1ca13424c06f8f7a6bc144ad",
+      "bytes": 1435931,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        273,
+        118,
+        910,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1234889,
+      "alpha_ge_250_pixels": 292421
+    },
+    "office_white/nyra_office_white_right.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_right.png",
+      "sha256": "4b6a464c56f7d4e37452155e308eb0c8ee4e59fbaee5268052e978f6313b086f",
+      "bytes": 1475063,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        272,
+        110,
+        911,
+        1449
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1217567,
+      "alpha_ge_250_pixels": 291125
+    },
+    "office_white/nyra_office_white_work.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_work.png",
+      "sha256": "bcc1a80c305e87bf9016ce01092b7f863bdd2dcb6f86100aacb9e2820da25159",
+      "bytes": 1498800,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        300,
+        114,
+        881,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1247538,
+      "alpha_ge_250_pixels": 271953
+    },
+    "office_white/nyra_office_white_workblink.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_workblink.png",
+      "sha256": "632f72d2e23afca870d4f18702f73d4cf64a4f4ea7f72a339aa9734b6002d462",
+      "bytes": 1454311,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        298,
+        114,
+        882,
+        1450
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1235355,
+      "alpha_ge_250_pixels": 273673
+    },
+    "office_white/nyra_office_white_crouch.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_crouch.png",
+      "sha256": "09928960b20544a39215798a6be9c1299a926b3b4f03cc693a8eee4f9d6b8188",
+      "bytes": 1579317,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        192,
+        223,
+        882,
+        1421
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1183657,
+      "alpha_ge_250_pixels": 312610
+    },
+    "office_white/nyra_office_white_jump.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_jump.png",
+      "sha256": "4c8ad8d4796fa93460142cc02e3f7deba2cf9fe9800f9073d2d007070eb7e18a",
+      "bytes": 1550572,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        215,
+        104,
+        841,
+        1243
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1213341,
+      "alpha_ge_250_pixels": 288668
+    },
+    "office_white/nyra_office_white_rise.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_rise.png",
+      "sha256": "36ff1a212ddce5b08d93b1c76d8aed343cf75d6e5fe96fd2cf7dc9815140e9a9",
+      "bytes": 1835390,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        85,
+        153,
+        976,
+        1370
+      ],
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "zero_alpha_pixels": 1021084,
+      "alpha_ge_250_pixels": 478519
+    },
+    "office_white/nyra_office_white_run_left_1.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_run_left_1.png",
+      "sha256": "5d17d11b0918c61c41dccbf6d41c3f70f8b985ab73bcd2f5db57ad8169c35c91",
+      "bytes": 1785119,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        57,
+        114,
+        995,
+        1433
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1104543,
+      "alpha_ge_250_pixels": 358083
+    },
+    "office_white/nyra_office_white_run_left_2.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_run_left_2.png",
+      "sha256": "f044b7de9c3a78a8de9fc200e545ab2a4fdf350298d7629a3a9a2efb66f31c0e",
+      "bytes": 1756794,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        29,
+        109,
+        997,
+        1293
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1148611,
+      "alpha_ge_250_pixels": 349970
+    },
+    "office_white/nyra_office_white_run_right_1.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_run_right_1.png",
+      "sha256": "64896cd53eb2cd5b451c6eafe557145eea3726f2ef980542d0064a7d2d8dacd6",
+      "bytes": 1634048,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        62,
+        133,
+        941,
+        1411
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1170405,
+      "alpha_ge_250_pixels": 321384
+    },
+    "office_white/nyra_office_white_run_right_2.png": {
+      "source": "production-1.0/runtime/office_white/nyra_office_white_run_right_2.png",
+      "sha256": "369b98259cad0ec9bc3d8b03692a86e5f6d455200c6db6bbcfb4917ed4fd34f1",
+      "bytes": 1626925,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        74,
+        129,
+        996,
+        1328
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1172443,
+      "alpha_ge_250_pixels": 325035
+    },
+    "recline_office_white/nyra_office_white_recline_neutral.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_neutral.png",
+      "sha256": "90de6e06653731a0ebce9bc995dfdb7f758a9de7e037a70f2c2d8958e53ae93c",
+      "bytes": 1674708,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        22,
+        127,
+        1510,
+        794
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1094459,
+      "alpha_ge_250_pixels": 417229
+    },
+    "recline_office_white/nyra_office_white_recline_blink.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_blink.png",
+      "sha256": "99f90437baa731df0740e7dfe325bca0b5c1249b75a7c844851001362031d301",
+      "bytes": 1658471,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        22,
+        126,
+        1510,
+        794
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1107120,
+      "alpha_ge_250_pixels": 422353
+    },
+    "recline_office_white/nyra_office_white_recline_work.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_work.png",
+      "sha256": "f4fa9d6220db3324d440b925964333a1d4ae230878c18c6dce4ccf1df823fd59",
+      "bytes": 1682914,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        22,
+        123,
+        1510,
+        795
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1112495,
+      "alpha_ge_250_pixels": 411150
+    },
+    "recline_office_white/nyra_office_white_recline_workblink.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_workblink.png",
+      "sha256": "ae2cd4e963a77d06ce4dfcbd8e3fc28049a48bfa462df92703eb1dba1f7d8de3",
+      "bytes": 1691293,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        21,
+        122,
+        1510,
+        796
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1109428,
+      "alpha_ge_250_pixels": 417584
+    },
+    "recline_office_white/nyra_office_white_recline_gaze.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_gaze.png",
+      "sha256": "65dd874bff3eda8502905432896269061fe65349ff7b34b7161e857a96557415",
+      "bytes": 1647741,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        20,
+        120,
+        1510,
+        794
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1103876,
+      "alpha_ge_250_pixels": 424186
+    },
+    "recline_office_white/nyra_office_white_recline_celebrate.png": {
+      "source": "production-1.0/runtime/recline_office_white/nyra_office_white_recline_celebrate.png",
+      "sha256": "3bdfa1d63a1c3ff82ac97e3defc13f2e0bdb8ae8bcb1ff28af0aed7baec2b943",
+      "bytes": 1676366,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        21,
+        127,
+        1510,
+        795
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1101112,
+      "alpha_ge_250_pixels": 422521
+    },
+    "gala_red/nyra_gala_red_neutral.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_neutral.png",
+      "sha256": "f4fab3c295c0716ed489ff9b12a0d66879e924d9db71e54c80df28d1eb088ca3",
+      "bytes": 1609996,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        262,
+        119,
+        899,
+        1453
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1142144,
+      "alpha_ge_250_pixels": 383333
+    },
+    "gala_red/nyra_gala_red_blink.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_blink.png",
+      "sha256": "75d2568bc0d18c5c6d4136f27e04076f9753440d4c0f92b7c913d2658f86b03f",
+      "bytes": 1635988,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        260,
+        116,
+        900,
+        1454
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1137947,
+      "alpha_ge_250_pixels": 386251
+    },
+    "gala_red/nyra_gala_red_head.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_head.png",
+      "sha256": "b6a357a71dce7aab91106e0f3c26c7915e975cb12354764f3e8c238c6c5e15dd",
+      "bytes": 1625650,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        260,
+        101,
+        902,
+        1453
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1130308,
+      "alpha_ge_250_pixels": 393494
+    },
+    "gala_red/nyra_gala_red_left.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_left.png",
+      "sha256": "f40f0ab6f0690d3836738346d82aa4611257cabc24a03a6aaad6666dc32c7a06",
+      "bytes": 1647963,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        257,
+        116,
+        901,
+        1453
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1133434,
+      "alpha_ge_250_pixels": 393404
+    },
+    "gala_red/nyra_gala_red_right.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_right.png",
+      "sha256": "7293c946b8c1ef1f442937af9d519deadbc6f8d8e89db91df12d461a1adce555",
+      "bytes": 1686423,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        259,
+        106,
+        899,
+        1454
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1129655,
+      "alpha_ge_250_pixels": 392144
+    },
+    "gala_red/nyra_gala_red_work.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_work.png",
+      "sha256": "372b36659d56212c0aec0f67575ce3ab8637f71abefc02765328994101b11f8b",
+      "bytes": 1638952,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        257,
+        112,
+        880,
+        1453
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1145369,
+      "alpha_ge_250_pixels": 381024
+    },
+    "gala_red/nyra_gala_red_workblink.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_workblink.png",
+      "sha256": "fea384073d7e3474cce167bf8f39e252b1479aec1388aa97f5a57a9a80b717bb",
+      "bytes": 1640812,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        256,
+        109,
+        881,
+        1454
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1145611,
+      "alpha_ge_250_pixels": 388060
+    },
+    "gala_red/nyra_gala_red_crouch.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_crouch.png",
+      "sha256": "c75c41060d8ead913614bc66647f2679517eb0eb3d55fc2ef8a02dd7516fdcbe",
+      "bytes": 1960801,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        70,
+        241,
+        959,
+        1405
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 934487,
+      "alpha_ge_250_pixels": 549925
+    },
+    "gala_red/nyra_gala_red_jump.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_jump.png",
+      "sha256": "675b3c82bdc6924af4f96b14a44b728dfbf4c82db9526f51a22df90cad461711",
+      "bytes": 1913027,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        95,
+        70,
+        934,
+        1318
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 993389,
+      "alpha_ge_250_pixels": 488846
+    },
+    "gala_red/nyra_gala_red_rise.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_rise.png",
+      "sha256": "f8f5576b28bad16b781aa548fa65328719e9ac2779e2ef83b39af922c87b2dd4",
+      "bytes": 2043917,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        68,
+        126,
+        991,
+        1422
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 873573,
+      "alpha_ge_250_pixels": 607402
+    },
+    "gala_red/nyra_gala_red_run_left_1.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_run_left_1.png",
+      "sha256": "7c05836b3e2ce7e1ff69226ff69eb0acf11037549bb19a928159bb9ccd70bdf7",
+      "bytes": 2049550,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        55,
+        116,
+        1015,
+        1437
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 946103,
+      "alpha_ge_250_pixels": 514379
+    },
+    "gala_red/nyra_gala_red_run_left_2.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_run_left_2.png",
+      "sha256": "fbac50173845e264d7b726750d5331eb81aa54175fd7a0c83390c6b350c7dac7",
+      "bytes": 1984162,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        29,
+        112,
+        1007,
+        1416
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 999037,
+      "alpha_ge_250_pixels": 485112
+    },
+    "gala_red/nyra_gala_red_run_right_1.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_run_right_1.png",
+      "sha256": "253b2f90e700df7367b06f7b0ef3cc20fd420fe148ff22fe2b422afe3b65b9b8",
+      "bytes": 1869723,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        85,
+        128,
+        1006,
+        1414
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1061941,
+      "alpha_ge_250_pixels": 430303
+    },
+    "gala_red/nyra_gala_red_run_right_2.png": {
+      "source": "production-1.0/runtime/gala_red/nyra_gala_red_run_right_2.png",
+      "sha256": "438c045e4a7fc5298670bd114303e7836763453d44dda649b9739080e2510667",
+      "bytes": 1852362,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "bbox_top_origin": [
+        79,
+        130,
+        986,
+        1349
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1076484,
+      "alpha_ge_250_pixels": 402775
+    },
+    "recline_gala_red/nyra_gala_red_recline_neutral.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_neutral.png",
+      "sha256": "b846ec659298f34a3a48a862b9d17006ad6eb8b06eafcdb2c394d19adc852ded",
+      "bytes": 1835137,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        10,
+        150,
+        1508,
+        896
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1055413,
+      "alpha_ge_250_pixels": 453941
+    },
+    "recline_gala_red/nyra_gala_red_recline_blink.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_blink.png",
+      "sha256": "fd147ad69a8c4a6fa4250800b960646348c5b4bf8360ec38f7e630b258be85bf",
+      "bytes": 1821755,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        10,
+        147,
+        1509,
+        896
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1063000,
+      "alpha_ge_250_pixels": 463694
+    },
+    "recline_gala_red/nyra_gala_red_recline_work.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_work.png",
+      "sha256": "9e40e8226a766904c287487393e09b97c3930e438211ef33b6dd11aa50cccbf3",
+      "bytes": 1806669,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        10,
+        147,
+        1509,
+        897
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1065754,
+      "alpha_ge_250_pixels": 461462
+    },
+    "recline_gala_red/nyra_gala_red_recline_workblink.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_workblink.png",
+      "sha256": "07c7b2eb8857880c564266083ec209f4ca012fb0f1ab59dc415b3e5b18392b8d",
+      "bytes": 1801274,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        10,
+        144,
+        1510,
+        897
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1052574,
+      "alpha_ge_250_pixels": 464367
+    },
+    "recline_gala_red/nyra_gala_red_recline_gaze.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_gaze.png",
+      "sha256": "7acb86cedcde6b1a480fb023b120f8ec6496d20c4d43369bd2cd3dadea56d61b",
+      "bytes": 1826176,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        9,
+        139,
+        1509,
+        896
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1057541,
+      "alpha_ge_250_pixels": 467147
+    },
+    "recline_gala_red/nyra_gala_red_recline_celebrate.png": {
+      "source": "production-1.0/runtime/recline_gala_red/nyra_gala_red_recline_celebrate.png",
+      "sha256": "5c5910ff6fc50c06502df8473a921c72801235dd4166a6ac832ff3a9c823ff4b",
+      "bytes": 1819378,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "bbox_top_origin": [
+        10,
+        150,
+        1509,
+        896
+      ],
+      "alpha_min": 0,
+      "alpha_max": 254,
+      "zero_alpha_pixels": 1062841,
+      "alpha_ge_250_pixels": 462274
     }
   }
 }
