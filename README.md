@@ -1,10 +1,9 @@
 # Nyra 1.0 · local desktop companion
 
-Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again.
+This version includes five standing/reclining outfits, 13 bundled Chinese Tian action recordings and 13 matching English phrases using an installed local female voice. Sound starts muted; unmute and enable Action voice for eligible transitions, with cooldown and no overlap. Close the panel with Close, Escape or Sound.
 
-**Nyra 1.0.4 / build 104** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4) · [Tian action voice](docs/release-1.0/AUDIO_FOLLOWUP.en.md)
+**Nyra 1.0.5 / build 105** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.5) · [This update](docs/release-1.0/AUTOSEND_AND_WARDROBE.en.md)
 
-Candidate 1.0.5 / 105 is being verified: [incremental changes](docs/release-1.0/AUTOSEND_AND_WARDROBE.en.md). The download above remains published 1.0.4; the candidate is not yet a release.
 
 [简体中文](README.zh-CN.md)
 
@@ -12,7 +11,7 @@ Nyra is a transparent macOS companion with five outfits, desktop interaction, a 
 
 Currently supports macOS only. A Windows version is in development; no downloadable build is available yet.
 
-Use the Nyra v1.0.4 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
+Use the Nyra v1.0.5 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
 
 - [Install](docs/release-1.0/INSTALL.en.md)
 - [Use: hover, drag, actions, outfits, transparent stage and sound](docs/release-1.0/USER_GUIDE.en.md)
@@ -23,4 +22,4 @@ Use the Nyra v1.0.4 installer linked above; verify SHA256SUMS and its matching s
 
 [TWOS repository](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra releases](https://github.com/loseyourself1978-blip/Nyra/releases)
 
-Earlier engineering documents are historical engineering records, not current installation instructions. Matching R4 media are identified in the release receipt; R1/R2/R3 media remain historical. Static artwork is not animation evidence.
+Earlier engineering documents are historical engineering records, not current installation instructions. Current candidate media are identified in the release receipt; R1–R4 media remain historical. Static artwork is not animation evidence.

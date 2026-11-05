@@ -1,6 +1,6 @@
-# DeepSeek relay, five outfits and bilingual action voice
+# Five outfits and bilingual action voice
 
-Candidate guide for Nyra 1.0.5 / 105. The new package still requires its matching complete gate, signing, notarization and download verification. CURRENT_DELIVERY and the release receipt identify actual publication status.
+Guide for Nyra 1.0.5 / 105. The matching complete gate, Developer ID signatures, notarization and exact mounted-installer launch checks passed. The corresponding GitHub Release and receipt determine availability and download verification.
 
 ## New outfits and sound
 
@@ -13,10 +13,10 @@ Idle, reading, moving, jumping and settling join the preserved eight cues. One p
 Close, Escape or the Sound button closes the panel without disabling action voice. Mute or hiding stops playback. Existing per-cue imports, volume, language and outfit preferences are preserved.
 ## Evidence and incremental check
 
-Engineering records separate real websites, native GUI, native playback callbacks and simulated tests. Each provider initiated more than five complete engineering round trips; native Stop, interrupted replies and the replacement composer have additional real GUI checks. New outfits and voice have engineering GUI observations. The final embedded signed package and complete gate are identified by the release receipt. Playback callbacks are not subjective listening-quality or Owner acceptance.
+Nyra evidence separates native GUI, actual playback callbacks and simulated tests. Both new outfits and corresponding standing/reclining poses were observed in standalone and embedded candidates. Provider relay evidence belongs to the TWOS joint integration gate, not a Nyra chat capability. The final embedded signed package and complete gate are identified by the release receipt. Playback callbacks are not subjective listening-quality or Owner acceptance.
 
-After the verified new package is delivered, check only this delta: start automatic sending once in a new ordinary engineering conversation and stop it; select White blouse/Ruby gown and Pose; preview one new cue in each language and close Sound. Do not repeat accepted debates, travel pages, Save as or prior Nyra acceptance. This ends the upgrade scenario.
+After the verified new package is delivered, check only this delta: select White blouse/Ruby gown and Pose; preview one new cue in each language and close Sound. Do not repeat accepted debates, travel pages, Save as or prior Nyra acceptance. This ends the upgrade scenario.
 
 ## Platform and Store status
 
-Currently supports macOS Apple Silicon. The standalone component targets macOS 13; see Install for TWOS browser-session persistence and other requirements. Windows is in development with no download. This candidate follows Developer ID DMG distribution. Mac App Store submission has not happened: sandbox/local execution/helper integration, third-party service permissions and review access remain open. Notarization is not App Store review.
+Currently supports macOS Apple Silicon. The standalone component targets macOS 13; see Install for TWOS browser-session persistence and other requirements. Windows is in development with no download. This version uses Developer ID DMG distribution. Mac App Store submission has not happened: sandbox/local execution/helper integration, third-party service permissions and review access remain open. Notarization is not App Store review.

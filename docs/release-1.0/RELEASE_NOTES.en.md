@@ -1,8 +1,8 @@
-# Nyra 1.0.5 / 105 — Candidate update
+# Nyra 1.0.5 / 105 — Five outfits and bilingual action voice
 
-[DeepSeek relay, five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
+[Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
 
-Five outfits and 13 bilingual action cues; TWOS fixes DeepSeek relay intent, native Stop and interrupted-reply handling. Matching release gates are required before distribution.
+Five outfits and 13 Chinese/English action cues. The two new outfits support standing and reclining; English uses an installed local voice, not bundled Tian English recordings. The matching full gate passed; the exact Developer ID apps and DMGs are notarized and Gatekeeper-verified. GitHub Release state determines publication, independently of Owner or Store acceptance.
 
 ## Nyra 1.0.4 / 104 — Tian action voice
 

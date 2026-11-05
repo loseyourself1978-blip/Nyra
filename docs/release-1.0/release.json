@@ -1,34 +1,62 @@
 {
   "product": "Nyra",
-  "version": "1.0.4",
-  "build": "104",
-  "source_commit": "d4ab6540f86c759172ffdc44d735c3fc6728f1cd",
-  "artifact": "Nyra-1.0.4-build-104-arm64.dmg",
-  "bytes": 166747754,
-  "sha256": "0f2f0336f062062f366cb1cefcc6df0eb74844c3e4c5be43b564bc990df91425",
+  "version": "1.0.5",
+  "build": "105",
+  "source_commit": "1b712de7110feded54775b522448fe6c61dbc164",
+  "artifact": "Nyra-1.0.5-build-105-arm64.dmg",
+  "bytes": 238803190,
+  "sha256": "05b42e2e782146b41ce94e5b5543fc885e0b923b47013022ada7f1cfa2b0cde7",
+  "app_notarization_id": "5c5416d2-7f84-4e55-99b9-073620343d16",
+  "dmg_notarization_id": "9decaec0-ecab-4d72-9e41-0d59a73e2250",
   "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
+  "gatekeeper": "PASS",
   "architecture": "arm64",
+  "owner_differential_acceptance": "NOT_GRANTED_BY_ENGINEERING",
+  "main_gate": {
+    "complete_pass": true,
+    "state": "COMPLETE_GREEN",
+    "counts": {
+      "passed": 1827,
+      "skipped": 1
+    },
+    "collected": 1828,
+    "safari": {
+      "measurements": 38,
+      "visible_start": 38,
+      "visible_finish": 38,
+      "errors": []
+    }
+  },
+  "at": "2026-11-06T03:28:14.565670+08:00",
+  "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
   "platform": "macOS",
   "status": "SIGNED_NOTARIZED_VALIDATED",
-  "gatekeeper": "PASS",
-  "app_notarization_id": "4c2fd1d3-9ac2-40ee-87ae-0f1cb0f02dbc",
-  "dmg_notarization_id": "24f4add0-8ae7-454d-8d0e-a27411bb5d05",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.4",
-  "audio_verification": {
-    "packaging_negative_and_positive_tests": 9,
-    "real_clips_decoded_by_AVAudioPlayer": 8,
-    "standalone_and_embedded_equal": true,
-    "twos_audio_and_version_related_gate": {
-      "passed": 86,
-      "failed": 0,
-      "scope": "Packaged runtime, preserved installations, source distribution, documentation, signature order and Nyra integration."
-    },
-    "standalone_gui": "Tian preview, actual rest-on-recline, manual celebration, Close and Escape observed in isolated candidate.",
-    "embedded_gui": "Tian source selected in the actual bundled helper; WAV playback finished for an action, with no AVSpeech fallback.",
-    "voice_quality": "Owner listening, not an engineering assertion",
-    "prior_R4_UI": "OWNER_CONFIRMED_PASS_PRESERVED",
-    "full_historical_R4_suite": "Not rerun or counted as audio coverage."
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.5",
+  "publication_truth": "GitHub Release state is authoritative; a local receipt does not assert publication.",
+  "owner_acceptance": "NOT_GRANTED_BY_ENGINEERING",
+  "store_submission": "NOT_SUBMITTED",
+  "real_gui": {
+    "exact_mounted_dmg": "Both products launched from read-only mounted DMGs; normally quit.",
+    "standalone_and_embedded_nyra": "Exact pinned component, five-outfit controls, standing/reclining and bilingual playback/Close observed.",
+    "legacy_launcher_boundary": "An isolated environment bound to another app location refused reuse with DESKTOP_INSTALLATION_MISMATCH. No path-migration PASS is claimed. Existing Window > ChatGPT + Codex opened the paired workbench."
   },
-  "owner_audio_acceptance": "PENDING",
-  "voice_manifest_sha256": "975f2b6ac3aa75b4a093ef82af901ee487b23164dab67d4e31fcf4c815602d30"
+  "audio_verification": {
+    "chinese_bundled_recordings": 13,
+    "english_fixed_phrases": 13,
+    "english_source": "Installed local Samantha en-US verified; not bundled Tian English recordings",
+    "original_eight_chinese_clips": "BYTE_UNCHANGED",
+    "native_start_finish_callbacks": 26,
+    "voice_quality": "Subjective new-voice acceptance remains with Owner"
+  },
+  "wardrobe": {
+    "outfits": 5,
+    "new_outfits": [
+      "office_white",
+      "gala_red"
+    ],
+    "new_rgba_frames": 40,
+    "standing_and_reclining": true,
+    "new_directional_runs": "Two-frame loops; unsupported optional actions remain disabled"
+  },
+  "previous_owner_acceptance": "PRESERVED; no old business task replayed"
 }

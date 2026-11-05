@@ -1,6 +1,6 @@
 # Nyra troubleshooting
 
-Nyra 1.0.5 / 105 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
+Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 - **Not visible:** use the ◈ 夜璃 menu → Show/Hide. If the app is already running, reopen it from Applications. Reset position restores a reachable location. Do not delete preferences as a first remedy.
 - **A different version is running:** quit that Nyra normally from its own menu, then open the desired version. TWOS jobs continue. Do not use killall or launch several copies.
@@ -30,4 +30,4 @@ A new standalone can explicitly connect through TWOS → Nyra status → Connect
 The read-only link is bound to the exact signed producer, including its application path. Moving/replacing TWOS, or macOS running a quarantined copy from a different temporary path, can leave standalone Nyra at NOT_CONNECTED while Show/Hide still works. Install the verified app in Applications, open that version, then use **Nyra status → Connect** to explicitly renew the read-only association if needed. Do not delete preferences or disable Gatekeeper. In the final isolated installer check, a changed macOS translocation path correctly invalidated the old link; that case is not claimed as automatic reconnection.
 
 
-[DeepSeek relay, five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
+[Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)

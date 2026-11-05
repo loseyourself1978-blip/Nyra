@@ -1,6 +1,6 @@
 # Use Nyra 1.0
 
-Nyra 1.0.5 / 105 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
+Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.
 
@@ -31,7 +31,7 @@ A manual celebration is labelled preview. A website finishing a reply does not v
 
 ## Audio and lifecycle
 
-Nyra plays short, bundled Chinese recordings by Tian at action transitions: a rest reminder on reclining and a cheer on verified success. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again. Hiding Nyra stops audio; quitting Nyra does not stop TWOS tasks.
+Nyra plays 13 short bundled Chinese Tian recordings or 13 corresponding English phrases with an installed local female voice. Eligible action transitions include idle, reading, work, rest and verified success; cooldown prevents repetitive speech. Sound starts muted. Unmute and enable Action voice in Sound; close the panel with Close, Escape or Sound again. Hiding Nyra stops audio; quitting Nyra does not stop TWOS tasks.
 
 [简体中文](USER_GUIDE.zh-CN.md) · [README](../../README.md)
 
@@ -44,7 +44,7 @@ Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any 
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
-[Evidence coverage / 验证范围](R4_VERIFICATION.en.md)
+[Current verification / 本版验证](DEEPSEEK_R1_VERIFICATION.en.md)
 
 
-[DeepSeek relay, five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
+[Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)

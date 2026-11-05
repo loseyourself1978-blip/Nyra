@@ -1,6 +1,6 @@
 # Privacy and permissions
 
-Nyra 1.0.5 / 105 · [Tian action voice](AUDIO_FOLLOWUP.en.md)
+Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 Nyra draws local bundled assets. It needs no browser cookies, model token, cloud account or business document. The read-only TWOS connection accepts only the versioned minimal event contract: producer/session/task IDs, sequence/event ID, timestamp, state, source, simulation marker and optional opaque evidence reference. It must not contain prompts, code, account identity, private paths, trading or medical content.
 
@@ -22,4 +22,4 @@ Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
 
-[DeepSeek relay, five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
+[Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)

@@ -1,6 +1,6 @@
-# Nyra 1.0.5 / 105 — 候选更新
+# Nyra 1.0.5 / 105 — 五套服装与双语动作语音
 
-[DeepSeek 接力、五套服装与双语动作语音](AUTOSEND_AND_WARDROBE.zh-CN.md)
+[五套服装与双语动作语音](AUTOSEND_AND_WARDROBE.zh-CN.md)
 
 新增五服装与13组双语动作声音；TWOS 修复 DeepSeek 接力意图、原生停止及被中断回复处理。新包发行前须完成匹配门禁。
 
