@@ -24,3 +24,6 @@ Nyra 是 macOS 透明桌面伴侣，提供五套服装、桌面互动、透明�
 [TWOS 仓库](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra 发行](https://github.com/loseyourself1978-blip/Nyra/releases)
 
 早期工程资料仅作历史记录；本轮媒体以匹配回执为准。静态图像不证明动画播放。
+
+
+[本机热修复候选（尚未发布）](docs/release-1.0/CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)

@@ -48,3 +48,6 @@ Nyra v2 只接收左／右／双方来源、最小状态和不透明标识。任
 
 
 [五套服装与双语动作语音](AUTOSEND_AND_WARDROBE.zh-CN.md)
+
+
+[本轮候选差量](CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)

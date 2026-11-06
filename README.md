@@ -23,3 +23,6 @@ Use the Nyra v1.0.5 installer linked above; verify SHA256SUMS and its matching s
 [TWOS repository](https://github.com/loseyourself1978-blip/tianma-work-os) · [Nyra releases](https://github.com/loseyourself1978-blip/Nyra/releases)
 
 Earlier engineering documents are historical engineering records, not current installation instructions. Current candidate media are identified in the release receipt; R1–R4 media remain historical. Static artwork is not animation evidence.
+
+
+[Local hotfix candidate (not published)](docs/release-1.0/CODEX_CONNECTION_AND_TASK_LABELS.en.md)
