@@ -117,13 +117,19 @@ final class NyraStatusClient {
     // A user click only activates the freshly authenticated, already-running host.
     // No launch URL, model request, command, or arbitrary application path is accepted.
     private var activating = false
+    private var activationID: UUID?
     func activateHost(_ completion: @escaping (Bool)->Void) {
         guard !activating,let choice=selection else {completion(false);return}
-        activating=true;let token=generation
+        activating=true;let token=generation;let attempt=UUID();activationID=attempt
+        DispatchQueue.main.asyncAfter(deadline:.now()+6) { [weak self] in
+            guard let self=self,self.activationID==attempt else{return}
+            self.activationID=nil;self.activating=false;completion(false)
+        }
         DispatchQueue.global(qos:.utility).async {
             let result=try? Self.readAuthenticated(choice)
             DispatchQueue.main.async {
-                self.activating=false
+                guard self.activationID==attempt else{return}
+                self.activationID=nil;self.activating=false
                 guard token==self.generation,let (_,peer)=result,!peer.isTerminated,
                       peer.bundleIdentifier==choice.producerBundleID,
                       peer.bundleURL?.standardizedFileURL==URL(fileURLWithPath:choice.producerApp).standardizedFileURL else {completion(false);return}
