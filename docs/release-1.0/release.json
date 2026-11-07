@@ -1,13 +1,13 @@
 {
   "product": "Nyra",
-  "version": "1.0.5",
-  "build": "105",
-  "source_commit": "1b712de7110feded54775b522448fe6c61dbc164",
-  "artifact": "Nyra-1.0.5-build-105-arm64.dmg",
-  "bytes": 238803190,
-  "sha256": "05b42e2e782146b41ce94e5b5543fc885e0b923b47013022ada7f1cfa2b0cde7",
-  "app_notarization_id": "5c5416d2-7f84-4e55-99b9-073620343d16",
-  "dmg_notarization_id": "9decaec0-ecab-4d72-9e41-0d59a73e2250",
+  "version": "1.0.6",
+  "build": "106",
+  "source_commit": "18309c82bcc6c821ebde56c0591ae02240931c89",
+  "artifact": "Nyra-1.0.6-build-106-arm64.dmg",
+  "bytes": 238525678,
+  "sha256": "e9abc54c3ed0c39b3e5d36bb50bde69d7ca9617089207499814d3e249189cc34",
+  "app_notarization_id": "e39149a8-5860-4120-bc77-98b278a80f59",
+  "dmg_notarization_id": "f7355e21-dd27-4a19-b471-bd422f849c62",
   "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
   "gatekeeper": "PASS",
   "architecture": "arm64",
@@ -16,10 +16,10 @@
     "complete_pass": true,
     "state": "COMPLETE_GREEN",
     "counts": {
-      "passed": 1827,
+      "passed": 1852,
       "skipped": 1
     },
-    "collected": 1828,
+    "collected": 1853,
     "safari": {
       "measurements": 38,
       "visible_start": 38,
@@ -27,36 +27,13 @@
       "errors": []
     }
   },
-  "at": "2026-11-06T03:28:14.565670+08:00",
+  "at": "2026-11-07T11:28:35.767532+08:00",
   "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
   "platform": "macOS",
   "status": "SIGNED_NOTARIZED_VALIDATED",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.5",
-  "publication_truth": "GitHub Release state is authoritative; a local receipt does not assert publication.",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.6",
+  "publication_truth": "GitHub Release state is authoritative; this build receipt alone does not assert publication.",
   "owner_acceptance": "NOT_GRANTED_BY_ENGINEERING",
   "store_submission": "NOT_SUBMITTED",
-  "real_gui": {
-    "exact_mounted_dmg": "Both products launched from read-only mounted DMGs; normally quit.",
-    "standalone_and_embedded_nyra": "Exact pinned component, five-outfit controls, standing/reclining and bilingual playback/Close observed.",
-    "legacy_launcher_boundary": "An isolated environment bound to another app location refused reuse with DESKTOP_INSTALLATION_MISMATCH. No path-migration PASS is claimed. Existing Window > ChatGPT + Codex opened the paired workbench."
-  },
-  "audio_verification": {
-    "chinese_bundled_recordings": 13,
-    "english_fixed_phrases": 13,
-    "english_source": "Installed local Samantha en-US verified; not bundled Tian English recordings",
-    "original_eight_chinese_clips": "BYTE_UNCHANGED",
-    "native_start_finish_callbacks": 26,
-    "voice_quality": "Subjective new-voice acceptance remains with Owner"
-  },
-  "wardrobe": {
-    "outfits": 5,
-    "new_outfits": [
-      "office_white",
-      "gala_red"
-    ],
-    "new_rgba_frames": 40,
-    "standing_and_reclining": true,
-    "new_directional_runs": "Two-frame loops; unsupported optional actions remain disabled"
-  },
   "previous_owner_acceptance": "PRESERVED; no old business task replayed"
 }

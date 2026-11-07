@@ -1,6 +1,6 @@
 # 安装夜璃 Nyra 1.0
 
-Nyra 1.0.5 / 105 · [本次增量](AUTOSEND_AND_WARDROBE.zh-CN.md)
+Nyra 1.0.6 / 106 · [本次增量](CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)
 
 这是独立桌宠。TWOS 已内置固定版本 Nyra，使用 TWOS 时不需要再安装第二个包。
 
@@ -28,4 +28,4 @@ Nyra v2 只接收左／右／双方来源、最小状态和不透明标识。任
 新独立版可通过 TWOS → 夜璃状态 → 连接明确接续。两端 Unix socket 实例和精确签名均核验。旧独立版可能需要正常升级；不移除身份校验。重连只读当前快照，不重放旧工作／庆祝，不复制浏览器凭据或业务文件。
 
 
-[五套服装与双语动作语音](AUTOSEND_AND_WARDROBE.zh-CN.md)
+[五套服装与双语动作语音](CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)
