@@ -2,7 +2,7 @@
 
 > **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
 
-Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
+Nyra 1.0.7 / 107 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 Nyra draws local bundled assets. It needs no browser cookies, model token, cloud account or business document. The read-only TWOS connection accepts only the versioned minimal event contract: producer/session/task IDs, sequence/event ID, timestamp, state, source, simulation marker and optional opaque evidence reference. It must not contain prompts, code, account identity, private paths, trading or medical content.
 
@@ -19,7 +19,7 @@ Any file-selection dialog authorizes only the chosen file or endpoint. No full-d
 
 Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, five outfits and desktop restoration remain unchanged.
 
-Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
+Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange and all task dispatch. Nyra does not read whole conversations; its separate authenticated user-control channel forwards only the explicitly entered draft/action for the bound task.
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
@@ -27,7 +27,7 @@ A new standalone can explicitly connect through TWOS → Nyra status → Connect
 [Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
 
 
-[Current candidate delta](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+[Current candidate delta](FOCUS_AND_TASK_CONTROLS.en.md)
 
 ## Pending user-control channel
 

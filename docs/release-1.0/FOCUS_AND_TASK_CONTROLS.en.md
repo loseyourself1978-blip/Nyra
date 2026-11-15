@@ -38,3 +38,7 @@ All I/O and signature verification are off the UI thread. A four-second bounded 
 macOS only. Windows is in development and has no downloadable build. Existing five outfits, audio and accepted business outcomes are unchanged.
 
 The task selector keeps the same conversation when a new turn starts. Login/landing pages without an observed run do not become task cards. After an owned execution ends, the editor can still save its draft, but does not silently start another turn.
+
+## Stop feedback
+
+Clicking Stop immediately shows **Stopping…** for that exact task. Ordinary snapshots cannot re-enable a duplicate request or erase a failure. If the request or terminal state cannot be confirmed, **Stop unconfirmed** remains visible; hover for the reason and check the bound task in TWOS. There is no automatic retry. **Stopped** appears only after the host reports cancellation. A completed or failed task keeps its real outcome. An ended task has a disabled Stop control with an explanation.

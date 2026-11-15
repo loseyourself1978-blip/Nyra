@@ -2,9 +2,9 @@
 
 > **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
 
-Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
+Nyra 1.0.7 / 107 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
-Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.
+Nyra is a local visual companion. A user can edit a draft, submit an authorized supplement or stop the exact bound task through TWOS. TWOS remains the sole execution and permission controller; Nyra cannot approve work, independently run commands or infer success from conversation text.
 
 ## Desktop
 
@@ -27,7 +27,8 @@ The stage is a screen-sized transparent window, not a black macOS fullscreen Spa
 | Running | Working |
 | Partial / failed / cancelled / ended unverified | Neutral idle with the actual result label; no success celebration |
 | Verified success with linked evidence | Celebrate once, then return to the current base state |
-| Disconnected / stale | Neutral appearance and unknown connection; no permanent fake work |
+| Transport disconnected | Neutral appearance and unknown connection; no permanent fake work |
+| Connected but activity stale | Activity needs an update; no invented idle/success, task actions disabled until reconciled |
 
 A manual celebration is labelled preview. A website finishing a reply does not verify a local file. Startup and reconnect read the current snapshot and do not replay an old celebration. Nyra cannot grant overall Owner acceptance.
 
@@ -42,7 +43,7 @@ Nyra plays 13 short bundled Chinese Tian recordings or 13 corresponding English 
 
 Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, five outfits and desktop restoration remain unchanged.
 
-Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange; Nyra cannot dispatch, approve or read the conversations.
+Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange and all task dispatch. Nyra does not read whole conversations; its separate authenticated user-control channel forwards only the explicitly entered draft/action for the bound task.
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
@@ -52,4 +53,8 @@ A new standalone can explicitly connect through TWOS → Nyra status → Connect
 [Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
 
 
-[Current candidate delta](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+[Current candidate delta](FOCUS_AND_TASK_CONTROLS.en.md)
+
+## Direct task controls
+
+Click the character once to restore the bound TWOS workbench. The compact task bubble has a direct pencil and Stop. The pencil opens a focused IME-capable editor; Enter sends, Shift+Enter inserts a line, Escape closes. Normal drafts are autosaved; a queued revision is saved only explicitly. A running owned Codex turn supports Steer; web tasks use send-after-completion. Target changes retain the input rather than redirecting it. Stop first fences future dispatch and then interrupts only the bound task. The display changes to Stopping immediately, and to Stopped only on confirmed cancellation. Failed confirmation remains visible. See the [incremental guide](FOCUS_AND_TASK_CONTROLS.en.md) for exact authority and recovery boundaries.
