@@ -1,5 +1,7 @@
 # Install Nyra 1.0
 
+> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+
 Nyra 1.0.6 / 106 · [This update](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
 
 This is the standalone companion. TWOS includes its own pinned Nyra component: TWOS users do not need this second installer.

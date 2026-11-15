@@ -1,5 +1,7 @@
 # Privacy and permissions
 
+> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+
 Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 Nyra draws local bundled assets. It needs no browser cookies, model token, cloud account or business document. The read-only TWOS connection accepts only the versioned minimal event contract: producer/session/task IDs, sequence/event ID, timestamp, state, source, simulation marker and optional opaque evidence reference. It must not contain prompts, code, account identity, private paths, trading or medical content.
@@ -26,3 +28,9 @@ A new standalone can explicitly connect through TWOS → Nyra status → Connect
 
 
 [Current candidate delta](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+
+## Pending user-control channel
+
+The status socket remains read-only. The pending build separately carries the one draft or supplement explicitly edited by the user to the authenticated TWOS instance. TWOS alone checks the exact task, turn, revision and permission before saving, sending or stopping. Normal drafts and receipts use the existing local TWOS profile. An unconfirmed send is not automatically retried; unconfirmed input is retained in the editor and in the single bounded owner-only recovery record described below. The user can hide the bounded task title before screen sharing. No new file, shell, approval or recipient permissions are granted. See the [development delta](FOCUS_AND_TASK_CONTROLS.en.md).
+
+Nyra’s task editor additionally keeps at most one local `task-input-recovery.json` in its application state directory before transmitting a draft/control operation. It contains only the explicitly entered text, a bounded task title/provider and opaque target identity; no attachments or credentials. The file is owner-only (0600), its directory is 0700, and a matching acknowledged save/delivery clears it. Retained recovery is displayed copy-only after reopening; it is never automatically sent. Discard requires an explicit local confirmation.

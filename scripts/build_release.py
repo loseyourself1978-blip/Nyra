@@ -23,6 +23,8 @@ def build(destination,cache,architectures,signing,engineering):
         target=resources/source.relative_to(ROOT);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
     contract=ROOT/'production-r4/contracts/nyra_event_contract.json'
     shutil.copy2(contract,resources/'event-contract.json')
+    control_contract=ROOT/'production-r4/contracts/nyra_control_contract.json'
+    shutil.copy2(control_contract,resources/'control-contract.json')
     head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
     clean=not subprocess.check_output(['git','status','--porcelain','--untracked-files=all'],cwd=ROOT,text=True).strip()
     input_paths=set((ROOT/'Sources').glob('*.swift'))
@@ -34,12 +36,12 @@ def build(destination,cache,architectures,signing,engineering):
     input_paths.add(ROOT/'scripts/extend_wardrobe.py')
     input_paths.update([ROOT/'scripts/build_release.py',ROOT/'scripts/prepare_release.py',
         ROOT/'production-1.0/specs/runtime.json',ROOT/'production-1.0/specs/resources.json',
-        ROOT/'production-1.0/specs/outfits.json',ROOT/'production-r3/specs/standalone_r3.json',contract])
+        ROOT/'production-1.0/specs/outfits.json',ROOT/'production-r3/specs/standalone_r3.json',contract,control_contract])
     inputs={str(p.relative_to(ROOT)):sha(p) for p in sorted(input_paths)}
     snapshot=hashlib.sha256(json.dumps(inputs,sort_keys=True,separators=(',',':')).encode()).hexdigest()
     payload={p.relative_to(resources).as_posix():sha(p) for p in sorted(resources.rglob('*')) if p.is_file()}
-    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.6',build='106',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v4',event_schema_sha256=sha(contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
-    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.6',CFBundleVersion='106',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
+    (resources/'component-manifest.json').write_text(json.dumps(dict(product='Nyra',version='1.0.7',build='107',source_commit=head,source_clean=clean,source_snapshot=snapshot,event_schema='twos.nyra.status.v4',event_schema_sha256=sha(contract),control_schema='twos.nyra.control.v1',control_schema_sha256=sha(control_contract),files=inputs,bundle_files=payload,engineering=engineering),indent=2)+'\n')
+    info=dict(CFBundleName='Nyra Engineering' if engineering else 'Nyra',CFBundleDisplayName='Nyra Engineering' if engineering else '夜璃 · Nyra',CFBundleIdentifier='com.tianma.nyra.joint.engineering' if engineering else 'com.tianma.nyra',CFBundleExecutable='Nyra',CFBundlePackageType='APPL',CFBundleShortVersionString='1.0.7',CFBundleVersion='107',LSMinimumSystemVersion='13.0',LSUIElement=True,NSHighResolutionCapable=True,NSPrincipalClass='NSApplication',CFBundleDevelopmentRegion='en',LSMultipleInstancesProhibited=True,NyraVisibilityProtocol=2,CFBundleURLTypes=[dict(CFBundleURLName='Nyra visibility only',CFBundleURLSchemes=['nyra','twos-nyra'])])
     (contents/'Info.plist').write_bytes(plistlib.dumps(info))
     binaries=[]
     for arch in architectures:

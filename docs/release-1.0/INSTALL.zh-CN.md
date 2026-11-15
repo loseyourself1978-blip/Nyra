@@ -1,5 +1,7 @@
 # 安装夜璃 Nyra 1.0
 
+> **开发接续——尚未公开发布：** [单击返回、紧凑任务控制及左右共用 Codex 导航](FOCUS_AND_TASK_CONTROLS.zh-CN.md)。新用户控制通道传递本人选定的草稿／补充；旧状态通道保持只读。下文仅只读的描述适用于已发布基线，不代表待交付控制版。
+
 Nyra 1.0.6 / 106 · [本次增量](CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)
 
 这是独立桌宠。TWOS 已内置固定版本 Nyra，使用 TWOS 时不需要再安装第二个包。

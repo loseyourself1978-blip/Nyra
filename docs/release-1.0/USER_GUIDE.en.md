@@ -1,5 +1,7 @@
 # Use Nyra 1.0
 
+> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+
 Nyra 1.0.5 / 105 · [This update](AUTOSEND_AND_WARDROBE.en.md)
 
 Nyra is a local visual companion, not an execution agent. It cannot approve work, run commands, send messages, or infer success from conversation text.

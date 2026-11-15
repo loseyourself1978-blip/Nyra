@@ -1,5 +1,7 @@
 # Nyra 1.0.6 / 106 — Local Codex connection and task labels
 
+> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+
 Async process launch and incremental JSONL keep the UI responsive. Bounded deadlines, cancellation and generation IDs protect reconnect; connection alone never starts a task. Nyra shows/hides fresh task labels and returns to the authenticated host on click. The exact signed/notarized packages passed the complete gate: 1852 passed, 1 historical skip, 0 failures, including 38 actual Safari measurements. Real packaged Codex connection, response, disconnect and reconnect were observed. Web-provider task-label coverage is contract/fixture evidence, not a new live website-run acceptance. Owner acceptance remains separate.
 
 [Delta guide](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
