@@ -105,6 +105,42 @@ if mode=="deadline" {
  fail.request={_,_,_ in requests+=1};fail.submit();spin(0.1)
  precondition(requests==0 && !fail.busy && fail.dirty && fail.revision.isEmpty)
  fail.panel.orderOut(nil)
+ } else if mode=="stop" {
+ let app=NSApplication.shared;app.setActivationPolicy(.accessory)
+ let target=String(repeating:"a",count:64),other=String(repeating:"b",count:64)
+ let task:[String:Any]=["target":target,"side":"right","provider":"Codex","title":"TEST ONLY stop feedback","state":"running","fresh":true,"canStop":true]
+ let card=CompanionTaskCard();var calls=0,actionID=""
+ card.onStop={row,id in calls+=1;actionID=id;precondition(row["target"] as? String==target)}
+ card.update([task],fresh:true,authorized:true,zh:false)
+ card.stopTask();card.stopTask()
+ precondition(calls==1 && !card.stop.isEnabled && card.subtitle.title.contains("Stopping"))
+ // Normal snapshots must not re-enable duplicate Stop or erase its feedback.
+ card.update([task],fresh:true,authorized:true,zh:false);card.stopTask()
+ precondition(calls==1 && !card.stop.isEnabled && card.subtitle.title.contains("Stopping"))
+ card.finishStop(actionID,target:target,result:["error":"CONTROL_DEADLINE_STATUS_UNKNOWN_NO_RETRY"])
+ card.update([task],fresh:true,authorized:true,zh:true)
+ precondition(card.title.title=="TEST ONLY stop feedback" && card.subtitle.title.contains("停止未确认") && card.subtitle.toolTip!.contains("不要重复发送") && !card.stop.isEnabled)
+ precondition(card.stopObservation["error"] as? String=="CONTROL_DEADLINE_STATUS_UNKNOWN_NO_RETRY")
+ card.update([task.merging(["state":"cancelled","canStop":false]){_,n in n}],fresh:true,authorized:true,zh:true)
+ precondition(card.subtitle.title.contains("已停止") && !card.stop.isEnabled && card.stop.toolTip!.contains("执行已结束"))
+ card.stopTask();precondition(calls==1)
+ // Switching tasks isolates both feedback and late callback; no redirect.
+ let otherTask=task.merging(["target":other,"title":"TEST ONLY other task"]){_,n in n}
+ card.update([otherTask],fresh:true,authorized:true,zh:false)
+ card.finishStop(actionID,target:target,result:["state":"stopping"])
+ precondition(card.subtitle.title.contains("Running") && card.stop.isEnabled && card.title.title=="TEST ONLY other task")
+ card.update([otherTask],fresh:false,authorized:true,zh:false);card.stopTask()
+ precondition(calls==1 && card.subtitle.title.contains("awaiting update"))
+ // Acceptance is not completion. A bounded wait exposes unknown, never success.
+ card.update([task],fresh:true,authorized:true,zh:false)
+ card.stopAttempt=nil;card.render();card.stopTask()
+ card.finishStop(actionID,target:target,result:["state":"stopping"])
+ let old=card.stopAttempt!
+ card.stopAttempt=CompanionTaskCard.StopAttempt(id:old.id,target:old.target,started:old.started-13,at:old.at,response:old.response,error:nil,finished:old.finished)
+ card.render();precondition(card.subtitle.title.contains("Stop unconfirmed") && !card.stop.isEnabled)
+ card.update([task.merging(["state":"completed_unverified","canStop":false]){_,n in n}],fresh:true,authorized:true,zh:false)
+ precondition(card.subtitle.title.contains("unverified") && !card.subtitle.title.contains("Stopped"))
+ card.panel.orderOut(nil)
 } else if mode=="editor" {
  let app=NSApplication.shared;app.setActivationPolicy(.accessory)
  let task:[String:Any]=["target":String(repeating:"a",count:64),"provider":"TEST ONLY","title":"isolated editor","canSteer":true]
@@ -234,7 +270,7 @@ print("TEST_ONLY_PASS "+mode)
     assert compiled.returncode==0,compiled.stderr
     return binary
 
-@pytest.mark.parametrize('mode',['deadline','reset','normal','recovery','editor'])
+@pytest.mark.parametrize('mode',['deadline','reset','normal','recovery','editor','stop'])
 def test_controller_deadline_reset_and_editor(control_client,mode):
     host=str(uuid.uuid4());root=Path('/private/tmp')/('twos-nyra-status-'+host);root.mkdir(mode=0o700)
     listener=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM);listener.bind(str(root/'control.sock'));listener.listen();listener.settimeout(.05)
