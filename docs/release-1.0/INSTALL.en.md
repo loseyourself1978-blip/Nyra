@@ -1,18 +1,18 @@
 # Install Nyra 1.0
 
-> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+> **Current control-enabled version:** [Focus, compact task controls and shared Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The status channel remains read-only; a separate authenticated channel carries only user-selected drafts/actions. Existing standalone status grants do not gain control permission automatically. Historical read-only-only descriptions do not describe this new control channel.
 
-Nyra 1.0.7 / 107 · [This update](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+Nyra 1.0.7 / 107 · [This update](FOCUS_AND_TASK_CONTROLS.en.md)
 
 This is the standalone companion. TWOS includes its own pinned Nyra component: TWOS users do not need this second installer.
 
-Currently supports macOS only. A Windows version is in development; no downloadable build is available yet. The standalone binary targets macOS 13.0 or later. Apple Silicon is the engineering test platform; a compiled Intel slice is not proof of Intel testing. Consult the final release receipt for tested systems and signing results.
+Currently supports macOS only. A Windows version is in development; no downloadable build is available yet. This release provides Apple Silicon (arm64) only, declares a macOS 13.0 minimum and was tested on macOS 27.0.1. Other macOS versions and Intel are not claimed tested. Consult the release receipt for signatures and hashes.
 
 1. Download the **Nyra** DMG and its matching `SHA256SUMS` from this repository's release. The work-order ZIP and automatic GitHub source ZIP are not installers.
 2. Open the DMG. Drag **Nyra** into **Applications**. Eject the DMG and open the installed app. Approve only the normal macOS launch prompt for this signed product. If macOS reports an invalid signature or blocks the app, stop and consult Troubleshooting; do not disable Gatekeeper or remove quarantine.
 3. A transparent character and the **◈ 夜璃** menu-bar item appear. Audio is muted by default. Nyra requires no account, email registration, model subscription, Python, Node, Pets plugin, or first-run artwork download.
 4. Hover over the visible character. Use **＋** to open the control ring. Choose Actions to play one bounded preview, or change outfits. The menu bar remains available if the character is hidden.
-5. To view actual TWOS task state, prefer the copy bundled with TWOS. Standalone Nyra offers **Connect read-only status…**: choose the TWOS application's exact app and its documented local endpoint when requested. This connects only minimal status. Do not choose business reports, credentials, or arbitrary socket files. If no valid endpoint is available, local interaction remains usable and the status says not connected.
+5. The Nyra copy bundled with TWOS connects to its matching workbench. For standalone Nyra, open **TWOS → ⋯ More → Nyra status → Connect and authorize**, verify the exact standalone app and follow the grant prompt. An existing read-only grant requires a separate **Enable Nyra task controls** action before append or Stop; old grants do not upgrade automatically. Read-only status remains an option. Local interaction remains available when disconnected, with an honest connection status.
 
 **End point:** the installed character displays and its controls work. You do not need to create or repeat a TWOS business task.
 
@@ -25,9 +25,9 @@ Advanced checksum verification: in the download folder, run `shasum -a 256 -c SH
 
 Use the separate lower-right hover Stage arrow with a single click; resize with the wheel/trackpad or **+ / Larger / Smaller / Reset size**. Return, actions, pose, sound, hide and quit sit in the visible top safe area, accounting for Dock/menu placement. Existing transparent art, five outfits and desktop restoration remain unchanged.
 
-Nyra v2 receives only side (left/right/both), minimal state and opaque IDs. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange and all task dispatch. Nyra does not read whole conversations; its separate authenticated user-control channel forwards only the explicitly entered draft/action for the bound task.
+The read-only status channel carries side (left/right/both), minimal state, opaque IDs and a bounded active conversation title. Any fresh active pane keeps working frames alive; one finishing does not idle the other. Unknown connection is neutral; merely reading a page or inspecting delivery is not work. Short input actions return to the real current base state. TWOS manages automatic exchange and all task dispatch. Nyra does not read whole conversations; its separate authenticated user-control channel forwards only the explicitly entered draft/action for the bound task.
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
 
-[Five outfits and bilingual action voice](CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+[Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)

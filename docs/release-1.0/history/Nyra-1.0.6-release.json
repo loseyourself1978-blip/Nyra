@@ -1,0 +1,39 @@
+{
+  "product": "Nyra",
+  "version": "1.0.6",
+  "build": "106",
+  "source_commit": "18309c82bcc6c821ebde56c0591ae02240931c89",
+  "artifact": "Nyra-1.0.6-build-106-arm64.dmg",
+  "bytes": 238525678,
+  "sha256": "e9abc54c3ed0c39b3e5d36bb50bde69d7ca9617089207499814d3e249189cc34",
+  "app_notarization_id": "e39149a8-5860-4120-bc77-98b278a80f59",
+  "dmg_notarization_id": "f7355e21-dd27-4a19-b471-bd422f849c62",
+  "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
+  "gatekeeper": "PASS",
+  "architecture": "arm64",
+  "owner_differential_acceptance": "NOT_GRANTED_BY_ENGINEERING",
+  "main_gate": {
+    "complete_pass": true,
+    "state": "COMPLETE_GREEN",
+    "counts": {
+      "passed": 1852,
+      "skipped": 1
+    },
+    "collected": 1853,
+    "safari": {
+      "measurements": 38,
+      "visible_start": 38,
+      "visible_finish": 38,
+      "errors": []
+    }
+  },
+  "at": "2026-11-07T11:28:35.767532+08:00",
+  "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
+  "platform": "macOS",
+  "status": "SIGNED_NOTARIZED_VALIDATED",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.6",
+  "publication_truth": "GitHub Release state is authoritative; this build receipt alone does not assert publication.",
+  "owner_acceptance": "NOT_GRANTED_BY_ENGINEERING",
+  "store_submission": "NOT_SUBMITTED",
+  "previous_owner_acceptance": "PRESERVED; no old business task replayed"
+}

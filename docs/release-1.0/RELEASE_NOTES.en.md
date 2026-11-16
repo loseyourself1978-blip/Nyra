@@ -1,6 +1,15 @@
-# Nyra 1.0.6 / 106 — Local Codex connection and task labels
+# Nyra 1.0.7 / 107 — Focus and direct task controls
 
-> **Development continuation — not yet published:** [Focus, compact task controls and shared left/right Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The new user-control channel carries explicitly selected drafts/supplements; the original status channel remains read-only. Earlier read-only-only descriptions below refer to the released baseline, not the pending control-enabled build.
+A character click restores the authenticated, exact TWOS workbench. A compact translucent task bubble provides direct input and Stop. Input supports IME, drafts, same-turn Steer and queued supplements; only unsent text can be revised. Stop fences future dispatch before waiting for confirmed cancellation. Either Codex pane uses the same project/chat sidebar and bounded current public-history reads; official-app controlled runs remain read-only. Five outfits, voice, website navigation and previous acceptance are preserved.
+
+One complete serial TWOS gate: 1873 passed, one explicitly retained historical skip, zero failures; all 38 actual Safari measurements began and ended visible. Runtime and frozen input hashes were unchanged throughout that run. Release documents and receipts are subsequently updated and checked separately; they are not represented as inputs to that earlier run. Earlier failed/partial batches are not added to this result.
+
+See the [verification record](FOCUS_VERIFICATION.en.md) for actual interaction coverage, limits, retained failures and the standalone/bundled relationship. This does not grant Owner acceptance.
+
+[Incremental guide](FOCUS_AND_TASK_CONTROLS.en.md)
+
+## Nyra 1.0.6 / 106 — Local Codex connection and task labels
+
 
 Async process launch and incremental JSONL keep the UI responsive. Bounded deadlines, cancellation and generation IDs protect reconnect; connection alone never starts a task. Nyra shows/hides fresh task labels and returns to the authenticated host on click. The exact signed/notarized packages passed the complete gate: 1852 passed, 1 historical skip, 0 failures, including 38 actual Safari measurements. Real packaged Codex connection, response, disconnect and reconnect were observed. Web-provider task-label coverage is contract/fixture evidence, not a new live website-run acceptance. Owner acceptance remains separate.
 

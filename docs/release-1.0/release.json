@@ -1,39 +1,81 @@
 {
   "product": "Nyra",
-  "version": "1.0.6",
-  "build": "106",
-  "source_commit": "18309c82bcc6c821ebde56c0591ae02240931c89",
-  "artifact": "Nyra-1.0.6-build-106-arm64.dmg",
-  "bytes": 238525678,
-  "sha256": "e9abc54c3ed0c39b3e5d36bb50bde69d7ca9617089207499814d3e249189cc34",
-  "app_notarization_id": "e39149a8-5860-4120-bc77-98b278a80f59",
-  "dmg_notarization_id": "f7355e21-dd27-4a19-b471-bd422f849c62",
-  "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
+  "version": "1.0.7",
+  "build": "107",
+  "source_commit": "a897169abfae4eb4535940420097ff9dbdf621a1",
+  "artifact": "Nyra-1.0.7-arm64.dmg",
+  "bytes": 238596444,
+  "sha256": "940ac4ae5f6437b6e0746cb4fe84b99fa6bf5a944e63f38e19a3b9bcdb3f1ad0",
+  "app_notarization_id": "10e8ad29-870b-4526-85d7-dd1004833dbb",
+  "dmg_notarization_id": "3f9feb70-af35-4bc3-9347-9010cf689295",
   "gatekeeper": "PASS",
   "architecture": "arm64",
-  "owner_differential_acceptance": "NOT_GRANTED_BY_ENGINEERING",
+  "platform": "macOS",
+  "declared_minimum_macos": "13.0",
+  "tested_macos": "27.0.1",
+  "tested_safari": "27.0.1",
+  "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
+  "status": "SIGNED_NOTARIZED_VALIDATED",
   "main_gate": {
-    "complete_pass": true,
-    "state": "COMPLETE_GREEN",
+    "exit_code": 0,
+    "collected": 1874,
     "counts": {
-      "passed": 1852,
+      "passed": 1873,
       "skipped": 1
     },
-    "collected": 1853,
+    "skipped_nodes": [
+      "tests/test_vol20_commit_identity_artifact_upgrade.py::test_frozen_same_path_upgrade_backup_restart_and_rollback"
+    ],
+    "duration_seconds": 14746.563968658447,
+    "runtime_changed": [],
+    "changed_inputs": [],
+    "frozen_count": 515,
     "safari": {
       "measurements": 38,
       "visible_start": 38,
       "visible_finish": 38,
       "errors": []
-    }
+    },
+    "complete_pass": true
   },
-  "at": "2026-11-07T11:28:35.767532+08:00",
-  "build_time_signing_metadata": "Source provenance preserves its original builder record; actual distribution signature is verified in this receipt and codesign/Gatekeeper.",
-  "platform": "macOS",
-  "status": "SIGNED_NOTARIZED_VALIDATED",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.6",
-  "publication_truth": "GitHub Release state is authoritative; this build receipt alone does not assert publication.",
+  "main_gate_source_head": "eb7cda0fe4f785c83da215322076ba1d487d386c",
+  "post_gate_documentation_scope": "Release documentation, receipts and website are updated after the full gate. Publication separately requires the two existing guide/package-link tests, media integrity, offline guide links and unchanged runtime input hashes. These checks are not combined into another complete gate.",
+  "nyra_control_suite": {
+    "passed": 19,
+    "failed": 0,
+    "seconds": 15.838,
+    "boundary": "Production AppKit/controller with synthetic service boundary"
+  },
+  "final_packaged_gui": "SCOPED_ACTUAL_EVIDENCE_WITH_DOCUMENTED_LIMITS",
+  "verification_document": "FOCUS_VERIFICATION.en.md",
   "owner_acceptance": "NOT_GRANTED_BY_ENGINEERING",
   "store_submission": "NOT_SUBMITTED",
-  "previous_owner_acceptance": "PRESERVED; no old business task replayed"
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7",
+  "publication_truth": "Check the matching GitHub Release for actual public availability. This build receipt does not itself publish an asset.",
+  "prior_owner_acceptance": "PRESERVED; no accepted business task replayed",
+  "at": "2026-11-16T20:44:26.328593+08:00",
+  "physical_stop": {
+    "candidate": "final embedded",
+    "acknowledgment_ms": 15,
+    "confirmed_task_terminal": "cancelled",
+    "pending_queue_empty": true,
+    "future_dispatch_paused": true,
+    "tool_exit_status": "NOT_REPORTED",
+    "owner_observed_response": true
+  },
+  "focus_scope": {
+    "owner_reported_physical_clicks": 20,
+    "owner_reported_returns": 20,
+    "time_correlated_records": 11,
+    "confirmed_records": 10,
+    "confirmed_latency_ms_range": [
+      5,
+      267
+    ],
+    "unconfirmed_records": 1,
+    "unconfirmed_elapsed_ms": 2977,
+    "not_claimed": "20 individually measured subsecond returns or separately labelled multi-display/Space coverage"
+  },
+  "source_snapshot": "08397324d353221c9e04e685fe409f2dd563c471541c9c9ce931070edd3d51c3",
+  "component_manifest_sha256": "d75a27f575eb102e71c739795b52870abe61bccfcd9b9ca614479fc264bd1940"
 }
