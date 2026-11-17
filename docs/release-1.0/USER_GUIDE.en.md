@@ -1,10 +1,10 @@
 # Use Nyra 1.0
 
-> Unreleased candidate amendment: [minimal activity display and independent host focus](MINIMAL_STATUS_AND_FOCUS.en.md). Verification and publication are pending; published-version guidance below is retained for reference.
+> **Current update: minimal activity bubble, independent host focus and offline English voice.** [Instructions](MINIMAL_STATUS_AND_FOCUS.en.md) · [Actual verification and limits](MINIMAL_STATUS_VERIFICATION.en.md). The default bubble closes when no work is active; task mutations still require their separate authorization.
 
-> **Current control-enabled version:** [Focus, compact task controls and shared Codex navigation](FOCUS_AND_TASK_CONTROLS.en.md). The status channel remains read-only; a separate authenticated channel carries only user-selected drafts/actions. Existing standalone status grants do not gain control permission automatically. Historical read-only-only descriptions do not describe this new control channel.
+> **Current control-enabled version:** [Focus, compact task controls and shared Codex navigation](MINIMAL_STATUS_AND_FOCUS.en.md). The status channel remains read-only; a separate authenticated channel carries only user-selected drafts/actions. Existing standalone status grants do not gain control permission automatically. Historical read-only-only descriptions do not describe this new control channel.
 
-Nyra 1.0.7 / 107 · [This update](FOCUS_AND_TASK_CONTROLS.en.md)
+Nyra 1.0.8 / 108 · [This update](MINIMAL_STATUS_AND_FOCUS.en.md)
 
 Nyra is a local visual companion. A user can edit a draft, submit an authorized supplement or stop the exact bound task through TWOS. TWOS remains the sole execution and permission controller; Nyra cannot approve work, independently run commands or infer success from conversation text.
 
@@ -27,10 +27,10 @@ The stage is a screen-sized transparent window, not a black macOS fullscreen Spa
 | Connected, no active task | Idle |
 | Queued / waiting for user | Waiting; approve or answer in TWOS, never in Nyra |
 | Running | Working |
-| Partial / failed / cancelled / ended unverified | Neutral idle with the actual result label; no success celebration |
+| Partial / failed / cancelled / ended unverified | Neutral idle; confirmed ended work closes the default bubble, with the actual result available in TWOS; no success celebration |
 | Verified success with linked evidence | Celebrate once, then return to the current base state |
 | Transport disconnected | Neutral appearance and unknown connection; no permanent fake work |
-| Connected but activity stale | Activity needs an update; no invented idle/success, task actions disabled until reconciled |
+| Connected but activity stale | Briefly awaiting an update, then the default bubble closes; no invented idle/success, task actions disabled until reconciled |
 
 A manual celebration is labelled preview. A website finishing a reply does not verify a local file. Startup and reconnect read the current snapshot and do not replay an old celebration. Nyra cannot grant overall Owner acceptance.
 
@@ -49,16 +49,16 @@ The read-only status channel carries side (left/right/both), minimal state, opaq
 
 A new standalone can explicitly connect through TWOS → Nyra status → Connect. Both socket peers and their exact signatures are checked. An old standalone may remain visibility-only until normally upgraded. Reconnect reads the current snapshot, without historical work/celebration playback. No browser credentials or business files are copied.
 
-[Current verification / 本版验证](DEEPSEEK_R1_VERIFICATION.en.md)
+[Current verification / 本版验证](MINIMAL_STATUS_VERIFICATION.en.md)
 
 
 [Five outfits and bilingual action voice](AUTOSEND_AND_WARDROBE.en.md)
 
 
-[Current delta](FOCUS_AND_TASK_CONTROLS.en.md)
+[Current delta](MINIMAL_STATUS_AND_FOCUS.en.md)
 
 ## Direct task controls
 
-Click the character once to restore the bound TWOS workbench. The compact task bubble has a direct pencil and Stop. The pencil opens a focused IME-capable editor; Enter sends, Shift+Enter inserts a line, Escape closes. Normal drafts are autosaved; a queued revision is saved only explicitly. A running owned Codex turn supports Steer; web tasks use send-after-completion. Target changes retain the input rather than redirecting it. Stop first fences future dispatch and then interrupts only the bound task. The display changes to Stopping immediately, and to Stopped only on confirmed cancellation. Failed confirmation remains visible. See the [incremental guide](FOCUS_AND_TASK_CONTROLS.en.md) for exact authority and recovery boundaries.
+Click the character once to restore the bound TWOS workbench. The bubble defaults to current task/status only; its right-hand on-demand entry exposes the existing pencil and Stop actions. The pencil opens a focused IME-capable editor; Enter sends, Shift+Enter inserts a line, Escape closes. Normal drafts are autosaved; a queued revision is saved only explicitly. A running owned Codex turn supports Steer; web tasks use send-after-completion. Target changes retain the input rather than redirecting it. Stop first fences future dispatch and then interrupts only the bound task. An active stop request shows Stopping; a confirmed terminal closes the default activity bubble. Inspect the actual final result or an unconfirmed stop in TWOS. See the [incremental guide](MINIMAL_STATUS_AND_FOCUS.en.md) for exact authority and recovery boundaries.
 
 [English action voice: tiny-voca F2](ENGLISH_VOICE.en.md)

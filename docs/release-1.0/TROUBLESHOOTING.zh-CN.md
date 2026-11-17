@@ -1,10 +1,10 @@
 # Nyra 故障排查
 
-> 未发布候选差量：[简洁任务展示与独立宿主聚焦](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)。验证和发布尚未完成，下方已发布版本说明保留供对照。
+> **本轮差量：简洁活动气泡、独立宿主聚焦及英文离线语音。** [操作说明](MINIMAL_STATUS_AND_FOCUS.zh-CN.md) · [实际核验与限制](MINIMAL_STATUS_VERIFICATION.zh-CN.md)。无活动时默认收起；修改操作仍需单独授权。
 
-> **当前控制版：** [单击返回、紧凑任务控制及左右共用 Codex 导航](FOCUS_AND_TASK_CONTROLS.zh-CN.md)。状态通道保持只读；独立认证控制通道只传递用户主动选定的草稿或动作。旧独立版只读授权不会自动获得控制权。历史版本中仅只读的描述不适用于这个新增控制通道。
+> **当前控制版：** [单击返回、紧凑任务控制及左右共用 Codex 导航](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)。状态通道保持只读；独立认证控制通道只传递用户主动选定的草稿或动作。旧独立版只读授权不会自动获得控制权。历史版本中仅只读的描述不适用于这个新增控制通道。
 
-Nyra 1.0.7 / 107 · [本次增量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
+Nyra 1.0.8 / 108 · [本次增量](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)
 
 - **看不见人物：** 菜单栏 ◈ 夜璃 → 显示/隐藏；已运行时可从应用程序重新打开。“复位位置”恢复到可见区域，不要先删除偏好。
 - **另一版本正在运行：** 从原 Nyra 菜单正常退出，再开需要的版本。TWOS 任务继续，不使用 killall 或同时启动多份。
@@ -37,9 +37,13 @@ Nyra 1.0.7 / 107 · [本次增量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
 [五套服装与双语动作语音](AUTOSEND_AND_WARDROBE.zh-CN.md)
 
 
-[本轮差量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
+[本轮差量](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)
 
 
 ## 英文语音更新
 
 英文使用 13 段 tiny-voca F2 离线短句，中文小田与明确导入音频保留。详见[语音说明](ENGLISH_VOICE.zh-CN.md)。不新增任务朗读、联网合成或模型运行时。
+
+## 本轮状态／返回排障
+
+气泡只显示正在回复、执行、排队或等待操作的真实任务；确认空闲或终态后关闭。失去可信状态时只短时待确认，不把旧任务永久显示为运行。若发现旧工程 Nyra 占用实例，从其自己的菜单正常退出，再在目标 TWOS 显示 Nyra。不要删除配置或强退其他程序。人物返回不需编辑授权；编辑／停止不可用时到准确任务检查权限和最新状态。英文选择 tiny-voca F2；中文小田不变，默认仍静音。

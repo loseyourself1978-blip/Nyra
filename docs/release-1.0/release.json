@@ -1,81 +1,83 @@
 {
   "product": "Nyra",
-  "version": "1.0.7",
-  "build": "107",
-  "source_commit": "a897169abfae4eb4535940420097ff9dbdf621a1",
-  "artifact": "Nyra-1.0.7-arm64.dmg",
-  "bytes": 238596444,
-  "sha256": "940ac4ae5f6437b6e0746cb4fe84b99fa6bf5a944e63f38e19a3b9bcdb3f1ad0",
-  "app_notarization_id": "10e8ad29-870b-4526-85d7-dd1004833dbb",
-  "dmg_notarization_id": "3f9feb70-af35-4bc3-9347-9010cf689295",
+  "version": "1.0.8",
+  "source_commit": "bb60b2000b8d5a25c7234c7e1741b111d66d346c",
+  "artifact": "Nyra-1.0.8-arm64.dmg",
+  "bytes": 240154954,
+  "sha256": "6f14ebdf588cfcbc98c5072ff2bade8df4e0ec77ca6bc19952e8cd976f09df16",
+  "app_notarization_id": "af53974e-5736-4e3d-b23b-676a981a7efe",
+  "dmg_notarization_id": "8e59e900-1f39-470a-9511-6b848dcd7135",
   "gatekeeper": "PASS",
   "architecture": "arm64",
+  "build": "108",
   "platform": "macOS",
   "declared_minimum_macos": "13.0",
   "tested_macos": "27.0.1",
   "tested_safari": "27.0.1",
-  "signing_identity": "Developer ID Application: Jing Huang (BZJWQJ352K)",
   "status": "SIGNED_NOTARIZED_VALIDATED",
   "main_gate": {
-    "exit_code": 0,
-    "collected": 1874,
+    "complete_pass": true,
     "counts": {
-      "passed": 1873,
+      "passed": 1879,
       "skipped": 1
     },
-    "skipped_nodes": [
-      "tests/test_vol20_commit_identity_artifact_upgrade.py::test_frozen_same_path_upgrade_backup_restart_and_rollback"
-    ],
-    "duration_seconds": 14746.563968658447,
-    "runtime_changed": [],
-    "changed_inputs": [],
-    "frozen_count": 515,
+    "duration_seconds": 6482.455846786499,
     "safari": {
       "measurements": 38,
       "visible_start": 38,
       "visible_finish": 38,
       "errors": []
     },
-    "complete_pass": true
+    "changed_inputs": [],
+    "runtime_changed": []
   },
-  "main_gate_source_head": "eb7cda0fe4f785c83da215322076ba1d487d386c",
-  "post_gate_documentation_scope": "Release documentation, receipts and website are updated after the full gate. Publication separately requires the two existing guide/package-link tests, media integrity, offline guide links and unchanged runtime input hashes. These checks are not combined into another complete gate.",
-  "nyra_control_suite": {
-    "passed": 19,
+  "main_gate_source_head": "4f29264ea9d156a671ef4d512f22430d3f875c19",
+  "post_gate_documentation_scope": "Release documentation, receipts and website updated after the frozen complete gate; guide/package links, media and unchanged runtime input hashes checked separately. These checks are not another complete gate.",
+  "nyra_full_suite": {
+    "passed": 34,
     "failed": 0,
-    "seconds": 15.838,
-    "boundary": "Production AppKit/controller with synthetic service boundary"
+    "scope": "one complete standalone run; original sandbox-limited attempt preserved"
+  },
+  "signed_candidate_compatibility": {
+    "passed": 34,
+    "failed": 0
   },
   "final_packaged_gui": "SCOPED_ACTUAL_EVIDENCE_WITH_DOCUMENTED_LIMITS",
-  "verification_document": "FOCUS_VERIFICATION.en.md",
+  "verification_document": "MINIMAL_STATUS_VERIFICATION.en.md",
   "owner_acceptance": "NOT_GRANTED_BY_ENGINEERING",
-  "store_submission": "NOT_SUBMITTED",
-  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7",
-  "publication_truth": "Check the matching GitHub Release for actual public availability. This build receipt does not itself publish an asset.",
   "prior_owner_acceptance": "PRESERVED; no accepted business task replayed",
-  "at": "2026-11-16T20:44:26.328593+08:00",
-  "physical_stop": {
-    "candidate": "final embedded",
-    "acknowledgment_ms": 15,
-    "confirmed_task_terminal": "cancelled",
-    "pending_queue_empty": true,
-    "future_dispatch_paused": true,
-    "tool_exit_status": "NOT_REPORTED",
-    "owner_observed_response": true
-  },
+  "store_submission": "NOT_SUBMITTED",
+  "github_release": "https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.8",
+  "publication_truth": "The matching GitHub Release determines actual public availability; this receipt alone does not publish an asset.",
+  "at": "2026-11-17T17:32:43.363338+08:00",
   "focus_scope": {
-    "owner_reported_physical_clicks": 20,
-    "owner_reported_returns": 20,
-    "time_correlated_records": 11,
-    "confirmed_records": 10,
+    "recorded_physical_clicks": 24,
+    "confirmed_records": 23,
     "confirmed_latency_ms_range": [
-      5,
-      267
+      13,
+      661
     ],
+    "median_confirmed_ms": 58,
     "unconfirmed_records": 1,
-    "unconfirmed_elapsed_ms": 2977,
-    "not_claimed": "20 individually measured subsecond returns or separately labelled multi-display/Space coverage"
+    "unconfirmed_elapsed_ms": 1423,
+    "owner_report": "all requested clicks returned",
+    "scope": "matching final embedded and standalone pair; not 24/24 confirmed; per-click scene labels and multi-display/Space/fullscreen not independently verified"
   },
-  "source_snapshot": "08397324d353221c9e04e685fe409f2dd563c471541c9c9ce931070edd3d51c3",
-  "component_manifest_sha256": "d75a27f575eb102e71c739795b52870abe61bccfcd9b9ca614479fc264bd1940"
+  "activity_scope": {
+    "embedded": "actual right/both and terminal-hide",
+    "standalone": "actual left and idle-hide",
+    "control_outage": "trusted status remained visible for eight seconds",
+    "service_interruption": "unknown bounded, recovery and true terminal observed",
+    "owner_business_replayed": false
+  },
+  "voice": {
+    "chinese": "13 unchanged Tian/Xiaotian1413 recordings",
+    "english": "13 tiny-voca F2 American English offline WAV cues",
+    "all_action_decodes": 26,
+    "model_runtime_in_app": false,
+    "task_text_synthesis": false,
+    "owner_voice_preference_acceptance": "NOT_GRANTED"
+  },
+  "source_snapshot": "df513ca6751cdc364c9541fc22cc10448be1cd7f04a153784574bfbde5e5e101",
+  "component_manifest_sha256": "77b38a2a995e29fdf67c7fa32be40c1f71bcdc20a7e2ff571524a14a14b1bca8"
 }

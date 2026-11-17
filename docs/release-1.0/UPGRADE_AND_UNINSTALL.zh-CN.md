@@ -1,8 +1,9 @@
 # 升级与卸载
 
-> **当前控制版：** [单击返回、紧凑任务控制及左右共用 Codex 导航](FOCUS_AND_TASK_CONTROLS.zh-CN.md)。状态通道保持只读；独立认证控制通道只传递用户主动选定的草稿或动作。旧独立版只读授权不会自动获得控制权。历史版本中仅只读的描述不适用于这个新增控制通道。
+> **本轮差量：简洁活动气泡、独立宿主聚焦及英文离线语音。** [操作说明](MINIMAL_STATUS_AND_FOCUS.zh-CN.md) · [实际核验与限制](MINIMAL_STATUS_VERIFICATION.zh-CN.md)。无活动时默认收起；修改操作仍需单独授权。
+> **当前控制版：** [单击返回、紧凑任务控制及左右共用 Codex 导航](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)。状态通道保持只读；独立认证控制通道只传递用户主动选定的草稿或动作。旧独立版只读授权不会自动获得控制权。历史版本中仅只读的描述不适用于这个新增控制通道。
 
-Nyra 1.0.7 / 107 · [本次增量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
+Nyra 1.0.8 / 108 · [本次增量](MINIMAL_STATUS_AND_FOCUS.zh-CN.md)
 
 ## 升级
 

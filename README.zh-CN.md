@@ -1,12 +1,12 @@
 # 夜璃 Nyra 1.0 · 本机桌面伴侣
 
-> 未发布候选差量：[简洁任务展示与独立宿主聚焦](docs/release-1.0/MINIMAL_STATUS_AND_FOCUS.zh-CN.md)。验证和发布尚未完成，下方已发布版本说明保留供对照。
+**当前差量：** 只显示正在进行的任务／状态，无任务即收起；人物返回独立于任务控制权限。中文小田保持不变，英文使用 tiny-voca F2 离线短句。[实际核验与限制](docs/release-1.0/MINIMAL_STATUS_VERIFICATION.zh-CN.md)。
 
-Nyra 1.0.7 提供单击返回绑定 TWOS、紧凑任务气泡、直接输入及准确停止。状态通道继续只读；主动输入通过独立认证控制通道传递。独立版须在 TWOS 明确授予控制权限，官方 App 持有的活动任务仍只读。
+Nyra 1.0.8 提供单击返回绑定 TWOS、紧凑任务气泡、直接输入及准确停止。状态通道继续只读；主动输入通过独立认证控制通道传递。独立版须在 TWOS 明确授予控制权限，官方 App 持有的活动任务仍只读。
 
 本版包含五套站姿／侧卧服装、13 段离线小田中文动作短句，以及 13 段 tiny-voca F2 美式女声英文对应录音。声音默认静音；取消静音并开启动作语音后按实际动作播放，带冷却、不叠音。声音面板可通过关闭、Esc 或声音按钮收起。
 
-**Nyra 1.0.7 / build 107** · [下载与校验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7) · [本次增量](docs/release-1.0/FOCUS_AND_TASK_CONTROLS.zh-CN.md)
+**Nyra 1.0.8 / build 108** · [下载与校验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.8) · [本次增量](docs/release-1.0/MINIMAL_STATUS_AND_FOCUS.zh-CN.md)
 
 
 
@@ -16,7 +16,7 @@ Nyra 是 macOS 透明桌面伴侣，提供五套服装、桌面互动、透明�
 
 当前仅支持 macOS。Windows 版本开发中，尚无可下载版本。
 
-使用上方 Nyra v1.0.7 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
+使用上方 Nyra v1.0.8 安装包，核对 SHA256SUMS 及匹配的签名、公证回执。历史 v1.0.0 保持不变，Owner 差量接受单独记录。
 
 - [安装](docs/release-1.0/INSTALL.zh-CN.md)
 - [操作：悬停、拖动、动作、换装、透明舞台和声音](docs/release-1.0/USER_GUIDE.zh-CN.md)

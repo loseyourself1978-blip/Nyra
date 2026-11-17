@@ -1,12 +1,12 @@
 # Nyra 1.0 · local desktop companion
 
-> Unreleased candidate amendment: [minimal activity display and independent host focus](docs/release-1.0/MINIMAL_STATUS_AND_FOCUS.en.md). Verification and publication are pending; published-version guidance below is retained for reference.
+**Current update:** show current task activity only and close the bubble when inactive. Character return is independent of task-control permission. Chinese Tian is unchanged; English uses offline tiny-voca F2 cues. [Actual verification and limits](docs/release-1.0/MINIMAL_STATUS_VERIFICATION.en.md).
 
-Nyra 1.0.7 adds one-click return to the bound TWOS workbench and a compact task bubble with direct editing and exact-task Stop. The status channel stays read-only; explicit user input travels over a separate authenticated control channel. The standalone app needs an explicit control grant in TWOS; official-app-owned runs remain read-only.
+Nyra 1.0.8 adds one-click return to the bound TWOS workbench and a compact task bubble with direct editing and exact-task Stop. The status channel stays read-only; explicit user input travels over a separate authenticated control channel. The standalone app needs an explicit control grant in TWOS; official-app-owned runs remain read-only.
 
 This version includes five standing/reclining outfits, 13 bundled Chinese Tian action recordings and 13 matching offline tiny-voca F2 American English recordings. Sound starts muted; unmute and enable Action voice for eligible transitions, with cooldown and no overlap. Close the panel with Close, Escape or Sound.
 
-**Nyra 1.0.7 / build 107** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7) · [This update](docs/release-1.0/FOCUS_AND_TASK_CONTROLS.en.md)
+**Nyra 1.0.8 / build 108** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.8) · [This update](docs/release-1.0/MINIMAL_STATUS_AND_FOCUS.en.md)
 
 
 [简体中文](README.zh-CN.md)
@@ -15,7 +15,7 @@ Nyra is a transparent macOS companion with five outfits, desktop interaction, a 
 
 Currently supports macOS only. A Windows version is in development; no downloadable build is available yet.
 
-Use the Nyra v1.0.7 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
+Use the Nyra v1.0.8 installer linked above; verify SHA256SUMS and its matching signed/notarized receipt. Historical v1.0.0 stays unchanged. Owner differential acceptance is separate.
 
 - [Install](docs/release-1.0/INSTALL.en.md)
 - [Use: hover, drag, actions, outfits, transparent stage and sound](docs/release-1.0/USER_GUIDE.en.md)
