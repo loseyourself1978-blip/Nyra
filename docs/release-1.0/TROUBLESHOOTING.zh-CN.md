@@ -38,3 +38,8 @@ Nyra 1.0.7 / 107 · [本次增量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
 
 
 [本轮差量](FOCUS_AND_TASK_CONTROLS.zh-CN.md)
+
+
+## 英文语音更新
+
+英文使用 13 段 tiny-voca F2 离线短句，中文小田与明确导入音频保留。详见[语音说明](ENGLISH_VOICE.zh-CN.md)。不新增任务朗读、联网合成或模型运行时。

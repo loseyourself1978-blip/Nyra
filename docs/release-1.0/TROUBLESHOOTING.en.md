@@ -38,3 +38,8 @@ The read-only link is bound to the exact signed producer, including its applicat
 
 
 [Current delta](FOCUS_AND_TASK_CONTROLS.en.md)
+
+
+## English voice update
+
+English uses 13 bundled tiny-voca F2 offline cues; Chinese Tian and explicit imports are preserved. See [voice details](ENGLISH_VOICE.en.md). No task text, synthesis service or model runtime is added.

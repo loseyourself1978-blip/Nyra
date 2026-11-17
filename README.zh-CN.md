@@ -4,7 +4,7 @@
 
 Nyra 1.0.7 提供单击返回绑定 TWOS、紧凑任务气泡、直接输入及准确停止。状态通道继续只读；主动输入通过独立认证控制通道传递。独立版须在 TWOS 明确授予控制权限，官方 App 持有的活动任务仍只读。
 
-本版包含五套站姿／侧卧服装、13 段离线小田中文动作短句，以及 13 句使用本机女声的英文对应台词。声音默认静音；取消静音并开启动作语音后按实际动作播放，带冷却、不叠音。声音面板可通过关闭、Esc 或声音按钮收起。
+本版包含五套站姿／侧卧服装、13 段离线小田中文动作短句，以及 13 段 tiny-voca F2 美式女声英文对应录音。声音默认静音；取消静音并开启动作语音后按实际动作播放，带冷却、不叠音。声音面板可通过关闭、Esc 或声音按钮收起。
 
 **Nyra 1.0.7 / build 107** · [下载与校验](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7) · [本次增量](docs/release-1.0/FOCUS_AND_TASK_CONTROLS.zh-CN.md)
 
@@ -31,3 +31,5 @@ Nyra 是 macOS 透明桌面伴侣，提供五套服装、桌面互动、透明�
 
 
 [此前本机连接与任务标签修复](docs/release-1.0/CODEX_CONNECTION_AND_TASK_LABELS.zh-CN.md)
+
+[英文动作语音：tiny-voca F2](docs/release-1.0/ENGLISH_VOICE.zh-CN.md)

@@ -4,7 +4,7 @@
 
 Nyra 1.0.7 adds one-click return to the bound TWOS workbench and a compact task bubble with direct editing and exact-task Stop. The status channel stays read-only; explicit user input travels over a separate authenticated control channel. The standalone app needs an explicit control grant in TWOS; official-app-owned runs remain read-only.
 
-This version includes five standing/reclining outfits, 13 bundled Chinese Tian action recordings and 13 matching English phrases using an installed local female voice. Sound starts muted; unmute and enable Action voice for eligible transitions, with cooldown and no overlap. Close the panel with Close, Escape or Sound.
+This version includes five standing/reclining outfits, 13 bundled Chinese Tian action recordings and 13 matching offline tiny-voca F2 American English recordings. Sound starts muted; unmute and enable Action voice for eligible transitions, with cooldown and no overlap. Close the panel with Close, Escape or Sound.
 
 **Nyra 1.0.7 / build 107** · [Download and verify](https://github.com/loseyourself1978-blip/Nyra/releases/tag/v1.0.7) · [This update](docs/release-1.0/FOCUS_AND_TASK_CONTROLS.en.md)
 
@@ -30,3 +30,5 @@ Earlier engineering documents are historical engineering records, not current in
 
 
 [Local Codex connection and task labels](docs/release-1.0/CODEX_CONNECTION_AND_TASK_LABELS.en.md)
+
+[English action voice: tiny-voca F2](docs/release-1.0/ENGLISH_VOICE.en.md)

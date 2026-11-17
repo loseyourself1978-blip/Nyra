@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def run(args):subprocess.run(list(map(str,args)),check=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def build(destination,cache,architectures,signing,engineering):
-    voice_files=validated_voice_files(ROOT)
+    voice_files=validated_voice_files(ROOT)+validated_voice_files(ROOT,language='en')
     destination=Path(destination);cache=Path(cache);assert not destination.exists(),'Use a new output; preserve previous candidates'
     contents=destination/'Contents';resources=contents/'Resources';(contents/'MacOS').mkdir(parents=True);resources.mkdir();cache.mkdir(parents=True,exist_ok=True)
     manifest=json.loads((ROOT/'production-1.0/specs/resources.json').read_text())
