@@ -1,5 +1,6 @@
 # Nyra 1.0 · local desktop companion
 
+> Unreleased candidate amendment: [minimal activity display and independent host focus](docs/release-1.0/MINIMAL_STATUS_AND_FOCUS.en.md). Verification and publication are pending; published-version guidance below is retained for reference.
 
 Nyra 1.0.7 adds one-click return to the bound TWOS workbench and a compact task bubble with direct editing and exact-task Stop. The status channel stays read-only; explicit user input travels over a separate authenticated control channel. The standalone app needs an explicit control grant in TWOS; official-app-owned runs remain read-only.
 

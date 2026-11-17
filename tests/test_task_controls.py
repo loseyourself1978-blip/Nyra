@@ -25,16 +25,18 @@ def control_client(tmp_path_factory):
 import AppKit
 import Darwin
 struct BridgeSelection { let endpoint:String }
-struct Endpoint {let producer_instance_id:String;let control_protocol:String?;let control_socket:String?}
+struct Endpoint {let producer_instance_id:String;let control_protocol:String?;let control_socket:String?;var focus_protocol:String?=nil;var focus_socket:String?=nil}
 final class FixturePeer {
  var isTerminated=false
- func activate(options:NSApplication.ActivationOptions)->Bool {fatalError("TEST MUST NOT ACTIVATE ANY APP")}
+ static var fixtureActivations=0
+ func activate(options:NSApplication.ActivationOptions)->Bool {Self.fixtureActivations+=1;return true}
 }
 final class NyraStatusClient {
  static var delay:Double=0
+ static var dedicatedFocus=false
  static func readEndpoint(_ path:String)throws->Endpoint {
    Thread.sleep(forTimeInterval:delay)
-   return Endpoint(producer_instance_id:path,control_protocol:"twos.nyra.control.v1",control_socket:"/private/tmp/twos-nyra-status-"+path+"/control.sock")
+   return Endpoint(producer_instance_id:path,control_protocol:dedicatedFocus ? nil:"twos.nyra.control.v1",control_socket:dedicatedFocus ? nil:"/private/tmp/twos-nyra-status-"+path+"/control.sock",focus_protocol:dedicatedFocus ? "twos.nyra.focus.v1":nil,focus_socket:dedicatedFocus ? "/private/tmp/twos-nyra-status-"+path+"/focus.sock":nil)
  }
  static func securePath(_ path:String,mode:mode_t,socket:Bool)throws{}
  static func verifyPeer(_ fd:Int32,selection:BridgeSelection)throws->FixturePeer {FixturePeer()}
@@ -46,11 +48,25 @@ class TaskLabelButton:NSButton{}
     source+=(ROOT/'Sources/DraftRecovery.swift').read_text()
     source+=(ROOT/'Sources/TaskControls.swift').read_text().split('extension Companion {',1)[0]
     source+=r'''
+extension CompanionDraftRecovery {
+ static func delayTestLoad(){io.async{Thread.sleep(forTimeInterval:0.25)}}
+}
 let mode=CommandLine.arguments[1],host=CommandLine.arguments[2]
 let client=NyraControlClient()
 var replies=[[String:Any]]()
 func spin(_ duration:Double){RunLoop.main.run(until:Date(timeIntervalSinceNow:duration))}
-if mode=="deadline" {
+func awaitFixture(_ condition:()->Bool){
+ let end=Date(timeIntervalSinceNow:2)
+ while !condition() && Date()<end {spin(0.01)}
+ precondition(condition(),"bounded asynchronous fixture completion not received")
+}
+if mode=="focusDedicated" || mode=="focusLegacy" {
+ NyraStatusClient.dedicatedFocus=mode=="focusDedicated"
+ client.request("focusHost",selection:BridgeSelection(endpoint:host)){replies.append($0)}
+ spin(0.3)
+ precondition(replies.count==1 && replies[0]["state"] as? String=="TEST_ONLY" && FixturePeer.fixtureActivations==1)
+ precondition(client.activeMethods.isEmpty)
+} else if mode=="deadline" {
  NyraStatusClient.delay=4.3
  client.request("submit",selection:BridgeSelection(endpoint:host)){replies.append($0)}
  spin(4.7)
@@ -73,36 +89,39 @@ if mode=="deadline" {
  let store=CompanionDraftRecovery(root:root)
  let task:[String:Any]=["target":String(repeating:"a",count:64),"provider":"TEST ONLY","title":"recovery fixture","canSteer":true]
  let first=CompanionDraftRecovery.Record(id:UUID().uuidString,target:task["target"] as! String,title:"original test",provider:"TEST ONLY",text:"中文未确认输入",uncertain:true,createdAt:0)
- var saved=false;store.save(first){saved=$0};spin(0.15);precondition(saved)
+ var saved=false;store.save(first){saved=$0};awaitFixture{saved}
  let attributes=try! FileManager.default.attributesOfItem(atPath:store.file.path)
  precondition((attributes[.posixPermissions] as! NSNumber).intValue==0o600)
  let newer=CompanionDraftRecovery.Record(id:UUID().uuidString,target:first.target,title:first.title,provider:first.provider,text:"newer text",uncertain:true,createdAt:1)
  let nextEditorStore=CompanionDraftRecovery(root:root)
  nextEditorStore.save(newer){saved=$0};store.clear(id:first.id);spin(0.15)
- var loaded:CompanionDraftRecovery.Record?;store.load{loaded=try! $0.get()};spin(0.1)
+ var loaded:CompanionDraftRecovery.Record?;store.load{loaded=try! $0.get()};awaitFixture{loaded != nil}
  precondition(loaded?.id==newer.id,"a late acknowledgement must not erase newer input")
  let editor=CompanionTaskEditor(task:task,zh:true);editor.recovery=store
  var requests=0;editor.request={_,_,_ in requests+=1}
- editor.load();spin(0.1);editor.submit();editor.saveDraft()
- precondition(editor.restoredRecovery && editor.text.string=="newer text" && !editor.text.isEditable && !editor.send.isEnabled && requests==0,"reopening recovery must never resume/redirect/send or overwrite a host draft")
- editor.cancel();store.load{loaded=try! $0.get()};spin(0.1);precondition(loaded?.id==newer.id)
- store.clear(id:newer.id);spin(0.1)
+ CompanionDraftRecovery.delayTestLoad()
+ editor.load();editor.submit();editor.saveDraft()
+ precondition(editor.loading && requests==0 && !editor.send.isEnabled,"pending recovery cannot send or overwrite a draft")
+ awaitFixture{!editor.loading};editor.submit();editor.saveDraft()
+ precondition(editor.restoredRecovery && editor.text.string=="newer text" && !editor.text.isEditable && !editor.send.isEnabled && requests==0,"reopening recovery must never resume/redirect/send or overwrite a host draft; restored=\(editor.restoredRecovery), loading=\(editor.loading), textMatch=\(editor.text.string=="newer text"), editable=\(editor.text.isEditable), send=\(editor.send.isEnabled), requests=\(requests)")
+ editor.cancel();loaded=nil;store.load{loaded=try! $0.get()};awaitFixture{loaded != nil};precondition(loaded?.id==newer.id)
+ var cleared=false;store.clear(id:newer.id){cleared=$0};awaitFixture{cleared}
  // A malicious/unexpected symlink cannot be read as user draft data.
  try! FileManager.default.createSymbolicLink(at:store.file,withDestinationURL:root.appendingPathComponent("absent"))
- var rejected=false;store.load{if case .failure = $0{rejected=true}};spin(0.1);precondition(rejected)
+ var rejected=false;store.load{if case .failure = $0{rejected=true}};awaitFixture{rejected}
  try! FileManager.default.removeItem(at:store.file)
  // A live failed mutation exposes recovery immediately, without requiring a
  // restart or silently resubmitting when the connection returns.
  let rejectedEditor=CompanionTaskEditor(task:task,zh:false);rejectedEditor.recovery=store
  rejectedEditor.revision="test-live";rejectedEditor.text.string="uncertain live input";rejectedEditor.dirty=true
  rejectedEditor.request={_,_,reply in requests+=1;reply(["error":"HOST_CONNECTION_STATE_UNCONFIRMED_DRAFT_RETAINED"])}
- rejectedEditor.submit();spin(0.15)
+ rejectedEditor.submit();awaitFixture{rejectedEditor.restoredRecovery}
  precondition(requests==1 && rejectedEditor.restoredRecovery && !rejectedEditor.useSaved.isHidden && !rejectedEditor.send.isEnabled)
  rejectedEditor.submit();rejectedEditor.cancel();spin(0.1);precondition(requests==1)
- store.load{loaded=try! $0.get()};spin(0.1);precondition(loaded?.text=="uncertain live input")
+ loaded=nil;store.load{loaded=try! $0.get()};awaitFixture{loaded != nil};precondition(loaded?.text=="uncertain live input")
  requests=0
  let fail=CompanionTaskEditor(task:task,zh:false);fail.recovery=CompanionDraftRecovery(root:root.appendingPathComponent("missing"));fail.revision="test";fail.text.string="do not send without recovery";fail.dirty=true
- fail.request={_,_,_ in requests+=1};fail.submit();spin(0.1)
+ fail.request={_,_,_ in requests+=1};fail.submit();awaitFixture{!fail.busy}
  precondition(requests==0 && !fail.busy && fail.dirty && fail.revision.isEmpty)
  fail.panel.orderOut(nil)
  } else if mode=="stop" {
@@ -179,8 +198,9 @@ if mode=="deadline" {
  precondition(CompanionTaskCard.state("failed",zh:true)=="失败" && CompanionTaskCard.state("idle",zh:true).contains("待核验"))
  let card=CompanionTaskCard()
  card.update([task.merging(["side":"left","fresh":true,"state":"running","canAppend":true,"canStop":true]){_,new in new}],fresh:true,authorized:true,zh:false)
- precondition(card.panel.frame.height==64 && !card.append.isHidden && !card.stop.isHidden && card.picker.isHidden)
+ precondition(card.panel.frame.height==64 && card.append.isHidden && card.stop.isHidden && card.picker.isHidden)
  precondition(card.append.image != nil && card.append.title.isEmpty && card.expand.isHidden)
+ card.hovered=true;card.layout();precondition(!card.append.isHidden && !card.stop.isHidden)
  var directTarget="";card.onAppend={directTarget=$0["target"] as? String ?? ""};card.edit()
  precondition(directTarget==task["target"] as? String && !card.expanded,"one click must open the exact task without expansion")
  precondition(card.title.cell?.wraps==false && card.title.cell?.lineBreakMode == .byTruncatingTail && card.subtitle.title.contains("Left"))
@@ -193,6 +213,12 @@ if mode=="deadline" {
  let left=task.merging(["side":"left","scope":"left-chat","fresh":true,"state":"running","canEdit":true,"canAppend":true]){_,new in new}
  let right=task.merging(["target":String(repeating:"b",count:64),"scope":"right-chat","side":"right","fresh":true,"state":"running","canEdit":true]){_,new in new}
  card.update([left,right],fresh:true,authorized:true,zh:false)
+ precondition(card.title.title.hasPrefix("L · Running") && card.subtitle.title.hasPrefix("R · Running"),"state must precede long titles on both rows")
+ var focusTarget="";card.onFocus={focusTarget=$0};card.focusSecond()
+ precondition(focusTarget==right["target"] as? String,"second displayed row must focus its own task")
+ var unavailable=false;card.onFocusUnavailable={unavailable=true}
+ card.focusRow(["side":"left","title":"readonly snapshot"])
+ precondition(unavailable && focusTarget==right["target"] as? String,"read-only card cannot silently redirect to another target")
  card.selected=left["target"] as? String
  let next=left.merging(["target":String(repeating:"c",count:64)]){_,new in new}
  card.update([right,next],fresh:true,authorized:true,zh:false)
@@ -270,10 +296,10 @@ print("TEST_ONLY_PASS "+mode)
     assert compiled.returncode==0,compiled.stderr
     return binary
 
-@pytest.mark.parametrize('mode',['deadline','reset','normal','recovery','editor','stop'])
+@pytest.mark.parametrize('mode',['deadline','reset','normal','recovery','editor','stop','focusDedicated','focusLegacy'])
 def test_controller_deadline_reset_and_editor(control_client,mode):
     host=str(uuid.uuid4());root=Path('/private/tmp')/('twos-nyra-status-'+host);root.mkdir(mode=0o700)
-    listener=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM);listener.bind(str(root/'control.sock'));listener.listen();listener.settimeout(.05)
+    listener=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM);listener.bind(str(root/('focus.sock' if mode=='focusDedicated' else 'control.sock')));listener.listen();listener.settimeout(.05)
     captured=[];finished=threading.Event()
     def serve():
         while not finished.is_set():
@@ -295,6 +321,9 @@ def test_controller_deadline_reset_and_editor(control_client,mode):
         result=subprocess.run([str(control_client),mode,host],capture_output=True,text=True,timeout=12)
         assert result.returncode==0,result.stdout+result.stderr
         assert 'TEST_ONLY_PASS '+mode in result.stdout
-        assert len(captured)==(1 if mode=='normal' else 0), 'Expired/reset client sent an operation after invalidation'
+        assert len(captured)==(1 if mode in ('normal','focusDedicated','focusLegacy') else 0), 'Expired/reset client sent an operation after invalidation'
+        if mode in ('focusDedicated','focusLegacy'):
+            assert captured[0]['method']=='focus' and 'target' not in captured[0]
+            assert captured[0]['protocol']==('twos.nyra.focus.v1' if mode=='focusDedicated' else 'twos.nyra.control.v1')
     finally:
         finished.set();worker.join(timeout=2);listener.close();shutil.rmtree(root)
